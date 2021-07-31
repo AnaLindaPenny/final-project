@@ -7,7 +7,7 @@ Project Requirements: Demystifying ML
 2. Use ML in the context of technologies learned.
 3. You must use: Scikit-Learn and/or another machine learning library.
 4. You must use at least two of the below:
-    * Python Pandas         * Python Matplotlib
+    * Python Pandas
     * Python Matplotlib
     * HTML/CSS/Bootstrap
     * JavaScript Plotly
