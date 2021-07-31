@@ -1,6 +1,8 @@
 # final-project
 
-Project Requirements:
+![Do_what_your_heart_commands.jpg](Images/Do_what_your_heart_commands.jpg)
+
+Project Requirements: Demystifying ML
 1. Find a problem worth solving, analyzing, or visualizing.
 2. Use ML in the context of technologies learned.
 3. You must use: Scikit-Learn and/or another machine learning library.
