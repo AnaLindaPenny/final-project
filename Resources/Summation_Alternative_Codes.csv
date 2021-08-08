@@ -1,0 +1,72 @@
+﻿summation_code,summation_name,country_code,affiliated_country_islands
+1001,Central America,501,Belize
+1001,Central America,506,Costa Rica
+1001,Central America,503,El Salvador
+1001,Central America,502,Guatemala
+1001,Central America,504,Honduras
+1001,Central America,505,Nicaragua
+1001,Central America,507,Panama
+1002,Czech Republic/Slovakia,420,Czech Republic
+1002,Czech Republic/Slovakia,421,Slovakia
+1003,East Africa,257,Burundi
+1003,East Africa,269,Comoros
+1003,East Africa,253,Djibouti
+1003,East Africa,251,Ethiopia
+1003,East Africa,291,Eritrea
+1003,East Africa,254,Kenya
+1003,East Africa,261,Madagascar
+1003,East Africa,265,Malawi
+1003,East Africa,230,Mauritius
+1003,East Africa,258,Mozambique
+1003,East Africa,262,Reunion
+1003,East Africa,250,Rwanda
+1003,East Africa,248,Seychelles
+1003,East Africa,252,Somalia
+1003,East Africa,255,Tanzania
+1003,East Africa,256,Uganda
+1003,East Africa,260,Zambia
+1003,East Africa,263,Zimbabwe
+1004,Lesser Antilles,Null,Antigua
+1004,Lesser Antilles,Null,Barbuda
+1004,Lesser Antilles,1-246,Barbados
+1004,Lesser Antilles,1-767,Dominica
+1004,Lesser Antilles,1-473,Grenada
+1004,Lesser Antilles,Null,Saint Kitts
+1004,Lesser Antilles,Null,Nevis
+1004,Lesser Antilles,1-758,Saint Lucia
+1004,Lesser Antilles,Null,Saint Vincent
+1005,Middle East Other,973,Bahrain
+1005,Middle East Other,357,Cyprus
+1005,Middle East Other,20,Egypt
+1005,Middle East Other,98,Iran
+1005,Middle East Other,964,Iraq
+1005,Middle East Other,972,Israel
+1005,Middle East Other,962,Jordan
+1005,Middle East Other,965,Kuwait
+1005,Middle East Other,961,Lebanon
+1005,Middle East Other,968,Oman
+1005,Middle East Other,974,Qatar
+1005,Middle East Other,966,Saudi Arabia
+1005,Middle East Other,963,Syria
+1005,Middle East Other,90,Turkey
+1005,Middle East Other,971,United Arab Emirates
+1005,Middle East Other,967,Yemen
+1006,North Macedonia,389,Macedonia
+1007,Russia/CIS,Null, Armenia
+1007,Russia/CIS,Null, Azerbaijan
+1007,Russia/CIS,Null, Belarus
+1007,Russia/CIS,Null, Kazakhstan
+1007,Russia/CIS,Null, Kyrgyzstan
+1007,Russia/CIS,Null, Moldova
+1007,Russia/CIS,Null, Russia
+1007,Russia/CIS,Null, Tajikistan
+1007,Russia/CIS,Null, Uzbekistan
+1008,Serbia and Montenegro,381,Serbia
+1008,Serbia and Montenegro,382,Montenegro
+1009,South Africa/Nigeria,27,South Africa
+1009,South Africa/Nigeria,234,Nigeria
+1010,Switzerland (French),41,Switzerland
+1011,Switzerland (German),41,Switzerland
+1012,Switzerland (Italian),41,Switzerland
+1013,Trinidad & Tobago,868,Trinidad
+1013,Trinidad & Tobago,868,Tobago
