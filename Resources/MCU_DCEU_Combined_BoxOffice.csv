@@ -1,72 +1,72 @@
 ﻿universe_code,universe_name,movie_code,movie_name,country_code,country_name,release_date,opening,gross
-1000,MCU,1,Iron Man,1,United States,26-Apr-19,357115007,858373000
-1000,MCU,1,Iron Man,44,United Kingdom,25-Apr-19,55981204,115000524
-1000,MCU,1,Iron Man,49,Germany,24-Apr-19,27108549,63290219
-1000,MCU,1,Iron Man,33,France,24-Apr-19,24971474,62191621
-1000,MCU,1,Iron Man,39,Italy,24-Apr-19,19570574,34145771
-1000,MCU,1,Iron Man,34,Spain,26-Apr-19,13440594,32666859
-1000,MCU,1,Iron Man,31,Netherlands,24-Apr-19,5924591,15066568
-1000,MCU,1,Iron Man,971,United Arab Emirates,25-Apr-19,5935919,12783189
-1000,MCU,1,Iron Man,46,Sweden,24-Apr-19,4937120,11757702
-1000,MCU,1,Iron Man,48,Poland,25-Apr-19,4676158,10558455
-1000,MCU,1,Iron Man,45,Denmark,24-Apr-19,4223121,10254418
-1000,MCU,1,Iron Man,41,Switzerland,24-Apr-19,4061031,8786816
-1000,MCU,1,Iron Man,32,Belgium,24-Apr-19,3141578,8682740
-1000,MCU,1,Iron Man,43,Austria,24-Apr-19,3563042,8381072
-1000,MCU,1,Iron Man,47,Norway,24-Apr-19,2563454,8161984
-1000,MCU,1,Iron Man,90,Turkey,26-Apr-19,3027473,7920068
-1000,MCU,1,Iron Man,27,South Africa,26-Apr-19,2374923,7167751
-1000,MCU,1,Iron Man,420,Czech Republic,25-Apr-19,2534713,6610971
-1000,MCU,1,Iron Man,380,Ukraine,25-Apr-19,1935477,5971461
-1000,MCU,1,Iron Man,358,Finland,24-Apr-19,2137080,4942382
-1000,MCU,1,Iron Man,36,Hungary,25-Apr-19,1869661,4500776
-1000,MCU,1,Iron Man,351,Portugal,25-Apr-19,1709377,4296991
-1000,MCU,1,Iron Man,30,Greece,25-Apr-19,719293,4175061
-1000,MCU,1,Iron Man,40,Romania,26-Apr-19,903796,3376295
-1000,MCU,1,Iron Man,421,Slovakia,25-Apr-19,847357,1990548
-1000,MCU,1,Iron Man,20,Egypt,26-Apr-19,N/A,1754341
-1000,MCU,1,Iron Man,234,Nigeria,26-Apr-19,523126,1360313
-1000,MCU,1,Iron Man,385,Croatia,25-Apr-19,545732,1144369
-1000,MCU,1,Iron Man,1008,Serbia and Montenegro,25-Apr-19,N/A,804153
-1000,MCU,1,Iron Man,354,Iceland,26-Apr-19,210341,749185
-1000,MCU,1,Iron Man,370,Lithuania,26-Apr-19,250594,627672
-1000,MCU,1,Iron Man,386,Slovenia,25-Apr-19,237429,611641
-1000,MCU,1,Iron Man,359,Bulgaria,26-Apr-19,442037,131166
-1000,MCU,1,Iron Man,55,Brazil,25-Apr-19,26363627,85672282
-1000,MCU,1,Iron Man,52,Mexico,26-Apr-19,31905293,77594943
-1000,MCU,1,Iron Man,56,Chile,25-Apr-19,6501934,18864424
-1000,MCU,1,Iron Man,54,Argentina,25-Apr-19,6809670,17729729
-1000,MCU,1,Iron Man,57,Colombia,25-Apr-19,6115286,17689425
-1000,MCU,1,Iron Man,591,Bolivia,25-Apr-19,1136801,3617750
-1000,MCU,1,Iron Man,595,Paraguay,25-Apr-19,624968,1564327
-1000,MCU,1,Iron Man,598,Uruguay,25-Apr-19,594720,1366731
-1000,MCU,1,Iron Man,58,Venezuela,26-Apr-19,149742,1001684
-1000,MCU,1,Iron Man,82,South Korea,24-Apr-20,N/A,105483265
-1000,MCU,1,Iron Man,91,India,26-Apr-19,26757337,62678476
-1000,MCU,1,Iron Man,61,Australia,24-Apr-19,24010504,59113013
-1000,MCU,1,Iron Man,81,Japan,26-Apr-19,13176307,55304132
-1000,MCU,1,Iron Man,1007,Russia/CIS,29-Apr-19,15411511,46006725
-1000,MCU,1,Iron Man,62,Indonesia,24-Apr-19,15427619,34775278
-1000,MCU,1,Iron Man,63,Philippines,24-Apr-19,17977175,32839486
-1000,MCU,1,Iron Man,886,Taiwan,24-Apr-19,12847762,29386075
-1000,MCU,1,Iron Man,852,Hong Kong,24-Apr-19,N/A,29330722
-1000,MCU,1,Iron Man,66,Thailand,24-Apr-19,14165523,27230829
-1000,MCU,1,Iron Man,60,Malaysia,24-Apr-19,10059257,21123193
-1000,MCU,1,Iron Man,65,Singapore,24-Apr-19,5517581,14346820
-1000,MCU,1,Iron Man,84,Vietnam,26-Apr-19,2971259,11703305
-1000,MCU,1,Iron Man,64,New Zealand,24-Apr-19,4039510,9571751
-1000,MCU,1,Iron Man,86,China,24-Apr-19,175961330,629100298
-1000,MCU,2,The Incredible Hulk,1,United States,13-Jun-08,55414050,134806913
-1000,MCU,2,The Incredible Hulk,43,Austria,11-Jul-08,127735,414620
-1000,MCU,2,The Incredible Hulk,32,Belgium,25-Jun-08,354175,1079519
-1000,MCU,2,The Incredible Hulk,359,Bulgaria,13-Jun-08,32758,97910
-1000,MCU,2,The Incredible Hulk,385,Croatia,10-Jul-08,N/A,87874
-1000,MCU,2,The Incredible Hulk,357,Cyprus,13-Jun-08,N/A,153442
-1000,MCU,2,The Incredible Hulk,420,Czech Republic,17-Jul-08,63112,147445
-1000,MCU,2,The Incredible Hulk,1002,Czech Republic/Slovakia,17-Jul-08,N/A,199692
-1000,MCU,2,The Incredible Hulk,45,Denmark,27-Jun-08,N/A,1103737
-1000,MCU,2,The Incredible Hulk,1003,East Africa,13-Jun-08,23267,80964
-1000,MCU,2,The Incredible Hulk,20,Egypt,18-Jun-08,N/A,275749
+1000,MCU,1,Iron Man,1,United States,26-Apr-19,"$98,618,668 ","$318,604,126 "
+1000,MCU,1,Iron Man,44,United Kingdom,25-Apr-19,"$271,106 ","$1,018,284 "
+1000,MCU,1,Iron Man,49,Germany,24-Apr-19,"$774,474 ","$1,970,548 "
+1000,MCU,1,Iron Man,33,France,24-Apr-19,"$65,345 ","$157,124 "
+1000,MCU,1,Iron Man,39,Italy,24-Apr-19,,"$162,294 "
+1000,MCU,1,Iron Man,34,Spain,26-Apr-19,,"$52,499 "
+1000,MCU,1,Iron Man,31,Netherlands,24-Apr-19,"$120,473 ","$400,223 "
+1000,MCU,1,Iron Man,971,United Arab Emirates,25-Apr-19,,"$467,215 "
+1000,MCU,1,Iron Man,46,Sweden,24-Apr-19,"$520,340 ","$2,220,811 "
+1000,MCU,1,Iron Man,48,Poland,25-Apr-19,"$33,119 ","$93,840 "
+1000,MCU,1,Iron Man,45,Denmark,24-Apr-19,,"$265,031 "
+1000,MCU,1,Iron Man,41,Switzerland,24-Apr-19,"$26,837 ","$83,069 "
+1000,MCU,1,Iron Man,32,Belgium,24-Apr-19,"$146,025 ","$673,760 "
+1000,MCU,1,Iron Man,43,Austria,24-Apr-19,"$6,949,053 ","$19,197,690 "
+1000,MCU,1,Iron Man,47,Norway,24-Apr-19,"$3,444,559 ","$8,560,475 "
+1000,MCU,1,Iron Man,90,Turkey,26-Apr-19,"$774,712 ","$1,799,601 "
+1000,MCU,1,Iron Man,27,South Africa,26-Apr-19,"$210,430 ","$682,308 "
+1000,MCU,1,Iron Man,420,Czech Republic,25-Apr-19,"$78,205 ","$278,202 "
+1000,MCU,1,Iron Man,380,Ukraine,25-Apr-19,,"$606,803 "
+1000,MCU,1,Iron Man,358,Finland,24-Apr-19,"$3,209,052 ","$10,809,921 "
+1000,MCU,1,Iron Man,36,Hungary,25-Apr-19,,"$839,076 "
+1000,MCU,1,Iron Man,351,Portugal,25-Apr-19,"$45,503 ","$126,835 "
+1000,MCU,1,Iron Man,30,Greece,25-Apr-19,"$34,294 ","$101,817 "
+1000,MCU,1,Iron Man,40,Romania,26-Apr-19,"$36,583 ","$158,882 "
+1000,MCU,1,Iron Man,421,Slovakia,25-Apr-19,"$691,152 ","$2,103,537 "
+1000,MCU,1,Iron Man,20,Egypt,26-Apr-19,"$15,840 ","$49,724 "
+1000,MCU,1,Iron Man,234,Nigeria,26-Apr-19,"$410,557 ","$1,860,067 "
+1000,MCU,1,Iron Man,385,Croatia,25-Apr-19,"$249,089 ","$995,816 "
+1000,MCU,1,Iron Man,1008,Serbia and Montenegro,25-Apr-19,"$467,270 ","$1,323,382 "
+1000,MCU,1,Iron Man,354,Iceland,26-Apr-19,,"$243,918 "
+1000,MCU,1,Iron Man,370,Lithuania,26-Apr-19,"$11,346 ","$30,130 "
+1000,MCU,1,Iron Man,386,Slovenia,25-Apr-19,"$21,106 ","$69,024 "
+1000,MCU,1,Iron Man,359,Bulgaria,26-Apr-19,"$15,711 ","$88,033 "
+1000,MCU,1,Iron Man,55,Brazil,25-Apr-19,"$463,180 ","$1,464,664 "
+1000,MCU,1,Iron Man,52,Mexico,26-Apr-19,,"$1,488,822 "
+1000,MCU,1,Iron Man,56,Chile,25-Apr-19,"$3,368,430 ","$12,030,026 "
+1000,MCU,1,Iron Man,54,Argentina,25-Apr-19,"$531,264 ","$2,057,727 "
+1000,MCU,1,Iron Man,57,Colombia,25-Apr-19,"$470,771 ","$1,361,378 "
+1000,MCU,1,Iron Man,591,Bolivia,25-Apr-19,"$548,588 ","$1,662,239 "
+1000,MCU,1,Iron Man,595,Paraguay,25-Apr-19,"$450,763 ","$828,937 "
+1000,MCU,1,Iron Man,598,Uruguay,25-Apr-19,"$693,087 ","$1,841,925 "
+1000,MCU,1,Iron Man,58,Venezuela,26-Apr-19,"$10,772,921 ","$34,282,266 "
+1000,MCU,1,Iron Man,82,South Korea,24-Apr-20,"$513,662 ","$1,606,400 "
+1000,MCU,1,Iron Man,91,India,26-Apr-19,"$44,241 ","$151,386 "
+1000,MCU,1,Iron Man,61,Australia,24-Apr-19,"$3,416,837 ","$13,499,792 "
+1000,MCU,1,Iron Man,81,Japan,26-Apr-19,,"$2,187,416 "
+1000,MCU,1,Iron Man,1007,Russia/CIS,29-Apr-19,"$527,314 ","$1,383,728 "
+1000,MCU,1,Iron Man,62,Indonesia,24-Apr-19,"$420,079 ","$1,729,740 "
+1000,MCU,1,Iron Man,63,Philippines,24-Apr-19,,"$926,368 "
+1000,MCU,1,Iron Man,886,Taiwan,24-Apr-19,"$5,272,729 ","$15,945,395 "
+1000,MCU,1,Iron Man,852,Hong Kong,24-Apr-19,"$565,379 ","$1,521,193 "
+1000,MCU,1,Iron Man,66,Thailand,24-Apr-19,"$28,478 ","$73,896 "
+1000,MCU,1,Iron Man,60,Malaysia,24-Apr-19,"$481,702 ","$1,891,944 "
+1000,MCU,1,Iron Man,65,Singapore,24-Apr-19,"$5,788,340 ","$19,087,903 "
+1000,MCU,1,Iron Man,84,Vietnam,26-Apr-19,"$1,180,256 ","$2,844,618 "
+1000,MCU,1,Iron Man,64,New Zealand,24-Apr-19,,"$1,993,885 "
+1000,MCU,1,Iron Man,86,China,24-Apr-19,,"$2,147,484 "
+1000,MCU,2,The Incredible Hulk,1,United States,13-Jun-08,"$1,958,331 ","$8,658,784 "
+1000,MCU,2,The Incredible Hulk,43,Austria,11-Jul-08,"$1,357,704 ","$3,469,079 "
+1000,MCU,2,The Incredible Hulk,32,Belgium,25-Jun-08,"$1,020,627 ","$2,731,097 "
+1000,MCU,2,The Incredible Hulk,359,Bulgaria,13-Jun-08,"$1,745,112 ","$3,994,681 "
+1000,MCU,2,The Incredible Hulk,385,Croatia,10-Jul-08,"$4,379,511 ","$9,490,254 "
+1000,MCU,2,The Incredible Hulk,357,Cyprus,13-Jun-08,"$1,544,008 ","$3,823,968 "
+1000,MCU,2,The Incredible Hulk,420,Czech Republic,17-Jul-08,"$5,943,181 ","$25,169,783 "
+1000,MCU,2,The Incredible Hulk,1002,Czech Republic/Slovakia,17-Jul-08,"$1,025,713 ","$5,367,022 "
+1000,MCU,2,The Incredible Hulk,45,Denmark,27-Jun-08,"$1,046,772 ","$2,446,286 "
+1000,MCU,2,The Incredible Hulk,1003,East Africa,13-Jun-08,,"$15,274,332 "
+1000,MCU,2,The Incredible Hulk,20,Egypt,18-Jun-08,,275749
 1000,MCU,2,The Incredible Hulk,372,Estonia,13-Jun-08,8280,28037
 1000,MCU,2,The Incredible Hulk,358,Finland,13-Jun-08,56548,222314
 1000,MCU,2,The Incredible Hulk,33,France,23-Jul-08,4097119,9725300
@@ -74,24 +74,24 @@
 1000,MCU,2,The Incredible Hulk,30,Greece,12-Jun-08,299818,833969
 1000,MCU,2,The Incredible Hulk,36,Hungary,12-Jun-08,124599,309801
 1000,MCU,2,The Incredible Hulk,354,Iceland,13-Jun-08,46643,152733
-1000,MCU,2,The Incredible Hulk,972,Israel,26-Jun-08,N/A,493141
+1000,MCU,2,The Incredible Hulk,972,Israel,26-Jun-08,,493141
 1000,MCU,2,The Incredible Hulk,39,Italy,18-Jun-08,1527891,6460290
-1000,MCU,2,The Incredible Hulk,965,Kuwait,19-Jun-08,N/A,661769
+1000,MCU,2,The Incredible Hulk,965,Kuwait,19-Jun-08,,661769
 1000,MCU,2,The Incredible Hulk,371,Latvia,13-Jun-08,15637,50812
 1000,MCU,2,The Incredible Hulk,961,Lebanon,19-Jun-08,22616,96931
 1000,MCU,2,The Incredible Hulk,370,Lithuania,13-Jun-08,17318,53656
-1000,MCU,2,The Incredible Hulk,1005,Middle East Other,19-Jun-08,N/A,1394480
+1000,MCU,2,The Incredible Hulk,1005,Middle East Other,19-Jun-08,,1394480
 1000,MCU,2,The Incredible Hulk,31,Netherlands,19-Jun-08,390858,1338756
 1000,MCU,2,The Incredible Hulk,234,Nigeria,20-Jun-08,15768,27915
 1000,MCU,2,The Incredible Hulk,47,Norway,13-Jun-08,380512,1532085
 1000,MCU,2,The Incredible Hulk,48,Poland,13-Jun-08,160520,484495
 1000,MCU,2,The Incredible Hulk,351,Portugal,12-Jun-08,169609,712895
-1000,MCU,2,The Incredible Hulk,40,Romania,13-Jun-08,N/A,145857
+1000,MCU,2,The Incredible Hulk,40,Romania,13-Jun-08,,145857
 1000,MCU,2,The Incredible Hulk,1008,Serbia and Montenegro,12-Jun-08,8001,52750
 1000,MCU,2,The Incredible Hulk,421,Slovakia,17-Jul-08,16918,31530
 1000,MCU,2,The Incredible Hulk,386,Slovenia,12-Jun-08,15855,60156
 1000,MCU,2,The Incredible Hulk,27,South Africa,13-Jun-08,233777,924788
-1000,MCU,2,The Incredible Hulk,1009,South Africa/Nigeria,13-Jun-08,N/A,926846
+1000,MCU,2,The Incredible Hulk,1009,South Africa/Nigeria,13-Jun-08,,926846
 1000,MCU,2,The Incredible Hulk,34,Spain,20-Jun-08,2214674,7693842
 1000,MCU,2,The Incredible Hulk,46,Sweden,13-Jun-08,287435,1075183
 1000,MCU,2,The Incredible Hulk,41,Switzerland,18-Jun-08,7556,582510
@@ -102,37 +102,37 @@
 1000,MCU,2,The Incredible Hulk,54,Argentina,19-Jun-08,422838,935727
 1000,MCU,2,The Incredible Hulk,591,Bolivia,12-Jun-08,22719,67950
 1000,MCU,2,The Incredible Hulk,55,Brazil,13-Jun-08,1743519,4893267
-1000,MCU,2,The Incredible Hulk,N/A,Central America+,13-Jun-08,N/A,1229654
+1000,MCU,2,The Incredible Hulk,N/A,Central America+,13-Jun-08,,1229654
 1000,MCU,2,The Incredible Hulk,56,Chile,12-Jun-08,125119,340611
 1000,MCU,2,The Incredible Hulk,57,Colombia,20-Jun-08,281555,751814
-1000,MCU,2,The Incredible Hulk,593,Ecuador,13-Jun-08,N/A,379250
-1000,MCU,2,The Incredible Hulk,1004,Lesser Antilles,18-Jun-08,N/A,275882
+1000,MCU,2,The Incredible Hulk,593,Ecuador,13-Jun-08,,379250
+1000,MCU,2,The Incredible Hulk,1004,Lesser Antilles,18-Jun-08,,275882
 1000,MCU,2,The Incredible Hulk,52,Mexico,13-Jun-08,4437954,12650300
 1000,MCU,2,The Incredible Hulk,51,Peru,12-Jun-08,331447,1194068
 1000,MCU,2,The Incredible Hulk,598,Uruguay,27-Jun-08,7905,23637
 1000,MCU,2,The Incredible Hulk,58,Venezuela,13-Jun-08,315943,1312950
 1000,MCU,2,The Incredible Hulk,61,Australia,12-Jun-08,1913821,4549323
 1000,MCU,2,The Incredible Hulk,852,Hong Kong,12-Jun-08,655199,1603230
-1000,MCU,2,The Incredible Hulk,91,India,20-Jun-08,N/A,3137469
-1000,MCU,2,The Incredible Hulk,62,Indonesia,18-Jun-08,N/A,1498269
+1000,MCU,2,The Incredible Hulk,91,India,20-Jun-08,,3137469
+1000,MCU,2,The Incredible Hulk,62,Indonesia,18-Jun-08,,1498269
 1000,MCU,2,The Incredible Hulk,81,Japan,1-Aug-08,385666,1692037
 1000,MCU,2,The Incredible Hulk,60,Malaysia,12-Jun-08,941367,2284041
 1000,MCU,2,The Incredible Hulk,64,New Zealand,12-Jun-08,310993,876991
-1000,MCU,2,The Incredible Hulk,92,Pakistan,20-Jun-08,N/A,173936
+1000,MCU,2,The Incredible Hulk,92,Pakistan,20-Jun-08,,173936
 1000,MCU,2,The Incredible Hulk,63,Philippines,13-Jun-08,772966,2073443
 1000,MCU,2,The Incredible Hulk,1007,Russia/CIS,12-Jun-08,3241476,6411987
 1000,MCU,2,The Incredible Hulk,65,Singapore,12-Jun-08,910718,1841159
 1000,MCU,2,The Incredible Hulk,82,South Korea,12-Jun-08,2869291,6383794
 1000,MCU,2,The Incredible Hulk,886,Taiwan,13-Jun-08,648355,1935524
 1000,MCU,2,The Incredible Hulk,66,Thailand,12-Jun-08,630849,1177786
-1000,MCU,2,The Incredible Hulk,84,Vietnam,4-Jul-08,N/A,162749
-1000,MCU,2,The Incredible Hulk,86,China,20-Aug-08,N/A,9336251
+1000,MCU,2,The Incredible Hulk,84,Vietnam,4-Jul-08,,162749
+1000,MCU,2,The Incredible Hulk,86,China,20-Aug-08,,9336251
 1000,MCU,3,Iron Man 2,1,United States,7-May-10,128122480,312433331
 1000,MCU,3,Iron Man 2,43,Austria,5-May-10,419536,1357508
 1000,MCU,3,Iron Man 2,32,Belgium,28-Apr-10,727204,1890409
 1000,MCU,3,Iron Man 2,359,Bulgaria,30-Apr-10,36147,138746
 1000,MCU,3,Iron Man 2,385,Croatia,29-Apr-10,58166,212418
-1000,MCU,3,Iron Man 2,357,Cyprus,30-Apr-10,N/A,N/A
+1000,MCU,3,Iron Man 2,357,Cyprus,30-Apr-10,,
 1000,MCU,3,Iron Man 2,420,Czech Republic,29-Apr-10,161058,442253
 1000,MCU,3,Iron Man 2,45,Denmark,29-Apr-10,968371,2292730
 1000,MCU,3,Iron Man 2,1003,East Africa,7-May-10,42346,122460
@@ -155,15 +155,15 @@
 1000,MCU,3,Iron Man 2,47,Norway,28-Apr-10,747148,2463643
 1000,MCU,3,Iron Man 2,48,Poland,30-Apr-10,359955,1136267
 1000,MCU,3,Iron Man 2,351,Portugal,29-Apr-10,404617,1132347
-1000,MCU,3,Iron Man 2,40,Romania,30-Apr-10,N/A,466054
-1000,MCU,3,Iron Man 2,7,Russia,29-Apr-10,N/A,8672930
+1000,MCU,3,Iron Man 2,40,Romania,30-Apr-10,,466054
+1000,MCU,3,Iron Man 2,7,Russia,29-Apr-10,,8672930
 1000,MCU,3,Iron Man 2,1008,Serbia and Montenegro,29-Apr-10,6434,41653
 1000,MCU,3,Iron Man 2,421,Slovakia,29-Apr-10,79043,202047
 1000,MCU,3,Iron Man 2,386,Slovenia,29-Apr-10,31250,122290
 1000,MCU,3,Iron Man 2,27,South Africa,30-Apr-10,679085,2589816
 1000,MCU,3,Iron Man 2,34,Spain,30-Apr-10,3517993,7601695
 1000,MCU,3,Iron Man 2,46,Sweden,28-Apr-10,527540,1968871
-1000,MCU,3,Iron Man 2,41,Switzerland,28-Apr-10,N/A,318294
+1000,MCU,3,Iron Man 2,41,Switzerland,28-Apr-10,,318294
 1000,MCU,3,Iron Man 2,90,Turkey,7-May-10,642384,1838197
 1000,MCU,3,Iron Man 2,380,Ukraine,29-Apr-10,506945,1199098
 1000,MCU,3,Iron Man 2,971,United Arab Emirates,29-Apr-10,1095019,2251242
@@ -175,13 +175,13 @@
 1000,MCU,3,Iron Man 2,57,Colombia,30-Apr-10,392374,1275996
 1000,MCU,3,Iron Man 2,593,Ecuador,30-Apr-10,401325,1243781
 1000,MCU,3,Iron Man 2,52,Mexico,30-Apr-10,7076229,18396680
-1000,MCU,3,Iron Man 2,507,Panama,30-Apr-10,N/A,883729
+1000,MCU,3,Iron Man 2,507,Panama,30-Apr-10,,883729
 1000,MCU,3,Iron Man 2,51,Peru,29-Apr-10,772288,1862616
 1000,MCU,3,Iron Man 2,598,Uruguay,30-Apr-10,19040,103005
 1000,MCU,3,Iron Man 2,58,Venezuela,30-Apr-10,418341,1903726
 1000,MCU,3,Iron Man 2,61,Australia,29-Apr-10,8792360,22418342
 1000,MCU,3,Iron Man 2,852,Hong Kong,30-Apr-10,1529782,3760485
-1000,MCU,3,Iron Man 2,91,India,7-May-10,N/A,1232814
+1000,MCU,3,Iron Man 2,91,India,7-May-10,,1232814
 1000,MCU,3,Iron Man 2,62,Indonesia,30-Apr-10,1632582,4487383
 1000,MCU,3,Iron Man 2,81,Japan,12-Jun-10,2909452,12831962
 1000,MCU,3,Iron Man 2,60,Malaysia,29-Apr-10,1845352,4642633
@@ -192,17 +192,17 @@
 1000,MCU,3,Iron Man 2,82,South Korea,29-Apr-10,9466977,27095727
 1000,MCU,3,Iron Man 2,886,Taiwan,1-May-10,1062203,4036495
 1000,MCU,3,Iron Man 2,66,Thailand,29-Apr-10,2157185,4618190
-1000,MCU,3,Iron Man 2,84,Vietnam,7-May-10,N/A,N/A
-1000,MCU,3,Iron Man 2,86,China,7-May-10,N/A,7919827
+1000,MCU,3,Iron Man 2,84,Vietnam,7-May-10,,
+1000,MCU,3,Iron Man 2,86,China,7-May-10,,7919827
 1000,MCU,4,Thor,1,United States,6-May-11,65723338,181030624
 1000,MCU,4,Thor,43,Austria,27-Apr-11,531607,1665346
 1000,MCU,4,Thor,32,Belgium,27-Apr-11,444944,1255410
 1000,MCU,4,Thor,359,Bulgaria,29-Apr-11,157268,577677
 1000,MCU,4,Thor,385,Croatia,28-Apr-11,138960,368650
-1000,MCU,4,Thor,357,Cyprus,29-Apr-11,N/A,N/A
+1000,MCU,4,Thor,357,Cyprus,29-Apr-11,,
 1000,MCU,4,Thor,420,Czech Republic,28-Apr-11,246626,735683
-1000,MCU,4,Thor,45,Denmark,28-Apr-11,N/A,1529183
-1000,MCU,4,Thor,1003,East Africa,6-May-11,N/A,50606
+1000,MCU,4,Thor,45,Denmark,28-Apr-11,,1529183
+1000,MCU,4,Thor,1003,East Africa,6-May-11,,50606
 1000,MCU,4,Thor,20,Egypt,27-Apr-11,51548,156908
 1000,MCU,4,Thor,372,Estonia,29-Apr-11,54254,128052
 1000,MCU,4,Thor,358,Finland,6-May-11,107711,418130
@@ -212,7 +212,7 @@
 1000,MCU,4,Thor,30,Greece,28-Apr-11,859139,1852788
 1000,MCU,4,Thor,36,Hungary,28-Apr-11,262875,744824
 1000,MCU,4,Thor,354,Iceland,29-Apr-11,93201,261866
-1000,MCU,4,Thor,353,Ireland,29-Apr-11,N/A,N/A
+1000,MCU,4,Thor,353,Ireland,29-Apr-11,,
 1000,MCU,4,Thor,972,Israel,28-Apr-11,215170,748171
 1000,MCU,4,Thor,39,Italy,27-Apr-11,4195996,10900780
 1000,MCU,4,Thor,371,Latvia,27-Apr-11,34374,96627
@@ -223,16 +223,16 @@
 1000,MCU,4,Thor,47,Norway,29-Apr-11,579799,2026533
 1000,MCU,4,Thor,48,Poland,29-Apr-11,476913,1612281
 1000,MCU,4,Thor,351,Portugal,28-Apr-11,617766,1355963
-1000,MCU,4,Thor,40,Romania,29-Apr-11,N/A,772310
+1000,MCU,4,Thor,40,Romania,29-Apr-11,,772310
 1000,MCU,4,Thor,1008,Serbia and Montenegro,28-Apr-11,9641,72757
 1000,MCU,4,Thor,421,Slovakia,28-Apr-11,71837,193658
 1000,MCU,4,Thor,386,Slovenia,28-Apr-11,38951,122992
 1000,MCU,4,Thor,27,South Africa,29-Apr-11,730953,2009016
 1000,MCU,4,Thor,34,Spain,29-Apr-11,5584770,12440218
 1000,MCU,4,Thor,46,Sweden,29-Apr-11,623099,2294015
-1000,MCU,4,Thor,1010,Switzerland (French),27-Apr-11,N/A,N/A
-1000,MCU,4,Thor,1011,Switzerland (German),28-Apr-11,N/A,N/A
-1000,MCU,4,Thor,1012,Switzerland (Italian),29-Apr-11,N/A,N/A
+1000,MCU,4,Thor,1010,Switzerland (French),27-Apr-11,,
+1000,MCU,4,Thor,1011,Switzerland (German),28-Apr-11,,
+1000,MCU,4,Thor,1012,Switzerland (Italian),29-Apr-11,,
 1000,MCU,4,Thor,90,Turkey,29-Apr-11,692364,2088436
 1000,MCU,4,Thor,380,Ukraine,27-Apr-11,450855,1477787
 1000,MCU,4,Thor,971,United Arab Emirates,28-Apr-11,1097727,2066386
@@ -240,17 +240,17 @@
 1000,MCU,4,Thor,54,Argentina,28-Apr-11,773327,2399738
 1000,MCU,4,Thor,591,Bolivia,28-Apr-11,97378,370749
 1000,MCU,4,Thor,55,Brazil,29-Apr-11,5271703,12092872
-1000,MCU,4,Thor,56,Chile,28-Apr-11,N/A,1249402
+1000,MCU,4,Thor,56,Chile,28-Apr-11,,1249402
 1000,MCU,4,Thor,57,Colombia,29-Apr-11,930674,2468907
 1000,MCU,4,Thor,593,Ecuador,29-Apr-11,374421,1281880
 1000,MCU,4,Thor,52,Mexico,29-Apr-11,7201607,19547866
-1000,MCU,4,Thor,507,Panama,29-Apr-11,N/A,N/A
+1000,MCU,4,Thor,507,Panama,29-Apr-11,,
 1000,MCU,4,Thor,51,Peru,28-Apr-11,654320,1970451
 1000,MCU,4,Thor,598,Uruguay,28-Apr-11,21019,82485
 1000,MCU,4,Thor,58,Venezuela,29-Apr-11,651620,2647111
 1000,MCU,4,Thor,61,Australia,21-Apr-11,5752130,20135378
 1000,MCU,4,Thor,852,Hong Kong,28-Apr-11,1060507,2490495
-1000,MCU,4,Thor,91,India,29-Apr-11,N/A,1001416
+1000,MCU,4,Thor,91,India,29-Apr-11,,1001416
 1000,MCU,4,Thor,62,Indonesia,3-Nov-11,106175,273076
 1000,MCU,4,Thor,81,Japan,2-Jul-11,1607229,5737436
 1000,MCU,4,Thor,60,Malaysia,28-Apr-11,1463761,3730598
@@ -266,9 +266,9 @@
 1000,MCU,5,Captain America: The First Avenger,32,Belgium,17-Aug-11,290395,1034834
 1000,MCU,5,Captain America: The First Avenger,359,Bulgaria,29-Jul-11,48655,242275
 1000,MCU,5,Captain America: The First Avenger,385,Croatia,28-Jul-11,52789,134319
-1000,MCU,5,Captain America: The First Avenger,357,Cyprus,26-Aug-11,N/A,N/A
+1000,MCU,5,Captain America: The First Avenger,357,Cyprus,26-Aug-11,,
 1000,MCU,5,Captain America: The First Avenger,420,Czech Republic,4-Aug-11,141998,352470
-1000,MCU,5,Captain America: The First Avenger,45,Denmark,11-Aug-11,N/A,1053304
+1000,MCU,5,Captain America: The First Avenger,45,Denmark,11-Aug-11,,1053304
 1000,MCU,5,Captain America: The First Avenger,1003,East Africa,12-Aug-11,12547,41927
 1000,MCU,5,Captain America: The First Avenger,20,Egypt,31-Aug-11,46407,110427
 1000,MCU,5,Captain America: The First Avenger,372,Estonia,29-Jul-11,34737,96669
@@ -282,7 +282,7 @@
 1000,MCU,5,Captain America: The First Avenger,972,Israel,4-Aug-11,251527,723196
 1000,MCU,5,Captain America: The First Avenger,39,Italy,22-Jul-11,2827021,8601080
 1000,MCU,5,Captain America: The First Avenger,371,Latvia,29-Jul-11,17113,64654
-1000,MCU,5,Captain America: The First Avenger,961,Lebanon,1-Sep-11,N/A,173417
+1000,MCU,5,Captain America: The First Avenger,961,Lebanon,1-Sep-11,,173417
 1000,MCU,5,Captain America: The First Avenger,370,Lithuania,29-Jul-11,21077,56082
 1000,MCU,5,Captain America: The First Avenger,31,Netherlands,28-Jul-11,536712,1632726
 1000,MCU,5,Captain America: The First Avenger,234,Nigeria,12-Aug-11,26046,60118
@@ -291,12 +291,12 @@
 1000,MCU,5,Captain America: The First Avenger,351,Portugal,4-Aug-11,511143,1508941
 1000,MCU,5,Captain America: The First Avenger,40,Romania,5-Aug-11,98267,278732
 1000,MCU,5,Captain America: The First Avenger,1008,Serbia and Montenegro,28-Jul-11,7869,32734
-1000,MCU,5,Captain America: The First Avenger,421,Slovakia,4-Aug-11,N/A,94550
+1000,MCU,5,Captain America: The First Avenger,421,Slovakia,4-Aug-11,,94550
 1000,MCU,5,Captain America: The First Avenger,386,Slovenia,28-Jul-11,16789,68827
 1000,MCU,5,Captain America: The First Avenger,27,South Africa,5-Aug-11,390436,1041847
 1000,MCU,5,Captain America: The First Avenger,34,Spain,5-Aug-11,2535436,7714453
 1000,MCU,5,Captain America: The First Avenger,46,Sweden,12-Aug-11,502855,1504719
-1000,MCU,5,Captain America: The First Avenger,41,Switzerland,17-Aug-11,N/A,N/A
+1000,MCU,5,Captain America: The First Avenger,41,Switzerland,17-Aug-11,,
 1000,MCU,5,Captain America: The First Avenger,90,Turkey,2-Sep-11,373116,1081033
 1000,MCU,5,Captain America: The First Avenger,380,Ukraine,28-Jul-11,271938,619293
 1000,MCU,5,Captain America: The First Avenger,971,United Arab Emirates,1-Sep-11,553310,1330549
@@ -308,7 +308,7 @@
 1000,MCU,5,Captain America: The First Avenger,57,Colombia,29-Jul-11,1159116,2777753
 1000,MCU,5,Captain America: The First Avenger,593,Ecuador,29-Jul-11,518898,1490660
 1000,MCU,5,Captain America: The First Avenger,52,Mexico,29-Jul-11,8089424,20224903
-1000,MCU,5,Captain America: The First Avenger,507,Panama,29-Jul-11,N/A,N/A
+1000,MCU,5,Captain America: The First Avenger,507,Panama,29-Jul-11,,
 1000,MCU,5,Captain America: The First Avenger,51,Peru,28-Jul-11,1145193,2388006
 1000,MCU,5,Captain America: The First Avenger,598,Uruguay,29-Jul-11,31143,92170
 1000,MCU,5,Captain America: The First Avenger,58,Venezuela,20-Jan-12,308508,1081258
@@ -345,15 +345,15 @@
 1000,MCU,6,The Avengers,972,Israel,10-May-12,750051,2449957
 1000,MCU,6,The Avengers,39,Italy,25-Apr-12,6372395,22012517
 1000,MCU,6,The Avengers,961,Lebanon,3-May-12,143179,534555
-1000,MCU,6,The Avengers,370,Lithuania,N/A,N/A,N/A
+1000,MCU,6,The Avengers,370,Lithuania,,,
 1000,MCU,6,The Avengers,31,Netherlands,25-Apr-12,1492640,6609804
 1000,MCU,6,The Avengers,234,Nigeria,4-May-12,95843,202368
 1000,MCU,6,The Avengers,47,Norway,27-Apr-12,1525494,5636566
 1000,MCU,6,The Avengers,48,Poland,11-May-12,957409,3165105
 1000,MCU,6,The Avengers,351,Portugal,25-Apr-12,622909,2489524
-1000,MCU,6,The Avengers,40,Romania,26-Apr-12,N/A,N/A
+1000,MCU,6,The Avengers,40,Romania,26-Apr-12,,
 1000,MCU,6,The Avengers,1008,Serbia and Montenegro,3-May-12,33083,167189
-1000,MCU,6,The Avengers,421,Slovakia,3-May-12,N/A,448435
+1000,MCU,6,The Avengers,421,Slovakia,3-May-12,,448435
 1000,MCU,6,The Avengers,386,Slovenia,3-May-12,40765,163737
 1000,MCU,6,The Avengers,27,South Africa,26-Apr-12,1306598,4609462
 1000,MCU,6,The Avengers,34,Spain,27-Apr-12,7065265,20220212
@@ -374,7 +374,7 @@
 1000,MCU,6,The Avengers,58,Venezuela,27-Apr-12,1585295,13216039
 1000,MCU,6,The Avengers,61,Australia,25-Apr-12,13923182,54385465
 1000,MCU,6,The Avengers,852,Hong Kong,26-Apr-12,4351700,12468825
-1000,MCU,6,The Avengers,91,India,27-Apr-12,N/A,12616061
+1000,MCU,6,The Avengers,91,India,27-Apr-12,,12616061
 1000,MCU,6,The Avengers,62,Indonesia,4-May-12,2914124,11949911
 1000,MCU,6,The Avengers,81,Japan,14-Aug-12,6386185,33019883
 1000,MCU,6,The Avengers,60,Malaysia,27-Apr-12,3302692,10965615
@@ -383,13 +383,13 @@
 1000,MCU,6,The Avengers,1007,Russia/CIS,3-May-12,14954518,43677418
 1000,MCU,6,The Avengers,65,Singapore,1-May-12,3441766,11172253
 1000,MCU,6,The Avengers,82,South Korea,26-Apr-20,35745,48651463
-1000,MCU,6,The Avengers,886,Taiwan,25-Apr-12,N/A,20100000
+1000,MCU,6,The Avengers,886,Taiwan,25-Apr-12,,20100000
 1000,MCU,6,The Avengers,66,Thailand,1-May-12,2537093,7935363
-1000,MCU,6,The Avengers,86,China,4-May-12,N/A,86300000
+1000,MCU,6,The Avengers,86,China,4-May-12,,86300000
 1000,MCU,7,Iron Man 3,1,United States,3-May-13,174144585,409013994
 1000,MCU,7,Iron Man 3,43,Austria,1-May-13,957272,3524852
 1000,MCU,7,Iron Man 3,32,Belgium,24-Apr-13,1006153,3511575
-1000,MCU,7,Iron Man 3,359,Bulgaria,26-Apr-13,N/A,651777
+1000,MCU,7,Iron Man 3,359,Bulgaria,26-Apr-13,,651777
 1000,MCU,7,Iron Man 3,385,Croatia,25-Apr-13,135300,368750
 1000,MCU,7,Iron Man 3,420,Czech Republic,2-May-13,669480,1895271
 1000,MCU,7,Iron Man 3,45,Denmark,25-Apr-13,1455234,4432711
@@ -440,7 +440,7 @@
 1000,MCU,7,Iron Man 3,65,Singapore,26-Apr-13,3761476,10210551
 1000,MCU,7,Iron Man 3,82,South Korea,25-Apr-13,16498150,64211513
 1000,MCU,7,Iron Man 3,66,Thailand,1-May-13,3513762,8866802
-1000,MCU,7,Iron Man 3,86,China,1-May-13,N/A,121200000
+1000,MCU,7,Iron Man 3,86,China,1-May-13,,121200000
 1000,MCU,8,Thor: The Dark World,1,United States,8-Nov-13,85737841,206362140
 1000,MCU,8,Thor: The Dark World,43,Austria,31-Oct-13,935519,2561728
 1000,MCU,8,Thor: The Dark World,32,Belgium,30-Oct-13,944545,2230285
@@ -461,7 +461,7 @@
 1000,MCU,8,Thor: The Dark World,961,Lebanon,7-Nov-13,193298,523712
 1000,MCU,8,Thor: The Dark World,31,Netherlands,31-Oct-13,1017499,3212754
 1000,MCU,8,Thor: The Dark World,234,Nigeria,8-Nov-13,57659,164215
-1000,MCU,8,Thor: The Dark World,47,Norway,1-Nov-13,N/A,2546889
+1000,MCU,8,Thor: The Dark World,47,Norway,1-Nov-13,,2546889
 1000,MCU,8,Thor: The Dark World,48,Poland,8-Nov-13,1043909,3160256
 1000,MCU,8,Thor: The Dark World,351,Portugal,31-Oct-13,497854,1485608
 1000,MCU,8,Thor: The Dark World,1008,Serbia and Montenegro,7-Nov-13,31674,146913
@@ -495,7 +495,7 @@
 1000,MCU,8,Thor: The Dark World,65,Singapore,31-Oct-13,2858414,6300035
 1000,MCU,8,Thor: The Dark World,82,South Korea,30-Oct-13,6114417,21114584
 1000,MCU,8,Thor: The Dark World,66,Thailand,7-Nov-13,2354229,4552606
-1000,MCU,8,Thor: The Dark World,86,China,8-Nov-13,N/A,55340000
+1000,MCU,8,Thor: The Dark World,86,China,8-Nov-13,,55340000
 1000,MCU,9,Guardians of the Galaxy,1,United States,1-Aug-14,94320883,333176600
 1000,MCU,9,Guardians of the Galaxy,43,Austria,28-Aug-14,664375,2531070
 1000,MCU,9,Guardians of the Galaxy,32,Belgium,13-Aug-14,757924,2844222
@@ -508,13 +508,13 @@
 1000,MCU,9,Guardians of the Galaxy,358,Finland,1-Aug-14,300958,1376093
 1000,MCU,9,Guardians of the Galaxy,33,France,13-Aug-14,6575781,19894500
 1000,MCU,9,Guardians of the Galaxy,49,Germany,28-Aug-14,6867135,24601759
-1000,MCU,9,Guardians of the Galaxy,233,Ghana,1-Aug-14,N/A,4878
+1000,MCU,9,Guardians of the Galaxy,233,Ghana,1-Aug-14,,4878
 1000,MCU,9,Guardians of the Galaxy,30,Greece,4-Sep-14,236485,703988
 1000,MCU,9,Guardians of the Galaxy,36,Hungary,14-Aug-14,502638,1625312
 1000,MCU,9,Guardians of the Galaxy,354,Iceland,30-Jul-14,72768,423971
 1000,MCU,9,Guardians of the Galaxy,972,Israel,31-Jul-14,377605,1900924
 1000,MCU,9,Guardians of the Galaxy,39,Italy,22-Oct-14,2996138,7011889
-1000,MCU,9,Guardians of the Galaxy,254,Kenya,1-Aug-14,N/A,154232
+1000,MCU,9,Guardians of the Galaxy,254,Kenya,1-Aug-14,,154232
 1000,MCU,9,Guardians of the Galaxy,961,Lebanon,14-Aug-14,72430,180532
 1000,MCU,9,Guardians of the Galaxy,31,Netherlands,14-Aug-14,1112956,3670838
 1000,MCU,9,Guardians of the Galaxy,234,Nigeria,1-Aug-14,43421,116524
@@ -532,7 +532,7 @@
 1000,MCU,9,Guardians of the Galaxy,971,United Arab Emirates,14-Aug-14,926086,2341434
 1000,MCU,9,Guardians of the Galaxy,44,United Kingdom,1-Aug-14,10703387,37192445
 1000,MCU,9,Guardians of the Galaxy,54,Argentina,31-Jul-14,1845744,4651901
-1000,MCU,9,Guardians of the Galaxy,591,Bolivia,31-Jul-14,N/A,795969
+1000,MCU,9,Guardians of the Galaxy,591,Bolivia,31-Jul-14,,795969
 1000,MCU,9,Guardians of the Galaxy,55,Brazil,31-Jul-14,5269935,16820519
 1000,MCU,9,Guardians of the Galaxy,56,Chile,31-Jul-14,642660,2715355
 1000,MCU,9,Guardians of the Galaxy,57,Colombia,7-Aug-14,1595060,2383127
@@ -552,7 +552,7 @@
 1000,MCU,9,Guardians of the Galaxy,65,Singapore,31-Jul-14,1785046,4729358
 1000,MCU,9,Guardians of the Galaxy,82,South Korea,31-Jul-14,3830414,10129673
 1000,MCU,9,Guardians of the Galaxy,66,Thailand,31-Jul-14,1382864,3411898
-1000,MCU,9,Guardians of the Galaxy,86,China,10-Oct-14,N/A,86346366
+1000,MCU,9,Guardians of the Galaxy,86,China,10-Oct-14,,86346366
 1000,MCU,10,Avengers: Age of Ultron,1,United States,1-May-15,191271109,459005868
 1000,MCU,10,Avengers: Age of Ultron,43,Austria,23-Apr-15,928359,4086924
 1000,MCU,10,Avengers: Age of Ultron,973,Bahrain,30-Apr-15,319153,562690
@@ -618,7 +618,7 @@
 1000,MCU,10,Avengers: Age of Ultron,886,Taiwan,22-Apr-15,5345228,18417745
 1000,MCU,10,Avengers: Age of Ultron,66,Thailand,30-Apr-15,4186088,8850822
 1000,MCU,10,Avengers: Age of Ultron,84,Vietnam,24-Apr-15,1514617,5259089
-1000,MCU,10,Avengers: Age of Ultron,86,China,11-May-15,N/A,240110000
+1000,MCU,10,Avengers: Age of Ultron,86,China,11-May-15,,240110000
 1000,MCU,11,Ant-Man,1,United States,17-Jul-15,57225526,180202163
 1000,MCU,11,Ant-Man,43,Austria,23-Jul-15,145525,787916
 1000,MCU,11,Ant-Man,32,Belgium,15-Jul-15,335682,1239587
@@ -627,12 +627,12 @@
 1000,MCU,11,Ant-Man,420,Czech Republic,16-Jul-15,154299,618895
 1000,MCU,11,Ant-Man,45,Denmark,22-Jul-15,313694,918472
 1000,MCU,11,Ant-Man,372,Estonia,17-Jul-15,26824,111047
-1000,MCU,11,Ant-Man,358,Finland,22-Jul-15,N/A,595592
+1000,MCU,11,Ant-Man,358,Finland,22-Jul-15,,595592
 1000,MCU,11,Ant-Man,33,France,14-Jul-15,3394258,13562428
 1000,MCU,11,Ant-Man,49,Germany,23-Jul-15,1684796,5917308
-1000,MCU,11,Ant-Man,233,Ghana,17-Sep-15,N/A,361113
+1000,MCU,11,Ant-Man,233,Ghana,17-Sep-15,,361113
 1000,MCU,11,Ant-Man,30,Greece,17-Sep-15,151531,361113
-1000,MCU,11,Ant-Man,354,Iceland,16-Jul-16,N/A,183341
+1000,MCU,11,Ant-Man,354,Iceland,16-Jul-16,,183341
 1000,MCU,11,Ant-Man,972,Israel,16-Jul-15,374652,1336529
 1000,MCU,11,Ant-Man,39,Italy,12-Aug-15,1739972,5290741
 1000,MCU,11,Ant-Man,962,Jordan,30-Jul-15,86453,206685
@@ -651,11 +651,11 @@
 1000,MCU,11,Ant-Man,27,South Africa,31-Jul-15,276042,748336
 1000,MCU,11,Ant-Man,34,Spain,24-Jul-15,912543,4146982
 1000,MCU,11,Ant-Man,46,Sweden,22-Jul-15,547623,2138644
-1000,MCU,11,Ant-Man,41,Switzerland,15-Jul-15,N/A,343811
+1000,MCU,11,Ant-Man,41,Switzerland,15-Jul-15,,343811
 1000,MCU,11,Ant-Man,1010,Switzerland (French),15-Jul-15,135603,389498
 1000,MCU,11,Ant-Man,1011,Switzerland (German),23-Jul-15,215867,528386
 1000,MCU,11,Ant-Man,380,Ukraine,16-Jul-15,311026,848150
-1000,MCU,11,Ant-Man,971,United Arab Emirates,N/A,16586,2887816
+1000,MCU,11,Ant-Man,971,United Arab Emirates,,16586,2887816
 1000,MCU,11,Ant-Man,44,United Kingdom,17-Jul-15,6262540,25190193
 1000,MCU,11,Ant-Man,54,Argentina,16-Jul-15,1059637,4126139
 1000,MCU,11,Ant-Man,591,Bolivia,16-Jul-15,188672,589218
@@ -676,17 +676,17 @@
 1000,MCU,11,Ant-Man,63,Philippines,15-Jul-15,2829388,5243134
 1000,MCU,11,Ant-Man,1007,Russia/CIS,17-Jul-15,4709025,11500000
 1000,MCU,11,Ant-Man,65,Singapore,16-Jul-15,2013434,4514252
-1000,MCU,11,Ant-Man,82,South Korea,3-Sep-15,N/A,21120665
+1000,MCU,11,Ant-Man,82,South Korea,3-Sep-15,,21120665
 1000,MCU,11,Ant-Man,886,Taiwan,16-Jul-15,2944496,11100000
 1000,MCU,11,Ant-Man,66,Thailand,15-Jul-15,1373970,3341724
 1000,MCU,11,Ant-Man,84,Vietnam,24-Jul-15,644555,2054218
-1000,MCU,11,Ant-Man,86,China,16-Oct-15,N/A,105370038
+1000,MCU,11,Ant-Man,86,China,16-Oct-15,,105370038
 1000,MCU,12,Captain America: Civil War,1,United States,6-May-16,179139142,408084349
-1000,MCU,12,Captain America: Civil War,43,Austria,28-Apr-16,N/A,2844970
-1000,MCU,12,Captain America: Civil War,32,Belgium,27-Apr-16,N/A,2489851
+1000,MCU,12,Captain America: Civil War,43,Austria,28-Apr-16,,2844970
+1000,MCU,12,Captain America: Civil War,32,Belgium,27-Apr-16,,2489851
 1000,MCU,12,Captain America: Civil War,359,Bulgaria,29-Apr-16,185804,516255
 1000,MCU,12,Captain America: Civil War,420,Czech Republic,5-May-16,584798,1459184
-1000,MCU,12,Captain America: Civil War,45,Denmark,28-Apr-16,N/A,3084144
+1000,MCU,12,Captain America: Civil War,45,Denmark,28-Apr-16,,3084144
 1000,MCU,12,Captain America: Civil War,358,Finland,27-Apr-16,235310,1431062
 1000,MCU,12,Captain America: Civil War,33,France,27-Apr-16,9414467,23219052
 1000,MCU,12,Captain America: Civil War,49,Germany,28-Apr-16,7195619,21770093
@@ -702,8 +702,8 @@
 1000,MCU,12,Captain America: Civil War,386,Slovenia,6-May-16,48960,104910
 1000,MCU,12,Captain America: Civil War,27,South Africa,29-Apr-16,1053420,2132347
 1000,MCU,12,Captain America: Civil War,34,Spain,29-Apr-16,4254431,11354178
-1000,MCU,12,Captain America: Civil War,46,Sweden,27-Apr-16,N/A,3606960
-1000,MCU,12,Captain America: Civil War,41,Switzerland,27-Apr-16,N/A,3020845
+1000,MCU,12,Captain America: Civil War,46,Sweden,27-Apr-16,,3606960
+1000,MCU,12,Captain America: Civil War,41,Switzerland,27-Apr-16,,3020845
 1000,MCU,12,Captain America: Civil War,1010,Switzerland (French),27-Apr-16,291680,752167
 1000,MCU,12,Captain America: Civil War,1011,Switzerland (German),27-Apr-16,691331,1793551
 1000,MCU,12,Captain America: Civil War,90,Turkey,6-May-16,2133429,5051436
@@ -712,21 +712,21 @@
 1000,MCU,12,Captain America: Civil War,44,United Kingdom,29-Apr-16,21146409,53779860
 1000,MCU,12,Captain America: Civil War,54,Argentina,5-May-16,3555979,8314077
 1000,MCU,12,Captain America: Civil War,55,Brazil,28-Apr-16,11984952,40802843
-1000,MCU,12,Captain America: Civil War,56,Chile,28-Apr-16,N/A,6784327
-1000,MCU,12,Captain America: Civil War,57,Colombia,28-Apr-16,N/A,7072395
+1000,MCU,12,Captain America: Civil War,56,Chile,28-Apr-16,,6784327
+1000,MCU,12,Captain America: Civil War,57,Colombia,28-Apr-16,,7072395
 1000,MCU,12,Captain America: Civil War,52,Mexico,29-Apr-16,20472106,41420350
-1000,MCU,12,Captain America: Civil War,58,Venezuela,N/A,6273,1947286
+1000,MCU,12,Captain America: Civil War,58,Venezuela,,6273,1947286
 1000,MCU,12,Captain America: Civil War,61,Australia,28-Apr-16,10622362,25431392
-1000,MCU,12,Captain America: Civil War,852,Hong Kong,27-Apr-16,N/A,15473511
-1000,MCU,12,Captain America: Civil War,91,India,6-May-16,N/A,12094000
+1000,MCU,12,Captain America: Civil War,852,Hong Kong,27-Apr-16,,15473511
+1000,MCU,12,Captain America: Civil War,91,India,6-May-16,,12094000
 1000,MCU,12,Captain America: Civil War,81,Japan,29-Apr-16,4222504,24366759
-1000,MCU,12,Captain America: Civil War,60,Malaysia,28-Apr-16,N/A,10685000
+1000,MCU,12,Captain America: Civil War,60,Malaysia,28-Apr-16,,10685000
 1000,MCU,12,Captain America: Civil War,64,New Zealand,5-May-16,1426902,1406107
-1000,MCU,12,Captain America: Civil War,63,Philippines,27-Apr-16,N/A,14195000
+1000,MCU,12,Captain America: Civil War,63,Philippines,27-Apr-16,,14195000
 1000,MCU,12,Captain America: Civil War,1007,Russia/CIS,5-May-16,9432929,16557300
-1000,MCU,12,Captain America: Civil War,65,Singapore,28-Apr-16,N/A,8396857
+1000,MCU,12,Captain America: Civil War,65,Singapore,28-Apr-16,,8396857
 1000,MCU,12,Captain America: Civil War,82,South Korea,27-Apr-16,21044001,62859896
-1000,MCU,12,Captain America: Civil War,886,Taiwan,27-Apr-16,N/A,16397475
+1000,MCU,12,Captain America: Civil War,886,Taiwan,27-Apr-16,,16397475
 1000,MCU,12,Captain America: Civil War,66,Thailand,27-Apr-16,3761449,11956000
 1000,MCU,12,Captain America: Civil War,86,China,6-May-16,93640448,180794517
 1000,MCU,13,Doctor Strange,1,United States,4-Nov-16,85058311,232641920
@@ -754,7 +754,7 @@
 1000,MCU,13,Doctor Strange,34,Spain,28-Oct-16,2130129,6975576
 1000,MCU,13,Doctor Strange,46,Sweden,28-Oct-16,856746,3140938
 1000,MCU,13,Doctor Strange,41,Switzerland,26-Oct-16,664319,2379075
-1000,MCU,13,Doctor Strange,90,Turkey,4-Nov-16,N/A,3202816
+1000,MCU,13,Doctor Strange,90,Turkey,4-Nov-16,,3202816
 1000,MCU,13,Doctor Strange,380,Ukraine,27-Oct-16,725057,2431951
 1000,MCU,13,Doctor Strange,971,United Arab Emirates,3-Nov-16,1452342,3444965
 1000,MCU,13,Doctor Strange,44,United Kingdom,25-Oct-16,11325184,28547412
@@ -765,7 +765,7 @@
 1000,MCU,13,Doctor Strange,57,Colombia,3-Nov-16,1013777,3131814
 1000,MCU,13,Doctor Strange,52,Mexico,28-Oct-16,4608705,13587076
 1000,MCU,13,Doctor Strange,595,Paraguay,3-Nov-16,59004,166117
-1000,MCU,13,Doctor Strange,51,Peru,26-Oct-16,N/A,2457332
+1000,MCU,13,Doctor Strange,51,Peru,26-Oct-16,,2457332
 1000,MCU,13,Doctor Strange,598,Uruguay,3-Nov-16,52025,165003
 1000,MCU,13,Doctor Strange,58,Venezuela,4-Nov-16,276000,1680938
 1000,MCU,13,Doctor Strange,61,Australia,27-Oct-16,4922741,15902123
@@ -835,7 +835,7 @@
 1000,MCU,14,Guardians of the Galaxy Vol. 2,86,China,5-May-17,48563935,100663260
 1000,MCU,15,Spider-Man: Homecoming,1,United States,7-Jul-17,117027503,334201140
 1000,MCU,15,Spider-Man: Homecoming,43,Austria,14-Jul-17,608337,1755851
-1000,MCU,15,Spider-Man: Homecoming,973,Bahrain,6-Jul-17,N/A,665503
+1000,MCU,15,Spider-Man: Homecoming,973,Bahrain,6-Jul-17,,665503
 1000,MCU,15,Spider-Man: Homecoming,32,Belgium,19-Jul-17,876116,2278867
 1000,MCU,15,Spider-Man: Homecoming,359,Bulgaria,7-Jul-17,79760,340638
 1000,MCU,15,Spider-Man: Homecoming,385,Croatia,6-Jul-17,129054,461870
@@ -846,24 +846,24 @@
 1000,MCU,15,Spider-Man: Homecoming,358,Finland,5-Jul-17,195396,1158441
 1000,MCU,15,Spider-Man: Homecoming,33,France,12-Jul-17,6329921,18790173
 1000,MCU,15,Spider-Man: Homecoming,49,Germany,13-Jul-17,3695755,11664461
-1000,MCU,15,Spider-Man: Homecoming,233,Ghana,7-Jul-17,N/A,53051
+1000,MCU,15,Spider-Man: Homecoming,233,Ghana,7-Jul-17,,53051
 1000,MCU,15,Spider-Man: Homecoming,30,Greece,6-Jul-17,347963,1112868
 1000,MCU,15,Spider-Man: Homecoming,36,Hungary,6-Jul-17,322832,1063307
 1000,MCU,15,Spider-Man: Homecoming,354,Iceland,7-Jul-17,71841,331584
 1000,MCU,15,Spider-Man: Homecoming,972,Israel,6-Jul-17,773464,2602715
 1000,MCU,15,Spider-Man: Homecoming,39,Italy,6-Jul-17,3022513,10157185
-1000,MCU,15,Spider-Man: Homecoming,962,Jordan,6-Jul-17,N/A,330441
-1000,MCU,15,Spider-Man: Homecoming,254,Kenya,7-Jul-17,N/A,260893
-1000,MCU,15,Spider-Man: Homecoming,965,Kuwait,6-Jul-17,N/A,1666038
+1000,MCU,15,Spider-Man: Homecoming,962,Jordan,6-Jul-17,,330441
+1000,MCU,15,Spider-Man: Homecoming,254,Kenya,7-Jul-17,,260893
+1000,MCU,15,Spider-Man: Homecoming,965,Kuwait,6-Jul-17,,1666038
 1000,MCU,15,Spider-Man: Homecoming,371,Latvia,14-Jul-17,45685,139920
 1000,MCU,15,Spider-Man: Homecoming,961,Lebanon,6-Jul-17,92083,629019
 1000,MCU,15,Spider-Man: Homecoming,370,Lithuania,14-Jul-17,42754,149352
 1000,MCU,15,Spider-Man: Homecoming,31,Netherlands,6-Jul-17,931871,4042454
-1000,MCU,15,Spider-Man: Homecoming,234,Nigeria,7-Jul-17,N/A,280973
+1000,MCU,15,Spider-Man: Homecoming,234,Nigeria,7-Jul-17,,280973
 1000,MCU,15,Spider-Man: Homecoming,47,Norway,7-Jul-17,780645,2827030
 1000,MCU,15,Spider-Man: Homecoming,48,Poland,14-Jul-17,728939,2692532
 1000,MCU,15,Spider-Man: Homecoming,351,Portugal,6-Jul-17,441545,1321129
-1000,MCU,15,Spider-Man: Homecoming,974,Qatar,6-Jul-17,N/A,1102206
+1000,MCU,15,Spider-Man: Homecoming,974,Qatar,6-Jul-17,,1102206
 1000,MCU,15,Spider-Man: Homecoming,40,Romania,7-Jul-17,281800,1044817
 1000,MCU,15,Spider-Man: Homecoming,1008,Serbia and Montenegro,6-Jul-17,43975,179822
 1000,MCU,15,Spider-Man: Homecoming,421,Slovakia,6-Jul-17,135297,408209
@@ -883,9 +883,9 @@
 1000,MCU,15,Spider-Man: Homecoming,57,Colombia,6-Jul-17,1628660,4592912
 1000,MCU,15,Spider-Man: Homecoming,1-809,Dominican Republic,6-Jul-17,241398,779671
 1000,MCU,15,Spider-Man: Homecoming,593,Ecuador,7-Jul-17,1001664,2692449
-1000,MCU,15,Spider-Man: Homecoming,1-876,Jamaica,5-Jul-17,N/A,297261
+1000,MCU,15,Spider-Man: Homecoming,1-876,Jamaica,5-Jul-17,,297261
 1000,MCU,15,Spider-Man: Homecoming,52,Mexico,6-Jul-17,11679553,27069013
-1000,MCU,15,Spider-Man: Homecoming,507,Panama,6-Jul-17,N/A,305426
+1000,MCU,15,Spider-Man: Homecoming,507,Panama,6-Jul-17,,305426
 1000,MCU,15,Spider-Man: Homecoming,595,Paraguay,6-Jul-17,104133,305790
 1000,MCU,15,Spider-Man: Homecoming,51,Peru,6-Jul-17,1901404,5205100
 1000,MCU,15,Spider-Man: Homecoming,1013,Trinidad & Tobago,5-Jul-17,244860,870753
@@ -897,7 +897,7 @@
 1000,MCU,15,Spider-Man: Homecoming,62,Indonesia,5-Jul-17,6779105,12335003
 1000,MCU,15,Spider-Man: Homecoming,81,Japan,11-Aug-17,7101442,25390871
 1000,MCU,15,Spider-Man: Homecoming,60,Malaysia,6-Jul-17,3511859,6771976
-1000,MCU,15,Spider-Man: Homecoming,976,Mongolia,7-Jul-17,N/A,100575
+1000,MCU,15,Spider-Man: Homecoming,976,Mongolia,7-Jul-17,,100575
 1000,MCU,15,Spider-Man: Homecoming,64,New Zealand,6-Jul-17,861810,2695355
 1000,MCU,15,Spider-Man: Homecoming,92,Pakistan,7-Jul-17,251478,665551
 1000,MCU,15,Spider-Man: Homecoming,63,Philippines,6-Jul-17,4110362,7523563
@@ -935,7 +935,7 @@
 1000,MCU,16,Thor: Ragnarok,41,Switzerland,25-Oct-17,275214,2230816
 1000,MCU,16,Thor: Ragnarok,90,Turkey,27-Oct-17,1105121,2981701
 1000,MCU,16,Thor: Ragnarok,380,Ukraine,2-Nov-17,1200377,2424456
-1000,MCU,16,Thor: Ragnarok,971,United Arab Emirates,21-Mar-19,N/A,4592345
+1000,MCU,16,Thor: Ragnarok,971,United Arab Emirates,21-Mar-19,,4592345
 1000,MCU,16,Thor: Ragnarok,44,United Kingdom,24-Oct-17,16248030,40960481
 1000,MCU,16,Thor: Ragnarok,54,Argentina,26-Oct-17,2002498,6169643
 1000,MCU,16,Thor: Ragnarok,591,Bolivia,2-Nov-17,445953,1422005
@@ -964,7 +964,7 @@
 1000,MCU,17,Black Panther,43,Austria,15-Feb-18,801532,2839865
 1000,MCU,17,Black Panther,32,Belgium,14-Feb-18,1234874,3851510
 1000,MCU,17,Black Panther,359,Bulgaria,16-Feb-18,188715,640668
-1000,MCU,17,Black Panther,385,Croatia,15-Feb-18,N/A,446454
+1000,MCU,17,Black Panther,385,Croatia,15-Feb-18,,446454
 1000,MCU,17,Black Panther,420,Czech Republic,15-Feb-18,688746,2104610
 1000,MCU,17,Black Panther,45,Denmark,15-Feb-18,1295969,4801806
 1000,MCU,17,Black Panther,358,Finland,16-Feb-18,432022,2202472
@@ -980,7 +980,7 @@
 1000,MCU,17,Black Panther,48,Poland,14-Feb-18,1277362,3601530
 1000,MCU,17,Black Panther,351,Portugal,15-Feb-18,548863,1966013
 1000,MCU,17,Black Panther,40,Romania,16-Feb-18,561368,1927259
-1000,MCU,17,Black Panther,1008,Serbia and Montenegro,15-Feb-18,N/A,309632
+1000,MCU,17,Black Panther,1008,Serbia and Montenegro,15-Feb-18,,309632
 1000,MCU,17,Black Panther,421,Slovakia,15-Feb-18,280903,690443
 1000,MCU,17,Black Panther,386,Slovenia,15-Feb-18,52844,213891
 1000,MCU,17,Black Panther,27,South Africa,16-Feb-18,1449905,8000254
@@ -1034,7 +1034,7 @@
 1000,MCU,18,Avengers: Infinity War,48,Poland,26-Apr-18,2563813,7367423
 1000,MCU,18,Avengers: Infinity War,351,Portugal,26-Apr-18,1175436,2823586
 1000,MCU,18,Avengers: Infinity War,40,Romania,27-Apr-18,822798,2494062
-1000,MCU,18,Avengers: Infinity War,1008,Serbia and Montenegro,3-May-18,N/A,280036
+1000,MCU,18,Avengers: Infinity War,1008,Serbia and Montenegro,3-May-18,,280036
 1000,MCU,18,Avengers: Infinity War,421,Slovakia,26-Apr-18,605120,1304762
 1000,MCU,18,Avengers: Infinity War,386,Slovenia,26-Apr-18,109785,325818
 1000,MCU,18,Avengers: Infinity War,27,South Africa,27-Apr-18,2050302,5552131
@@ -1043,7 +1043,7 @@
 1000,MCU,18,Avengers: Infinity War,41,Switzerland,25-Apr-18,2083416,5553658
 1000,MCU,18,Avengers: Infinity War,90,Turkey,27-Apr-18,2566580,5696347
 1000,MCU,18,Avengers: Infinity War,380,Ukraine,26-Apr-18,1372912,3654152
-1000,MCU,18,Avengers: Infinity War,971,United Arab Emirates,26-Apr-18,N/A,10070159
+1000,MCU,18,Avengers: Infinity War,971,United Arab Emirates,26-Apr-18,,10070159
 1000,MCU,18,Avengers: Infinity War,44,United Kingdom,26-Apr-18,41447361,96640433
 1000,MCU,18,Avengers: Infinity War,54,Argentina,26-Apr-18,5437240,8064697
 1000,MCU,18,Avengers: Infinity War,591,Bolivia,26-Apr-18,913486,3166034
@@ -1055,7 +1055,7 @@
 1000,MCU,18,Avengers: Infinity War,598,Uruguay,26-Apr-18,307882,816628
 1000,MCU,18,Avengers: Infinity War,58,Venezuela,27-Apr-18,1787030,6093475
 1000,MCU,18,Avengers: Infinity War,61,Australia,25-Apr-18,16101807,46825158
-1000,MCU,18,Avengers: Infinity War,852,Hong Kong,25-Apr-18,N/A,20585253
+1000,MCU,18,Avengers: Infinity War,852,Hong Kong,25-Apr-18,,20585253
 1000,MCU,18,Avengers: Infinity War,91,India,27-Apr-18,18464603,43594456
 1000,MCU,18,Avengers: Infinity War,62,Indonesia,25-Apr-18,11414539,25288929
 1000,MCU,18,Avengers: Infinity War,81,Japan,27-Apr-18,9075979,33881648
@@ -1096,7 +1096,7 @@
 1000,MCU,19,Ant-Man and the Wasp,41,Switzerland,18-Jul-18,110488,1256245
 1000,MCU,19,Ant-Man and the Wasp,90,Turkey,6-Jul-18,476737,1108544
 1000,MCU,19,Ant-Man and the Wasp,380,Ukraine,5-Jul-18,588308,1373800
-1000,MCU,19,Ant-Man and the Wasp,971,United Arab Emirates,5-Jul-18,N/A,3233078
+1000,MCU,19,Ant-Man and the Wasp,971,United Arab Emirates,5-Jul-18,,3233078
 1000,MCU,19,Ant-Man and the Wasp,44,United Kingdom,2-Aug-18,4880620,22941205
 1000,MCU,19,Ant-Man and the Wasp,54,Argentina,5-Jul-18,1031384,2250863
 1000,MCU,19,Ant-Man and the Wasp,591,Bolivia,5-Jul-18,201259,715760
@@ -1108,7 +1108,7 @@
 1000,MCU,19,Ant-Man and the Wasp,598,Uruguay,5-Jul-18,62704,131780
 1000,MCU,19,Ant-Man and the Wasp,58,Venezuela,6-Jul-18,630855,3433189
 1000,MCU,19,Ant-Man and the Wasp,61,Australia,5-Jul-18,4318895,14706863
-1000,MCU,19,Ant-Man and the Wasp,852,Hong Kong,4-Jul-18,N/A,7663339
+1000,MCU,19,Ant-Man and the Wasp,852,Hong Kong,4-Jul-18,,7663339
 1000,MCU,19,Ant-Man and the Wasp,91,India,13-Jul-18,3541271,6399126
 1000,MCU,19,Ant-Man and the Wasp,62,Indonesia,4-Jul-18,5748107,10005439
 1000,MCU,19,Ant-Man and the Wasp,81,Japan,31-Aug-18,2900593,11595269
@@ -1131,18 +1131,18 @@
 1000,MCU,20,Captain Marvel,358,Finland,6-Mar-19,788199,2080074
 1000,MCU,20,Captain Marvel,33,France,6-Mar-19,9093585,27093603
 1000,MCU,20,Captain Marvel,49,Germany,7-Mar-19,7909987,24309763
-1000,MCU,20,Captain Marvel,30,Greece,7-Mar-19,N/A,1564544
+1000,MCU,20,Captain Marvel,30,Greece,7-Mar-19,,1564544
 1000,MCU,20,Captain Marvel,36,Hungary,7-Mar-19,847669,2100452
 1000,MCU,20,Captain Marvel,354,Iceland,8-Mar-19,119687,394116
 1000,MCU,20,Captain Marvel,39,Italy,6-Mar-19,4576917,11458061
 1000,MCU,20,Captain Marvel,370,Lithuania,8-Mar-19,85312,214095
 1000,MCU,20,Captain Marvel,31,Netherlands,6-Mar-19,2317312,6627859
-1000,MCU,20,Captain Marvel,234,Nigeria,15-Mar-19,N/A,662502
+1000,MCU,20,Captain Marvel,234,Nigeria,15-Mar-19,,662502
 1000,MCU,20,Captain Marvel,47,Norway,8-Mar-19,824108,2986127
 1000,MCU,20,Captain Marvel,48,Poland,8-Mar-19,1568276,4512068
 1000,MCU,20,Captain Marvel,351,Portugal,7-Mar-19,547696,1809207
 1000,MCU,20,Captain Marvel,40,Romania,8-Mar-19,568213,1676696
-1000,MCU,20,Captain Marvel,1008,Serbia and Montenegro,7-Mar-19,N/A,288269
+1000,MCU,20,Captain Marvel,1008,Serbia and Montenegro,7-Mar-19,,288269
 1000,MCU,20,Captain Marvel,421,Slovakia,7-Mar-19,373208,874940
 1000,MCU,20,Captain Marvel,386,Slovenia,7-Mar-19,65514,193749
 1000,MCU,20,Captain Marvel,27,South Africa,8-Mar-19,769325,3476490
@@ -1161,9 +1161,9 @@
 1000,MCU,20,Captain Marvel,52,Mexico,8-Mar-19,12812530,33314134
 1000,MCU,20,Captain Marvel,595,Paraguay,7-Mar-19,231948,554443
 1000,MCU,20,Captain Marvel,598,Uruguay,7-Mar-19,157216,481561
-1000,MCU,20,Captain Marvel,58,Venezuela,8-Mar-19,N/A,373082
+1000,MCU,20,Captain Marvel,58,Venezuela,8-Mar-19,,373082
 1000,MCU,20,Captain Marvel,61,Australia,7-Mar-19,9580749,29462704
-1000,MCU,20,Captain Marvel,852,Hong Kong,6-Mar-19,N/A,10193610
+1000,MCU,20,Captain Marvel,852,Hong Kong,6-Mar-19,,10193610
 1000,MCU,20,Captain Marvel,91,India,8-Mar-19,6880249,14407369
 1000,MCU,20,Captain Marvel,62,Indonesia,6-Mar-19,10848400,19409550
 1000,MCU,20,Captain Marvel,81,Japan,15-Mar-19,3825559,17752989
@@ -1184,7 +1184,7 @@
 1000,MCU,21,Avengers: Endgame,385,Croatia,25-Apr-19,545732,1144369
 1000,MCU,21,Avengers: Endgame,420,Czech Republic,25-Apr-19,2534713,6610971
 1000,MCU,21,Avengers: Endgame,45,Denmark,24-Apr-19,4223121,10254418
-1000,MCU,21,Avengers: Endgame,20,Egypt,26-Apr-19,N/A,1754341
+1000,MCU,21,Avengers: Endgame,20,Egypt,26-Apr-19,,1754341
 1000,MCU,21,Avengers: Endgame,358,Finland,24-Apr-19,2137080,4942382
 1000,MCU,21,Avengers: Endgame,33,France,24-Apr-19,24971474,62191621
 1000,MCU,21,Avengers: Endgame,49,Germany,24-Apr-19,27108549,63290219
@@ -1199,7 +1199,7 @@
 1000,MCU,21,Avengers: Endgame,48,Poland,25-Apr-19,4676158,10558455
 1000,MCU,21,Avengers: Endgame,351,Portugal,25-Apr-19,1709377,4296991
 1000,MCU,21,Avengers: Endgame,40,Romania,26-Apr-19,903796,3376295
-1000,MCU,21,Avengers: Endgame,1008,Serbia and Montenegro,25-Apr-19,N/A,804153
+1000,MCU,21,Avengers: Endgame,1008,Serbia and Montenegro,25-Apr-19,,804153
 1000,MCU,21,Avengers: Endgame,421,Slovakia,25-Apr-19,847357,1990548
 1000,MCU,21,Avengers: Endgame,386,Slovenia,25-Apr-19,237429,611641
 1000,MCU,21,Avengers: Endgame,27,South Africa,26-Apr-19,2374923,7167751
@@ -1220,7 +1220,7 @@
 1000,MCU,21,Avengers: Endgame,598,Uruguay,25-Apr-19,594720,1366731
 1000,MCU,21,Avengers: Endgame,58,Venezuela,26-Apr-19,149742,1001684
 1000,MCU,21,Avengers: Endgame,61,Australia,24-Apr-19,24010504,59113013
-1000,MCU,21,Avengers: Endgame,852,Hong Kong,24-Apr-19,N/A,29330722
+1000,MCU,21,Avengers: Endgame,852,Hong Kong,24-Apr-19,,29330722
 1000,MCU,21,Avengers: Endgame,91,India,26-Apr-19,26757337,62678476
 1000,MCU,21,Avengers: Endgame,62,Indonesia,24-Apr-19,15427619,34775278
 1000,MCU,21,Avengers: Endgame,81,Japan,26-Apr-19,13176307,55304132
@@ -1229,7 +1229,7 @@
 1000,MCU,21,Avengers: Endgame,63,Philippines,24-Apr-19,17977175,32839486
 1000,MCU,21,Avengers: Endgame,1007,Russia/CIS,29-Apr-19,15411511,46006725
 1000,MCU,21,Avengers: Endgame,65,Singapore,24-Apr-19,5517581,14346820
-1000,MCU,21,Avengers: Endgame,82,South Korea,24-Apr-20,N/A,105483265
+1000,MCU,21,Avengers: Endgame,82,South Korea,24-Apr-20,,105483265
 1000,MCU,21,Avengers: Endgame,886,Taiwan,24-Apr-19,12847762,29386075
 1000,MCU,21,Avengers: Endgame,66,Thailand,24-Apr-19,14165523,27230829
 1000,MCU,21,Avengers: Endgame,84,Vietnam,26-Apr-19,2971259,11703305
@@ -1242,7 +1242,7 @@
 1000,MCU,22,Spider-Man: Far From Home,385,Croatia,4-Jul-19,208092,754087
 1000,MCU,22,Spider-Man: Far From Home,420,Czech Republic,4-Jul-19,698032,2629060
 1000,MCU,22,Spider-Man: Far From Home,45,Denmark,2-Jul-19,850862,3880704
-1000,MCU,22,Spider-Man: Far From Home,20,Egypt,4-Jul-19,N/A,1031976
+1000,MCU,22,Spider-Man: Far From Home,20,Egypt,4-Jul-19,,1031976
 1000,MCU,22,Spider-Man: Far From Home,372,Estonia,5-Jul-19,90004,395958
 1000,MCU,22,Spider-Man: Far From Home,358,Finland,3-Jul-19,393877,1898839
 1000,MCU,22,Spider-Man: Far From Home,33,France,3-Jul-19,8270495,26194848
@@ -1267,7 +1267,7 @@
 1000,MCU,22,Spider-Man: Far From Home,351,Portugal,4-Jul-19,610333,2082416
 1000,MCU,22,Spider-Man: Far From Home,974,Qatar,4-Jul-19,744412,1592526
 1000,MCU,22,Spider-Man: Far From Home,40,Romania,5-Jul-19,417508,1320710
-1000,MCU,22,Spider-Man: Far From Home,1008,Serbia and Montenegro,4-Jul-19,N/A,321479
+1000,MCU,22,Spider-Man: Far From Home,1008,Serbia and Montenegro,4-Jul-19,,321479
 1000,MCU,22,Spider-Man: Far From Home,421,Slovakia,3-Jul-19,283922,900895
 1000,MCU,22,Spider-Man: Far From Home,386,Slovenia,4-Jul-19,61795,240848
 1000,MCU,22,Spider-Man: Far From Home,27,South Africa,3-Jul-19,1044089,2329671
@@ -1294,7 +1294,7 @@
 1000,MCU,22,Spider-Man: Far From Home,598,Uruguay,4-Jul-19,242216,602876
 1000,MCU,22,Spider-Man: Far From Home,58,Venezuela,5-Jul-19,117077,573244
 1000,MCU,22,Spider-Man: Far From Home,61,Australia,1-Jul-19,7283065,27621636
-1000,MCU,22,Spider-Man: Far From Home,852,Hong Kong,28-Jun-19,N/A,11572556
+1000,MCU,22,Spider-Man: Far From Home,852,Hong Kong,28-Jun-19,,11572556
 1000,MCU,22,Spider-Man: Far From Home,91,India,4-Jul-19,6521818,14881604
 1000,MCU,22,Spider-Man: Far From Home,62,Indonesia,3-Jul-19,9798342,17183895
 1000,MCU,22,Spider-Man: Far From Home,81,Japan,28-Jun-19,6477158,28137054
@@ -1329,7 +1329,7 @@
 2000,DCEU,101,Man of Steel,39,Italy,20-Jun-13,2386577,6102107
 2000,DCEU,101,Man of Steel,961,Lebanon,13-Jun-13,147772,417625
 2000,DCEU,101,Man of Steel,31,Netherlands,20-Jun-13,1180989,3054027
-2000,DCEU,101,Man of Steel,234,Nigeria,21-Jun-13,N/A,172276
+2000,DCEU,101,Man of Steel,234,Nigeria,21-Jun-13,,172276
 2000,DCEU,101,Man of Steel,47,Norway,19-Jun-13,835703,3045792
 2000,DCEU,101,Man of Steel,48,Poland,21-Jun-13,377219,1210265
 2000,DCEU,101,Man of Steel,351,Portugal,27-Jun-13,315128,884664
@@ -1355,7 +1355,7 @@
 2000,DCEU,101,Man of Steel,58,Venezuela,14-Jun-13,1092904,4215687
 2000,DCEU,101,Man of Steel,61,Australia,27-Jun-13,8119622,22342258
 2000,DCEU,101,Man of Steel,852,Hong Kong,27-Jun-13,2049170,4296428
-2000,DCEU,101,Man of Steel,91,India,14-Jun-13,N/A,6329491
+2000,DCEU,101,Man of Steel,91,India,14-Jun-13,,6329491
 2000,DCEU,101,Man of Steel,81,Japan,30-Aug-13,2733280,8993829
 2000,DCEU,101,Man of Steel,60,Malaysia,13-Jun-13,3192171,6351839
 2000,DCEU,101,Man of Steel,64,New Zealand,27-Jun-13,1131472,2818528
@@ -1364,16 +1364,16 @@
 2000,DCEU,101,Man of Steel,65,Singapore,13-Jun-13,2557868,5020889
 2000,DCEU,101,Man of Steel,82,South Korea,13-Jun-13,7335782,14993036
 2000,DCEU,101,Man of Steel,66,Thailand,13-Jun-13,1644514,3165288
-2000,DCEU,101,Man of Steel,86,China,20-Jun-13,N/A,63440000
+2000,DCEU,101,Man of Steel,86,China,20-Jun-13,,63440000
 2000,DCEU,102,Batman v Superman: Dawn of Justice,1,United States,25-Mar-16,166007347,330360194
 2000,DCEU,102,Batman v Superman: Dawn of Justice,43,Austria,24-Mar-16,739386,2564737
-2000,DCEU,102,Batman v Superman: Dawn of Justice,32,Belgium,23-Mar-16,N/A,2685186
+2000,DCEU,102,Batman v Superman: Dawn of Justice,32,Belgium,23-Mar-16,,2685186
 2000,DCEU,102,Batman v Superman: Dawn of Justice,359,Bulgaria,25-Mar-16,183348,540102
-2000,DCEU,102,Batman v Superman: Dawn of Justice,385,Croatia,24-Mar-16,N/A,522416
+2000,DCEU,102,Batman v Superman: Dawn of Justice,385,Croatia,24-Mar-16,,522416
 2000,DCEU,102,Batman v Superman: Dawn of Justice,420,Czech Republic,24-Mar-16,507828,1118646
-2000,DCEU,102,Batman v Superman: Dawn of Justice,45,Denmark,24-Mar-16,N/A,2572539
+2000,DCEU,102,Batman v Superman: Dawn of Justice,45,Denmark,24-Mar-16,,2572539
 2000,DCEU,102,Batman v Superman: Dawn of Justice,20,Egypt,23-Mar-16,79717,1501078
-2000,DCEU,102,Batman v Superman: Dawn of Justice,372,Estonia,25-Mar-16,N/A,242623
+2000,DCEU,102,Batman v Superman: Dawn of Justice,372,Estonia,25-Mar-16,,242623
 2000,DCEU,102,Batman v Superman: Dawn of Justice,358,Finland,23-Mar-16,374799,1324808
 2000,DCEU,102,Batman v Superman: Dawn of Justice,33,France,23-Mar-16,8600000,21319616
 2000,DCEU,102,Batman v Superman: Dawn of Justice,49,Germany,24-Mar-16,6949925,18918262
@@ -1382,23 +1382,23 @@
 2000,DCEU,102,Batman v Superman: Dawn of Justice,354,Iceland,25-Mar-16,66324,283469
 2000,DCEU,102,Batman v Superman: Dawn of Justice,972,Israel,24-Mar-16,1076566,2612698
 2000,DCEU,102,Batman v Superman: Dawn of Justice,39,Italy,24-Mar-16,4620496,12098949
-2000,DCEU,102,Batman v Superman: Dawn of Justice,371,Latvia,25-Mar-16,N/A,251315
+2000,DCEU,102,Batman v Superman: Dawn of Justice,371,Latvia,25-Mar-16,,251315
 2000,DCEU,102,Batman v Superman: Dawn of Justice,961,Lebanon,24-Mar-16,341155,843082
 2000,DCEU,102,Batman v Superman: Dawn of Justice,370,Lithuania,25-Mar-16,63820,212708
 2000,DCEU,102,Batman v Superman: Dawn of Justice,31,Netherlands,24-Mar-16,1687365,4181863
 2000,DCEU,102,Batman v Superman: Dawn of Justice,47,Norway,23-Mar-16,809234,3297349
 2000,DCEU,102,Batman v Superman: Dawn of Justice,968,Oman,24-Mar-16,174889,475077
-2000,DCEU,102,Batman v Superman: Dawn of Justice,48,Poland,1-Apr-16,N/A,2300823
+2000,DCEU,102,Batman v Superman: Dawn of Justice,48,Poland,1-Apr-16,,2300823
 2000,DCEU,102,Batman v Superman: Dawn of Justice,351,Portugal,24-Mar-16,614782,2222072
 2000,DCEU,102,Batman v Superman: Dawn of Justice,40,Romania,25-Mar-16,691741,1556295
-2000,DCEU,102,Batman v Superman: Dawn of Justice,1008,Serbia and Montenegro,24-Mar-16,N/A,243971
+2000,DCEU,102,Batman v Superman: Dawn of Justice,1008,Serbia and Montenegro,24-Mar-16,,243971
 2000,DCEU,102,Batman v Superman: Dawn of Justice,421,Slovakia,24-Mar-16,246218,499444
 2000,DCEU,102,Batman v Superman: Dawn of Justice,386,Slovenia,24-Mar-16,58464,166343
 2000,DCEU,102,Batman v Superman: Dawn of Justice,27,South Africa,25-Mar-16,1052023,2701224
 2000,DCEU,102,Batman v Superman: Dawn of Justice,34,Spain,23-Mar-16,3182560,11396396
-2000,DCEU,102,Batman v Superman: Dawn of Justice,46,Sweden,23-Mar-16,N/A,3941571
-2000,DCEU,102,Batman v Superman: Dawn of Justice,1010,Switzerland (French),23-Mar-16,N/A,1029568
-2000,DCEU,102,Batman v Superman: Dawn of Justice,1011,Switzerland (German),24-Mar-16,N/A,1754810
+2000,DCEU,102,Batman v Superman: Dawn of Justice,46,Sweden,23-Mar-16,,3941571
+2000,DCEU,102,Batman v Superman: Dawn of Justice,1010,Switzerland (French),23-Mar-16,,1029568
+2000,DCEU,102,Batman v Superman: Dawn of Justice,1011,Switzerland (German),24-Mar-16,,1754810
 2000,DCEU,102,Batman v Superman: Dawn of Justice,90,Turkey,25-Mar-16,2483361,5430850
 2000,DCEU,102,Batman v Superman: Dawn of Justice,380,Ukraine,24-Mar-16,682658,1279073
 2000,DCEU,102,Batman v Superman: Dawn of Justice,971,United Arab Emirates,24-Mar-16,3321534,7028576
@@ -1410,24 +1410,24 @@
 2000,DCEU,102,Batman v Superman: Dawn of Justice,57,Colombia,24-Mar-16,3158740,8149484
 2000,DCEU,102,Batman v Superman: Dawn of Justice,593,Ecuador,25-Mar-16,1300664,3781279
 2000,DCEU,102,Batman v Superman: Dawn of Justice,52,Mexico,24-Mar-16,12256287,36621767
-2000,DCEU,102,Batman v Superman: Dawn of Justice,51,Peru,24-Mar-16,N/A,4999649
+2000,DCEU,102,Batman v Superman: Dawn of Justice,51,Peru,24-Mar-16,,4999649
 2000,DCEU,102,Batman v Superman: Dawn of Justice,598,Uruguay,24-Mar-16,121600,329922
 2000,DCEU,102,Batman v Superman: Dawn of Justice,58,Venezuela,25-Mar-16,125468,1113858
 2000,DCEU,102,Batman v Superman: Dawn of Justice,61,Australia,24-Mar-16,9884250,22517365
-2000,DCEU,102,Batman v Superman: Dawn of Justice,855,Cambodia,25-Mar-16,N/A,170698
+2000,DCEU,102,Batman v Superman: Dawn of Justice,855,Cambodia,25-Mar-16,,170698
 2000,DCEU,102,Batman v Superman: Dawn of Justice,852,Hong Kong,24-Mar-16,3975478,8504499
-2000,DCEU,102,Batman v Superman: Dawn of Justice,91,India,25-Mar-16,N/A,10736869
-2000,DCEU,102,Batman v Superman: Dawn of Justice,62,Indonesia,23-Mar-16,N/A,14000000
+2000,DCEU,102,Batman v Superman: Dawn of Justice,91,India,25-Mar-16,,10736869
+2000,DCEU,102,Batman v Superman: Dawn of Justice,62,Indonesia,23-Mar-16,,14000000
 2000,DCEU,102,Batman v Superman: Dawn of Justice,81,Japan,25-Mar-16,3288349,16531874
-2000,DCEU,102,Batman v Superman: Dawn of Justice,60,Malaysia,24-Mar-16,N/A,7500064
+2000,DCEU,102,Batman v Superman: Dawn of Justice,60,Malaysia,24-Mar-16,,7500064
 2000,DCEU,102,Batman v Superman: Dawn of Justice,64,New Zealand,24-Mar-16,1616371,3269068
-2000,DCEU,102,Batman v Superman: Dawn of Justice,63,Philippines,26-Mar-16,N/A,11214492
+2000,DCEU,102,Batman v Superman: Dawn of Justice,63,Philippines,26-Mar-16,,11214492
 2000,DCEU,102,Batman v Superman: Dawn of Justice,1007,Russia/CIS,24-Mar-16,7786263,12683409
 2000,DCEU,102,Batman v Superman: Dawn of Justice,65,Singapore,24-Mar-16,3350574,5742914
 2000,DCEU,102,Batman v Superman: Dawn of Justice,82,South Korea,24-Mar-16,8486121,16457193
-2000,DCEU,102,Batman v Superman: Dawn of Justice,886,Taiwan,25-Mar-16,N/A,7238467
+2000,DCEU,102,Batman v Superman: Dawn of Justice,886,Taiwan,25-Mar-16,,7238467
 2000,DCEU,102,Batman v Superman: Dawn of Justice,66,Thailand,24-Mar-16,2256551,5388316
-2000,DCEU,102,Batman v Superman: Dawn of Justice,84,Vietnam,25-Mar-16,N/A,2240920
+2000,DCEU,102,Batman v Superman: Dawn of Justice,84,Vietnam,25-Mar-16,,2240920
 2000,DCEU,102,Batman v Superman: Dawn of Justice,86,China,25-Mar-16,55739150,95769365
 2000,DCEU,103,Suicide Squad,1,United States,5-Aug-16,133682248,325100054
 2000,DCEU,103,Suicide Squad,359,Bulgaria,5-Aug-16,149711,709130
@@ -1435,7 +1435,7 @@
 2000,DCEU,103,Suicide Squad,358,Finland,5-Aug-16,601275,2573995
 2000,DCEU,103,Suicide Squad,33,France,3-Aug-16,7900000,19400000
 2000,DCEU,103,Suicide Squad,49,Germany,18-Aug-16,6900000,18500000
-2000,DCEU,103,Suicide Squad,30,Greece,25-Aug-16,N/A,1467331
+2000,DCEU,103,Suicide Squad,30,Greece,25-Aug-16,,1467331
 2000,DCEU,103,Suicide Squad,36,Hungary,4-Aug-16,427055,1346680
 2000,DCEU,103,Suicide Squad,354,Iceland,5-Aug-16,104926,496270
 2000,DCEU,103,Suicide Squad,39,Italy,13-Aug-16,2153551,13700000
@@ -1449,21 +1449,21 @@
 2000,DCEU,103,Suicide Squad,386,Slovenia,5-Aug-16,49316,255362
 2000,DCEU,103,Suicide Squad,27,South Africa,5-Aug-16,761606,2529817
 2000,DCEU,103,Suicide Squad,34,Spain,5-Aug-16,3371915,12292560
-2000,DCEU,103,Suicide Squad,41,Switzerland,,N/A,3100000
+2000,DCEU,103,Suicide Squad,41,Switzerland,,,3100000
 2000,DCEU,103,Suicide Squad,90,Turkey,12-Aug-16,1161284,3353914
 2000,DCEU,103,Suicide Squad,380,Ukraine,4-Aug-16,1079627,2916352
 2000,DCEU,103,Suicide Squad,971,United Arab Emirates,4-Aug-16,1952411,4675608
 2000,DCEU,103,Suicide Squad,44,United Kingdom,5-Aug-16,14714561,43700000
 2000,DCEU,103,Suicide Squad,54,Argentina,11-Aug-16,2504513,7260926
-2000,DCEU,103,Suicide Squad,591,Bolivia,4-Aug-16,N/A,1306420
+2000,DCEU,103,Suicide Squad,591,Bolivia,4-Aug-16,,1306420
 2000,DCEU,103,Suicide Squad,55,Brazil,4-Aug-16,11750000,36600000
-2000,DCEU,103,Suicide Squad,57,Colombia,4-Aug-16,N/A,7184017
+2000,DCEU,103,Suicide Squad,57,Colombia,4-Aug-16,,7184017
 2000,DCEU,103,Suicide Squad,52,Mexico,5-Aug-16,10346298,27600000
-2000,DCEU,103,Suicide Squad,595,Paraguay,4-Aug-16,N/A,401260
-2000,DCEU,103,Suicide Squad,598,Uruguay,4-Aug-16,N/A,326434
+2000,DCEU,103,Suicide Squad,595,Paraguay,4-Aug-16,,401260
+2000,DCEU,103,Suicide Squad,598,Uruguay,4-Aug-16,,326434
 2000,DCEU,103,Suicide Squad,61,Australia,4-Aug-16,10596840,26126519
-2000,DCEU,103,Suicide Squad,852,Hong Kong,,N/A,6500000
-2000,DCEU,103,Suicide Squad,62,Indonesia,,N/A,7300000
+2000,DCEU,103,Suicide Squad,852,Hong Kong,,,6500000
+2000,DCEU,103,Suicide Squad,62,Indonesia,,,7300000
 2000,DCEU,103,Suicide Squad,81,Japan,10-Sep-16,3800457,15607713
 2000,DCEU,103,Suicide Squad,64,New Zealand,4-Aug-16,1587438,3880450
 2000,DCEU,103,Suicide Squad,1007,Russia/CIS,4-Aug-16,11631103,25626359
@@ -1491,7 +1491,7 @@
 2000,DCEU,104,Wonder Woman,386,Slovenia,1-Jun-17,14192,88325
 2000,DCEU,104,Wonder Woman,27,South Africa,2-Jun-17,315753,1530519
 2000,DCEU,104,Wonder Woman,34,Spain,23-Jun-17,2462778,8300000
-2000,DCEU,104,Wonder Woman,41,Switzerland,7-Jun-17,N/A,2300000
+2000,DCEU,104,Wonder Woman,41,Switzerland,7-Jun-17,,2300000
 2000,DCEU,104,Wonder Woman,90,Turkey,2-Jun-17,463513,1700000
 2000,DCEU,104,Wonder Woman,380,Ukraine,1-Jun-17,340391,826118
 2000,DCEU,104,Wonder Woman,971,United Arab Emirates,1-Jun-17,1352881,4322551
@@ -1504,15 +1504,15 @@
 2000,DCEU,104,Wonder Woman,595,Paraguay,1-Jun-17,75581,221718
 2000,DCEU,104,Wonder Woman,598,Uruguay,1-Jun-17,54405,213556
 2000,DCEU,104,Wonder Woman,61,Australia,1-Jun-17,5037636,23400000
-2000,DCEU,104,Wonder Woman,852,Hong Kong,30-May-17,N/A,6500000
+2000,DCEU,104,Wonder Woman,852,Hong Kong,30-May-17,,6500000
 2000,DCEU,104,Wonder Woman,91,India,2-Jun-17,1413810,2563510
-2000,DCEU,104,Wonder Woman,62,Indonesia,31-May-17,N/A,8600000
+2000,DCEU,104,Wonder Woman,62,Indonesia,31-May-17,,8600000
 2000,DCEU,104,Wonder Woman,81,Japan,25-Aug-17,2437015,12200000
 2000,DCEU,104,Wonder Woman,64,New Zealand,1-Jun-17,964993,3631668
-2000,DCEU,104,Wonder Woman,63,Philippines,1-Jun-17,N/A,9900000
+2000,DCEU,104,Wonder Woman,63,Philippines,1-Jun-17,,9900000
 2000,DCEU,104,Wonder Woman,1007,Russia/CIS,1-Jun-17,3996973,8500000
 2000,DCEU,104,Wonder Woman,82,South Korea,31-May-17,6423584,15500000
-2000,DCEU,104,Wonder Woman,886,Taiwan,30-May-17,N/A,11000000
+2000,DCEU,104,Wonder Woman,886,Taiwan,30-May-17,,11000000
 2000,DCEU,104,Wonder Woman,66,Thailand,1-Jun-17,1732746,3446962
 2000,DCEU,104,Wonder Woman,86,China,2-Jun-17,37676314,90498909
 2000,DCEU,105,Justice League,1,United States,17-Nov-17,93842239,229024295
@@ -1525,7 +1525,7 @@
 2000,DCEU,105,Justice League,36,Hungary,16-Nov-17,375747,850523
 2000,DCEU,105,Justice League,354,Iceland,17-Nov-17,109477,276863
 2000,DCEU,105,Justice League,39,Italy,16-Nov-17,3544847,8000000
-2000,DCEU,105,Justice League,370,Lithuania,17-Oct-17,N/A,137701
+2000,DCEU,105,Justice League,370,Lithuania,17-Oct-17,,137701
 2000,DCEU,105,Justice League,31,Netherlands,16-Nov-17,1047947,2900000
 2000,DCEU,105,Justice League,47,Norway,17-Nov-17,545233,1593457
 2000,DCEU,105,Justice League,48,Poland,17-Nov-17,620618,1486879
@@ -1535,7 +1535,7 @@
 2000,DCEU,105,Justice League,386,Slovenia,16-Nov-17,38723,99320
 2000,DCEU,105,Justice League,27,South Africa,17-Nov-17,533436,2472762
 2000,DCEU,105,Justice League,34,Spain,17-Nov-17,3146740,8200000
-2000,DCEU,105,Justice League,41,Switzerland,15-Nov-17,N/A,1600000
+2000,DCEU,105,Justice League,41,Switzerland,15-Nov-17,,1600000
 2000,DCEU,105,Justice League,90,Turkey,17-Nov-17,1015582,2819023
 2000,DCEU,105,Justice League,380,Ukraine,16-Nov-17,782706,1438545
 2000,DCEU,105,Justice League,971,United Arab Emirates,16-Nov-17,1979754,4243907
@@ -1548,18 +1548,18 @@
 2000,DCEU,105,Justice League,595,Paraguay,16-Nov-17,116573,322636
 2000,DCEU,105,Justice League,598,Uruguay,16-Nov-17,95193,290904
 2000,DCEU,105,Justice League,61,Australia,16-Nov-17,6118671,15000000
-2000,DCEU,105,Justice League,852,Hong Kong,16-Nov-17,N/A,5900000
+2000,DCEU,105,Justice League,852,Hong Kong,16-Nov-17,,5900000
 2000,DCEU,105,Justice League,91,India,17-Nov-17,2790076,6291049
-2000,DCEU,105,Justice League,62,Indonesia,15-Nov-17,N/A,10800000
+2000,DCEU,105,Justice League,62,Indonesia,15-Nov-17,,10800000
 2000,DCEU,105,Justice League,81,Japan,23-Nov-17,1832919,9400000
 2000,DCEU,105,Justice League,64,New Zealand,16-Nov-17,951761,2343031
 2000,DCEU,105,Justice League,1007,Russia/CIS,16-Nov-17,6370631,10900000
 2000,DCEU,105,Justice League,82,South Korea,16-Nov-17,6402746,13100000
-2000,DCEU,105,Justice League,886,Taiwan,16-Nov-17,N/A,8100000
+2000,DCEU,105,Justice League,886,Taiwan,16-Nov-17,,8100000
 2000,DCEU,105,Justice League,66,Thailand,16-Nov-17,1918042,3335582
 2000,DCEU,105,Justice League,86,China,17-Nov-17,50562293,106052345
 2000,DCEU,106,Aquaman,1,United States,21-Dec-18,67873522,335061807
-2000,DCEU,106,Aquaman,359,Bulgaria,28-Dec-18,N/A,996179
+2000,DCEU,106,Aquaman,359,Bulgaria,28-Dec-18,,996179
 2000,DCEU,106,Aquaman,385,Croatia,13-Dec-18,184821,872210
 2000,DCEU,106,Aquaman,420,Czech Republic,13-Dec-18,542712,2693873
 2000,DCEU,106,Aquaman,33,France,19-Dec-18,6709120,29600000
@@ -1571,34 +1571,34 @@
 2000,DCEU,106,Aquaman,370,Lithuania,21-Dec-18,53010,317183
 2000,DCEU,106,Aquaman,31,Netherlands,13-Dec-18,1141243,7700000
 2000,DCEU,106,Aquaman,47,Norway,28-Dec-18,821995,3482706
-2000,DCEU,106,Aquaman,48,Poland,19-Dec-18,N/A,3944343
+2000,DCEU,106,Aquaman,48,Poland,19-Dec-18,,3944343
 2000,DCEU,106,Aquaman,351,Portugal,13-Dec-18,500838,2259638
 2000,DCEU,106,Aquaman,40,Romania,21-Dec-18,739591,3715560
-2000,DCEU,106,Aquaman,7,Russia,13-Dec-18,N/A,19700000
-2000,DCEU,106,Aquaman,1008,Serbia and Montenegro,20-Dec-18,N/A,565523
+2000,DCEU,106,Aquaman,7,Russia,13-Dec-18,,19700000
+2000,DCEU,106,Aquaman,1008,Serbia and Montenegro,20-Dec-18,,565523
 2000,DCEU,106,Aquaman,421,Slovakia,13-Dec-18,269485,996155
 2000,DCEU,106,Aquaman,386,Slovenia,13-Dec-18,45505,251231
 2000,DCEU,106,Aquaman,27,South Africa,21-Dec-18,693062,3811312
 2000,DCEU,106,Aquaman,34,Spain,21-Dec-18,2974895,16100000
-2000,DCEU,106,Aquaman,41,Switzerland,19-Dec-18,N/A,4600000
+2000,DCEU,106,Aquaman,41,Switzerland,19-Dec-18,,4600000
 2000,DCEU,106,Aquaman,90,Turkey,28-Dec-18,763713,3300000
 2000,DCEU,106,Aquaman,380,Ukraine,13-Dec-18,1129028,4049736
-2000,DCEU,106,Aquaman,971,United Arab Emirates,13-Dec-18,N/A,7547498
+2000,DCEU,106,Aquaman,971,United Arab Emirates,13-Dec-18,,7547498
 2000,DCEU,106,Aquaman,44,United Kingdom,12-Dec-18,6583115,28600000
 2000,DCEU,106,Aquaman,54,Argentina,13-Dec-18,893666,3800000
 2000,DCEU,106,Aquaman,591,Bolivia,20-Dec-18,345559,2127513
 2000,DCEU,106,Aquaman,55,Brazil,13-Dec-18,7249233,25522543
-2000,DCEU,106,Aquaman,56,Chile,13-Dec-18,N/A,3083153
+2000,DCEU,106,Aquaman,56,Chile,13-Dec-18,,3083153
 2000,DCEU,106,Aquaman,57,Colombia,27-Dec-18,2408676,11100000
 2000,DCEU,106,Aquaman,52,Mexico,13-Dec-18,6643640,30500000
 2000,DCEU,106,Aquaman,595,Paraguay,20-Dec-18,112699,467955
 2000,DCEU,106,Aquaman,598,Uruguay,27-Dec-18,76903,400594
 2000,DCEU,106,Aquaman,61,Australia,26-Dec-18,7931083,29500000
-2000,DCEU,106,Aquaman,852,Hong Kong,20-Dec-18,N/A,10000000
+2000,DCEU,106,Aquaman,852,Hong Kong,20-Dec-18,,10000000
 2000,DCEU,106,Aquaman,91,India,14-Dec-18,4200000,10100000
-2000,DCEU,106,Aquaman,62,Indonesia,12-Dec-18,N/A,17500000
+2000,DCEU,106,Aquaman,62,Indonesia,12-Dec-18,,17500000
 2000,DCEU,106,Aquaman,81,Japan,8-Feb-19,2864383,14800000
-2000,DCEU,106,Aquaman,60,Malaysia,13-Dec-18,N/A,9600000
+2000,DCEU,106,Aquaman,60,Malaysia,13-Dec-18,,9600000
 2000,DCEU,106,Aquaman,64,New Zealand,26-Dec-18,1139157,4710690
 2000,DCEU,106,Aquaman,63,Philippines,12-Dec-18,4400000,9100000
 2000,DCEU,106,Aquaman,1007,Russia/CIS,13-Dec-18,7842695,19700000
@@ -1617,19 +1617,19 @@
 2000,DCEU,107,Shazam!,39,Italy,3-Apr-19,1863756,4200000
 2000,DCEU,107,Shazam!,370,Lithuania,5-Apr-19,36451,102349
 2000,DCEU,107,Shazam!,31,Netherlands,4-Apr-19,726386,2200000
-2000,DCEU,107,Shazam!,234,Nigeria,5-Apr-19,N/A,313696
+2000,DCEU,107,Shazam!,234,Nigeria,5-Apr-19,,313696
 2000,DCEU,107,Shazam!,47,Norway,5-Apr-19,347162,976348
 2000,DCEU,107,Shazam!,48,Poland,5-Apr-19,436824,162008
 2000,DCEU,107,Shazam!,351,Portugal,4-Apr-19,281630,847546
 2000,DCEU,107,Shazam!,40,Romania,5-Apr-19,232431,777291
-2000,DCEU,107,Shazam!,7,Russia,4-Apr-19,N/A,10100000
-2000,DCEU,107,Shazam!,1008,Serbia and Montenegro,4-Apr-19,N/A,52839
+2000,DCEU,107,Shazam!,7,Russia,4-Apr-19,,10100000
+2000,DCEU,107,Shazam!,1008,Serbia and Montenegro,4-Apr-19,,52839
 2000,DCEU,107,Shazam!,421,Slovakia,4-Apr-19,143805,274651
 2000,DCEU,107,Shazam!,386,Slovenia,4-Apr-19,23291,61983
 2000,DCEU,107,Shazam!,27,South Africa,5-Apr-19,339180,1021881
 2000,DCEU,107,Shazam!,34,Spain,5-Apr-19,1677457,5000000
-2000,DCEU,107,Shazam!,41,Switzerland,3-Apr-19,N/A,1000000
-2000,DCEU,107,Shazam!,90,Turkey,5-Apr-19,N/A,940000
+2000,DCEU,107,Shazam!,41,Switzerland,3-Apr-19,,1000000
+2000,DCEU,107,Shazam!,90,Turkey,5-Apr-19,,940000
 2000,DCEU,107,Shazam!,380,Ukraine,4-Apr-19,636105,1441005
 2000,DCEU,107,Shazam!,971,United Arab Emirates,4-Apr-19,1796217,3684840
 2000,DCEU,107,Shazam!,44,United Kingdom,5-Apr-19,5302566,17500000
@@ -1641,14 +1641,14 @@
 2000,DCEU,107,Shazam!,595,Paraguay,4-Apr-19,54101,118475
 2000,DCEU,107,Shazam!,598,Uruguay,4-Apr-19,35363,113659
 2000,DCEU,107,Shazam!,61,Australia,4-Apr-19,3167301,11900000
-2000,DCEU,107,Shazam!,852,Hong Kong,4-Apr-19,N/A,2800000
+2000,DCEU,107,Shazam!,852,Hong Kong,4-Apr-19,,2800000
 2000,DCEU,107,Shazam!,91,India,5-Apr-19,511000,3800000
-2000,DCEU,107,Shazam!,62,Indonesia,3-Apr-19,N/A,6200000
+2000,DCEU,107,Shazam!,62,Indonesia,3-Apr-19,,6200000
 2000,DCEU,107,Shazam!,81,Japan,19-Apr-19,1491125,6400000
 2000,DCEU,107,Shazam!,64,New Zealand,4-Apr-19,577195,1796882
 2000,DCEU,107,Shazam!,1007,Russia/CIS,4-Apr-19,5118439,10000000
 2000,DCEU,107,Shazam!,82,South Korea,3-Apr-19,2796432,5000000
-2000,DCEU,107,Shazam!,886,Taiwan,3-Apr-19,N/A,4200000
+2000,DCEU,107,Shazam!,886,Taiwan,3-Apr-19,,4200000
 2000,DCEU,107,Shazam!,84,Vietnam,5-Apr-19,774486,1822160
 2000,DCEU,107,Shazam!,86,China,5-Apr-19,29652097,43800000
 2000,DCEU,108,Birds of Prey,1,United States,7-Feb-20,33010017,84158461
@@ -1663,30 +1663,30 @@
 2000,DCEU,108,Birds of Prey,370,Lithuania,7-Feb-20,34375,91772
 2000,DCEU,108,Birds of Prey,31,Netherlands,6-Feb-20,579559,1600000
 2000,DCEU,108,Birds of Prey,47,Norway,7-Feb-20,259342,793722
-2000,DCEU,108,Birds of Prey,48,Poland,7-Feb-20,N/A,1228294
+2000,DCEU,108,Birds of Prey,48,Poland,7-Feb-20,,1228294
 2000,DCEU,108,Birds of Prey,351,Portugal,6-Feb-20,333444,1100036
 2000,DCEU,108,Birds of Prey,40,Romania,7-Feb-20,180897,549130
-2000,DCEU,108,Birds of Prey,7,Russia,6-Feb-20,N/A,N/A
-2000,DCEU,108,Birds of Prey,1008,Serbia and Montenegro,6-Feb-20,N/A,76448
+2000,DCEU,108,Birds of Prey,7,Russia,6-Feb-20,,
+2000,DCEU,108,Birds of Prey,1008,Serbia and Montenegro,6-Feb-20,,76448
 2000,DCEU,108,Birds of Prey,421,Slovakia,6-Feb-20,78673,206634
 2000,DCEU,108,Birds of Prey,386,Slovenia,6-Feb-20,20574,79888
 2000,DCEU,108,Birds of Prey,27,South Africa,7-Feb-20,129164,347087
 2000,DCEU,108,Birds of Prey,34,Spain,7-Feb-20,1400000,3500000
-2000,DCEU,108,Birds of Prey,41,Switzerland,5-Feb-20,N/A,959000
+2000,DCEU,108,Birds of Prey,41,Switzerland,5-Feb-20,,959000
 2000,DCEU,108,Birds of Prey,90,Turkey,7-Feb-20,382727,1000000
-2000,DCEU,108,Birds of Prey,380,Ukraine,6-Feb-20,N/A,1092984
+2000,DCEU,108,Birds of Prey,380,Ukraine,6-Feb-20,,1092984
 2000,DCEU,108,Birds of Prey,971,United Arab Emirates,6-Feb-20,786693,1665016
 2000,DCEU,108,Birds of Prey,44,United Kingdom,7-Feb-20,3700000,11500000
-2000,DCEU,108,Birds of Prey,54,Argentina,6-Feb-20,N/A,1100000
+2000,DCEU,108,Birds of Prey,54,Argentina,6-Feb-20,,1100000
 2000,DCEU,108,Birds of Prey,591,Bolivia,6-Feb-20,66731,181875
 2000,DCEU,108,Birds of Prey,55,Brazil,6-Feb-20,2800000,5689847
-2000,DCEU,108,Birds of Prey,57,Colombia,6-Feb-20,N/A,1400000
+2000,DCEU,108,Birds of Prey,57,Colombia,6-Feb-20,,1400000
 2000,DCEU,108,Birds of Prey,52,Mexico,7-Feb-20,4400000,11300000
 2000,DCEU,108,Birds of Prey,595,Paraguay,6-Feb-20,29874,67324
 2000,DCEU,108,Birds of Prey,51,Peru,6-Feb-20,183385,478358
 2000,DCEU,108,Birds of Prey,598,Uruguay,6-Feb-20,24316,51295
 2000,DCEU,108,Birds of Prey,61,Australia,6-Feb-20,2580000,7537396
-2000,DCEU,108,Birds of Prey,852,Hong Kong,6-Feb-20,N/A,1700000
+2000,DCEU,108,Birds of Prey,852,Hong Kong,6-Feb-20,,1700000
 2000,DCEU,108,Birds of Prey,91,India,7-Feb-20,418637,818000
 2000,DCEU,108,Birds of Prey,62,Indonesia,5-Feb-20,2400000,3700000
 2000,DCEU,108,Birds of Prey,81,Japan,20-Mar-20,1109258,4508578
@@ -1704,24 +1704,24 @@
 2000,DCEU,109,Wonder Woman 1984,370,Lithuania,30-Apr-21,2967,6312
 2000,DCEU,109,Wonder Woman 1984,31,Netherlands,10-Jun-21,3692,7678
 2000,DCEU,109,Wonder Woman 1984,351,Portugal,16-Dec-20,104614,433784
-2000,DCEU,109,Wonder Woman 1984,966,Saudi Arabia,17-Dec-20,N/A,3400000
-2000,DCEU,109,Wonder Woman 1984,1008,Serbia and Montenegro,24-Dec-20,N/A,129124
+2000,DCEU,109,Wonder Woman 1984,966,Saudi Arabia,17-Dec-20,,3400000
+2000,DCEU,109,Wonder Woman 1984,1008,Serbia and Montenegro,24-Dec-20,,129124
 2000,DCEU,109,Wonder Woman 1984,421,Slovakia,17-Dec-20,30514,38469
-2000,DCEU,109,Wonder Woman 1984,27,South Africa,18-Dec-20,N/A,739214
+2000,DCEU,109,Wonder Woman 1984,27,South Africa,18-Dec-20,,739214
 2000,DCEU,109,Wonder Woman 1984,34,Spain,18-Dec-20,1103212,4400000
 2000,DCEU,109,Wonder Woman 1984,380,Ukraine,17-Dec-20,408254,1104397
-2000,DCEU,109,Wonder Woman 1984,971,United Arab Emirates,17-Dec-20,N/A,3171866
+2000,DCEU,109,Wonder Woman 1984,971,United Arab Emirates,17-Dec-20,,3171866
 2000,DCEU,109,Wonder Woman 1984,44,United Kingdom,18-Dec-20,1145069,2235243
 2000,DCEU,109,Wonder Woman 1984,55,Brazil,17-Dec-20,1660175,6900000
 2000,DCEU,109,Wonder Woman 1984,57,Colombia,25-Dec-20,341483,1322486
 2000,DCEU,109,Wonder Woman 1984,52,Mexico,16-Dec-20,1383625,4959500
 2000,DCEU,109,Wonder Woman 1984,61,Australia,26-Dec-20,3989697,19204042
 2000,DCEU,109,Wonder Woman 1984,852,Hong Kong,18-Feb-21,510833,1100719
-2000,DCEU,109,Wonder Woman 1984,91,India,24-Dec-20,N/A,N/A
+2000,DCEU,109,Wonder Woman 1984,91,India,24-Dec-20,,
 2000,DCEU,109,Wonder Woman 1984,81,Japan,18-Dec-20,1106761,5300000
 2000,DCEU,109,Wonder Woman 1984,64,New Zealand,26-Dec-20,632723,2840249
 2000,DCEU,109,Wonder Woman 1984,1007,Russia/CIS,7-Jan-21,573532,3921888
-2000,DCEU,109,Wonder Woman 1984,65,Singapore,17-Dec-20,N/A,3900000
+2000,DCEU,109,Wonder Woman 1984,65,Singapore,17-Dec-20,,3900000
 2000,DCEU,109,Wonder Woman 1984,82,South Korea,23-Dec-20,1794974,4398287
 2000,DCEU,109,Wonder Woman 1984,886,Taiwan,17-Dec-20,3500000,8900000
 2000,DCEU,109,Wonder Woman 1984,66,Thailand,17-Dec-20,2000000,3200000
