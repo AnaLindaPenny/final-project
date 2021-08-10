@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    font-family: Times New Roman, sans-serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+  .wrapper {
+    position: relative;
+    min-height: 50%;
+    padding-bottom: 170px;
+    overflow: auto;
+  }
+  
+  /* The footer is positioned at the bottom of the page */
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 30px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background: #041052;
+  }
+  
+  /* The code styles the text at the bottom of the footer */
+  .footer > .bottom {
+    position: fixed;
+    right: 0;
+    top: 2rem;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background: #041052;
+  }
+  
+  .navbar {
+    position: sticky;
+    font-size:2rem;
+    padding: 10px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    background: #991208;
+  }
+
+  .sub-navbar {
+    position: fixed;
+    font: size 5px;
+    padding: 6px;
+    padding-bottom: 6px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    display: block;
+    top: 4%;
+    bottom: 5;
+    float: left;
+    background: #991208;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 1;
+    width: 100%;
+}
+
+  li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #041052;
+}
+
+  li:last-child {
+    border-right: none;
+}
+
+  a {
+    display: block;
+    padding: 8px;
+    color: #e0641c;
+    font-weight:bold;
+
+}
+
+  li a  {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  li a:hover {
+    background-color:white;
+}
+
+  .active {
+      background-color:#041052
+  }
+
+img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+  /* This CSS styles the herogirl icon in the navbar */
+  .nav-herogirl {
+    position: absolute;
+    bottom: 15px;
+    left: 295px;
+    width: 35px;
+    color: white;
+  }
+  
+  /* Adding styles to the aside and filter form */
+  .herogirl-form {
+    margin-top: 50px;
+  }
+
+  /* This CSS styles the heroboy icon in the navbar */
+  .nav-heroboy {
+    position: left;
+    bottom: 5px;
+    left: 0px;
+    width: 35px;
+    color: white;
+  }
+  
+  /* Adding styles to the aside and filter form */
+  .heroboy-form {
+    margin-top: 50px;
+  }
+
+p1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 7rem;
+    font-weight: bold;
+    animation: title 1.7s forwards linear;
+    animation: subtitle 1.7s forwards linear;
+    animation-delay: 1.7s;
+}
+
+  .filters .panel-body {
+    padding: 0;
+  }
+  
+  .filters {
+    margin-top: 10px;
+  }
+  
+  select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    color: #a0280a;
+    outline: none;
+  }
+  
+  #table-area th {
+    text-align: center;
+  }
+  
+  #table-area th:first-child,
+  #table-area th:nth-child(2),
+  #table-area th:nth-child(6) {
+    min-width: 70px;
+  }
+  
+  .loader {
+    margin-top: 50px;
+  }
+  
+  .margin-top-50 {
+    margin-top: 50px;
+  }
+  
+  /* The styles for the parallax */
+  .hero {
+    position: center;
+    height: 600px;
+    width: 1960px;
+    padding: 20px;
+    margin: 5;
+    background: #041052;
+    background-image: url("../Images/Marvel_vs_DC.png");
+    background-attachment: local;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .hero h1 {
+    margin-top: 200px;
+    font-size: 0.1rem;
+    animation: title 1.2s forwards linear;
+  }
+  
+  .hero p {
+    font-size: 20rem;
+    opacity: 0;
+    animation: subtitle 1.2s forwards linear;
+    animation-delay: 1.2s;
+  }
+  
+  /* input placeholder color changes */
+  .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #8e979f;
+  }
+  
+  .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #8e979f;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #8e979f;
+  }
+  
+  .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #8e979f;
+  }
+  
+  /* media queries which will only be activated at specific screen sizes */
+  @media (max-width: 800px) {
+    #table-area td {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    #table-area thead {
+      display: none;
+    }
+  
+    #table-area tr td:first-child {
+      font-size: 1.8em;
+      font-weight: bold;
+      background: #a0280a;
+    }
+  
+    #table-area tr td:last-child {
+      margin-bottom: 20px;
+    }
+  
+    #table-area tr td:last-child::after {
+      display: block;
+      width: 100%;
+      height: 1px;
+      margin-top: 20px;
+      content: " ";
+      background: aliceblue;
+    }
+  
+    #table-area td {
+      font-size: 1.25em;
+    }
+  
+    #table-area tbody td {
+      display: block;
+      text-align: center;
+    }
+  
+    #table-area tbody td::before {
+      display: block;
+      font-size: 1.4em;
+      font-weight: bold;
+      text-align: center;
+      content: attr(data-th);
+    }
+  
+    .hero h1 {
+      animation: smaller-title 1.2s forwards linear;
+    }
+  }
+  
+  /* keyframe animations which will be used to animate the title */
+  @keyframes title {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      font-size: 7.5rem;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes smaller-title {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      font-size: 5.5rem;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes subtitle {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
