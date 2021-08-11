@@ -16,121 +16,14 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     })
 
     console.log(gross_revs)
-    // var mcu_values = []
-    // var dceu_values = []
-    // var xmen_values = []
-    // var supe_values = []
-    // var batman_values = []
-    
-    // var mcu_films = json_data.filter(film => film.universe_code === 1000)
-    // console.log(mcu_films)
-
-    // var dceu_films = json_data.filter(film => film.universe_code === 2000)
-    // console.log(dceu_films)
-
-    // var xmen_films = json_data.filter(film => film.universe_code === 3000)
-    // console.log(xmen_films)
-
-    // var supe_films = json_data.filter(film => film.universe_code === 4000)
-    // console.log(supe_films)
-
-    // var batman_films = json_data.filter(film => film.universe_code === 5000)
-    // console.log(batman_films)
-
-    // mcu_films.forEach(item => {
-    //     mcu_values.push(item)        
-    // })
-
-    // dceu_films.forEach(item => {
-    //     dceu_values.push(item)        
-    // })
-
-    // xmen_films.forEach(item => {
-    //     xmen_values.push(item)        
-    // })
-
-    // supe_films.forEach(item => {
-    //     supe_values.push(item)        
-    // })
-
-    // batman_films.forEach(item => {
-    //     batman_values.push(item)        
-    // })
-
-    // var mcu_points = []
-    // var dceu_points = []
-    // var xmen_points = []
-    // var batman_points = []
-    // var supe_points = []
-
-    // mcu_values.forEach(item => {
-    //     var point = {
-    //         x: item.year,
-    //         y: item.imdb_gross
-    //     }
-    //     mcu_points.push(point)
-    // })
-
-    // dceu_values.forEach(item => {
-    //     var point = {
-    //         x: item.year,
-    //         y: item.imdb_gross
-    //     }
-    //     dceu_points.push(point)
-    // })
-
-    // xmen_values.forEach(item => {
-    //     var point = {
-    //         x: item.year,
-    //         y: item.imdb_gross
-    //     }
-    //     xmen_points.push(point)
-    // })
-
-    // batman_values.forEach(item => {
-    //     var point = {
-    //         x: item.year,
-    //         y: item.imdb_gross
-    //     }
-    //     batman_points.push(point)
-    // })
-
-    // supe_values.forEach(item => {
-    //     var point = {
-    //         x: item.year,
-    //         y: item.imdb_gross
-    //     }
-    //     supe_points.push(point)
-    // })
     
     //  chart setup
     const data1 = {
         datasets: [{
-            lable: "Films",
+            label: "Films",
             data: gross_revs,
             backgroundColor: 'rgb(0,0,0)'
-        }]
-            // [{label: 'MCU',
-            // data: mcu_points,
-            // backgroundColor: 'rgb(255,0,0)'
-            // },
-            // {label: 'DCEU',
-            // data: dceu_points,
-            // backgroundColor: 'rgb(0,0,255)'
-            // },
-            // {label: 'X-Men',
-            // data: xmen_points,
-            // backgroundColor: 'rgb(255,255,0)'
-            // },
-            // {label: 'Batman',
-            // data: batman_points,
-            // backgroundColor: 'rgb(0,0,0)'
-            // },
-            // {label: 'Superman',
-            // data: supe_points,
-            // backgroundColor: 'rgb(0,128,0)'
-            // }]
-        ,
+        }],
     };
 
     // chart config
@@ -263,7 +156,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             },
             {label: 'Batman',
             data: batman_bubbles,
-            backgroundColor: 'rgb(0,0,0)'
+            backgroundColor: 'rgb(105,105,105)'
             },
             {label: 'Superman',
             data: supe_bubbles,
@@ -380,7 +273,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         {
           label: 'Franchise',
           data: slices,
-          backgroundColor: ['rgb(255,0,0)','rgb(0,0,255)','rgb(255,255,0)','rgb(0,0,0)','rgb(0,128,0)'],
+          backgroundColor: ['rgb(255,0,0)','rgb(0,0,255)','rgb(255,255,0)','rgb(105,105,105)','rgb(0,128,0)'],
         }
       ]
     };
@@ -416,10 +309,326 @@ d3.json("../Resources/final_MvDC.json").then(json => {
 
     // CHART 4
     // structure data
+    mcu_gross_revs = []
+
+
+    var mcu_films = json_data.filter(film => film.universe_code === 1000)
+    
+    mcu_films.forEach(item => {
+        var point = {
+            x: item.year,
+            y: item.imdb_gross
+        }
+        mcu_gross_revs.push(point)
+    })
 
     // chart setup
-
+    const data4 = {
+        datasets: [{
+            label: "Films",
+            data: mcu_gross_revs,
+            backgroundColor: 'rgb(255,0,0)'
+        }],
+    };
     // chart config
-
+    const config4 = {
+        type: 'scatter',
+        data: data4,
+        options: {
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'Release Year'
+                    }   
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: {
+                        display: true,
+                        text: 'Gross Revenue ($)'
+                    }
+                }
+            },
+            layout: {
+                padding: 100
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: "Gross Revenue of MCU Films"
+                }
+            }
+        }
+    };
     // render chart
+    Chart.defaults.font.size = 20;
+    Chart.defaults.font.family = "Tahoma";
+    var Chart4 = new Chart(
+        document.getElementById('Chart4'),
+        config4
+    )
+
+    // CHART 5
+    // structure data
+    dceu_gross_revs = []
+
+
+    var dceu_films = json_data.filter(film => film.universe_code === 2000)
+    
+    dceu_films.forEach(item => {
+        var point = {
+            x: item.year,
+            y: item.imdb_gross
+        }
+        dceu_gross_revs.push(point)
+    })
+
+    // chart setup
+    const data5 = {
+        datasets: [{
+            label: "Films",
+            data: dceu_gross_revs,
+            backgroundColor: 'rgb(0,0,255)'
+        }],
+    };
+    // chart config
+    const config5 = {
+        type: 'scatter',
+        data: data5,
+        options: {
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'Release Year'
+                    }   
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: {
+                        display: true,
+                        text: 'Gross Revenue ($)'
+                    }
+                }
+            },
+            layout: {
+                padding: 100
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: "Gross Revenue of DCEU Films"
+                }
+            }
+        }
+    };
+    // render chart
+    Chart.defaults.font.size = 20;
+    Chart.defaults.font.family = "Tahoma";
+    var Chart5 = new Chart(
+        document.getElementById('Chart5'),
+        config5
+    )
+
+    // CHART 6
+    // structure data
+    xmen_gross_revs = []
+
+
+    var xmen_films = json_data.filter(film => film.universe_code === 3000)
+    
+    xmen_films.forEach(item => {
+        var point = {
+            x: item.year,
+            y: item.imdb_gross
+        }
+        xmen_gross_revs.push(point)
+    })
+
+    // chart setup
+    const data6 = {
+        datasets: [{
+            label: "Films",
+            data: xmen_gross_revs,
+            backgroundColor: 'rgb(255,255,0)'
+        }],
+    };
+    // chart config
+    const config6 = {
+        type: 'scatter',
+        data: data6,
+        options: {
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'Release Year'
+                    }   
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: {
+                        display: true,
+                        text: 'Gross Revenue ($)'
+                    }
+                }
+            },
+            layout: {
+                padding: 100
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: "Gross Revenue of X-Men Films"
+                }
+            }
+        }
+    };
+    // render chart
+    Chart.defaults.font.size = 20;
+    Chart.defaults.font.family = "Tahoma";
+    var Chart6 = new Chart(
+        document.getElementById('Chart6'),
+        config6
+    )
+
+    // CHART 7
+    // structure data
+    supe_gross_revs = []
+
+
+    var supe_films = json_data.filter(film => film.universe_code === 4000)
+    
+    supe_films.forEach(item => {
+        var point = {
+            x: item.year,
+            y: item.imdb_gross
+        }
+        supe_gross_revs.push(point)
+    })
+
+    // chart setup
+    const data7 = {
+        datasets: [{
+            label: "Films",
+            data: supe_gross_revs,
+            backgroundColor: 'rgb(0,255,0)'
+        }],
+    };
+    // chart config
+    const config7 = {
+        type: 'scatter',
+        data: data7,
+        options: {
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'Release Year'
+                    }   
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: {
+                        display: true,
+                        text: 'Gross Revenue ($)'
+                    }
+                }
+            },
+            layout: {
+                padding: 100
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: "Gross Revenue of Superman Films"
+                }
+            }
+        }
+    };
+    // render chart
+    Chart.defaults.font.size = 20;
+    Chart.defaults.font.family = "Tahoma";
+    var Chart6 = new Chart(
+        document.getElementById('Chart7'),
+        config7
+    )
+
+    // CHART 8
+    // structure data
+    batman_gross_revs = []
+
+
+    var batman_films = json_data.filter(film => film.universe_code === 5000)
+    
+    batman_films.forEach(item => {
+        var point = {
+            x: item.year,
+            y: item.imdb_gross
+        }
+        batman_gross_revs.push(point)
+    })
+
+    // chart setup
+    const data8 = {
+        datasets: [{
+            label: "Films",
+            data: batman_gross_revs,
+            backgroundColor: 'rgb(105,105,105)'
+        }],
+    };
+    // chart config
+    const config8 = {
+        type: 'scatter',
+        data: data8,
+        options: {
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'Release Year'
+                    }   
+                },
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    title: {
+                        display: true,
+                        text: 'Gross Revenue ($)'
+                    }
+                }
+            },
+            layout: {
+                padding: 100
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: "Gross Revenue of Batman Films"
+                }
+            }
+        }
+    };
+    // render chart
+    Chart.defaults.font.size = 20;
+    Chart.defaults.font.family = "Tahoma";
+    var Chart6 = new Chart(
+        document.getElementById('Chart8'),
+        config8
+    )
 })
