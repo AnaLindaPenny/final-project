@@ -1,4 +1,4 @@
-title,year,genre,runtime,mpa_rating,imdb_rating,imdb_gross,director,tomato_meter,tom_aud_score,entity,universe_code,id,Star 1,Star 2,Star 3,Star 4
+title,year,genre,runtime,mpa_rating,imdb_rating,imdb_gross,director,tomato_meter,tom_aud_score,entity,universe_code,id,star_1,star_2,star_3,star_4
 Captain America,1944,"Action, Adventure, Sci-Fi",244,Approved,5.5,0,Elmer Clifton,0,82,MARVEL,,1,Elmer Clifton,Dick Purcell,Lorna Gray,Lionel Atwill
 Superman and the Mole-Men,1951,"Action, Adventure, Drama",58,Passed,5.7,0,Lee Sholem,0,83,DC,,58,George Reeves,Phyllis Coates,Jeff Corey,Walter Reed
 Batman: The Movie,1966,"Adventure, Comedy, Crime",105,PG,6.5,0,Leslie H. Martinson,79,62,DC,,59,Adam West,Burt Ward,Lee Meriwether,Cesar Romero

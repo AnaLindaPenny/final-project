@@ -9,53 +9,16 @@ load_dotenv()
 
 # Create Flask Instance
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DATABASE_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DATABASE_URL')
 
 # Add Database
 #app.config["SQLALCHEMY_DATABASE_URI"] = environ.get("DATABASE_URL", "<postgresql+psycopg2://username:password@host:port/database>")
 
 # Initialize the Database
-# db = SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 # Create a Class
-# class pokemon(db.Model):
-#     against_bug = db.Column(db.Float)
-#     against_dark = db.Column(db.Float)
-#     against_dragon = db.Column(db.Float)
-#     against_electric = db.Column(db.Float)
-#     against_fairy = db.Column(db.Float)
-#     against_fight = db.Column(db.Float)
-#     against_fire = db.Column(db.Float)
-#     against_flying = db.Column(db.Float)
-#     against_ghost = db.Column(db.Float)
-#     against_grass = db.Column(db.Float)
-#     against_ground = db.Column(db.Float)
-#     against_ice = db.Column(db.Float)
-#     against_normal = db.Column(db.Float)
-#     against_poison = db.Column(db.Float)
-#     against_psychic = db.Column(db.Float)
-#     against_rock = db.Column(db.Float)
-#     against_steel = db.Column(db.Float)
-#     against_water = db.Column(db.Float)
-#     attack = db.Column(db.Integer)
-#     base_egg_steps = db.Column(db.Integer)
-#     base_happiness = db.Column(db.Integer)
-#     base_total = db.Column(db.Integer)
-#     defense = db.Column(db.Integer)
-#     experience_growth = db.Column(db.Integer)
-#     height_m = db.Column(db.Float)
-#     hp = db.Column(db.Integer)
-#     name = db.Column(db.String)
-#     percentage_male = db.Column(db.Float)
-#     pokedex_number = db.Column(db.Integer, primary_key=True)
-#     sp_attack = db.Column(db.Integer)
-#     sp_defense = db.Column(db.Integer)
-#     speed = db.Column(db.Integer)
-#     type1 = db.Column(db.String)
-#     type2 = db.Column(db.String)
-#     weight_kg = db.Column(db.Float)
-#     generation = db.Column(db.Integer)
-#     is_legendary = db.Column(db.Boolean)
+
 class imdb_movie_info(db.Model):
     title = db.Column(db.Float)
     year = db.Column(db.Date)
@@ -69,30 +32,30 @@ class imdb_movie_info(db.Model):
     tom_aud_score = db.Column(db.Integer)
     entity = db.Column(db.Float)
     universe_code = db.Column(db.Integer)
-    id = db.Column(db.Integer)
-    Star_1 = db.Column(db.Float)
-    Star_2 = db.Column(db.Float)
-    Star_3 = db.Column(db.Float)
-    Star_4 = db.Column(db.Float)
+    id = db.Column(db.Integer, primary_key=True)
+    star_1 = db.Column(db.Float)
+    star_2 = db.Column(db.Float)
+    star_3 = db.Column(db.Float)
+    star_4 = db.Column(db.Float)
 
 class dceu_box_office(db.Model):
-    movie_code = db.Column(db.Integer)
+    movie_code = db.Column(db.Integer, primary_key=True)
     county_code = db.Column(db.Float)
     date = db.Column(db.Date)
     opening = db.Column(db.Integer)
     gross = db.Column(db.Integer)
 
 class mcu_box_office(db.Model):
-    movie_code = db.Column(db.Integer)
+    movie_code = db.Column(db.Integer, primary_key=True)
     country_code = db.Column(db.Float)
     release_date = db.Column(db.Date)
     opening = db.Column(db.Integer)
     gross = db.Column(db.Integer)
 
-class mcu_dceu_combined (db.Model):
+class mcu_dceu_combined(db.Model):
     universe_code = db.Column(db.Integer)
     universe_name = db.Column(db.Float)
-    movie_code = db.Column(db.Integer)
+    movie_code = db.Column(db.Integer, primary_key=True)
     movie_name = db.Column(db.Float)
     country_code = db.Column(db.Integer)
     country_name = db.Column(db.Float)
@@ -100,14 +63,58 @@ class mcu_dceu_combined (db.Model):
     opening = db.Column(db.Integer)
     gross = db.Column(db.Integer)
 
+class movie_universe(db.Model):
+    universe_code = db.Column(db.Integer, primary_key=True)
+    universe_name = db.Column(db.Float)
 
+class movie_codes(db.Model):
+    movie_name = db.Column(db.Float)
+    movie_code = db.Column(db.Integer, primary_key=True)
+    universe_code = db.Column(db.Integer)
+
+
+class country_codes(db.Model):
+    country_name = db.Column(db.Float)
+    country_code = db.Column(db.Float, primary_key=True)
+
+class summation_codes(db.Model):
+    summation_code = db.Column(db.Integer)
+    summation_name = db.Column(db.Float)
+    country_code = db.Column(db.Float, primary_key=True)
+    affiliated_country_islands = db.Column(db.Float)
 
 
 @app.route("/")
 def index():
-    return 'This is where our movie comparisons will be'
-    # return render_template("home.html")
+    # return 'This is where our movie comparisons will be'
+    return render_template("index.html")
 
+@app.route("/api/imdb")
+def imdb_postres():
+    ratings = db.session.query(imdb_movie_info)
+    rating_data=[]
+
+    for rating in rating_data:
+        data.append({
+            "title" : note.title,
+            "year" : note.year,
+            "genre" : note.genre,
+            "runtime" : note.runtime,
+            "mpa_rating" : note.mpa_rating,
+            "imdb_rating" : note.imdb_rating,
+            "imdb_gross" : note.imdb_gross,
+            "director" : note.director,
+            "tomato_meter" : note.tomato_meter,
+            "tom_aud_score" : note.tom_aud_score,
+            "entity" : note.entity,
+            "universe_code" : note.universe_code,
+            "id" : note.id,
+            "star_1" : note.star_1,
+            "star_2" : note.star_2,
+            "star_3 " : note.star_3,
+            "star_4" : note.star_4
+        })
+    return jsonify(rating_data)
 # @app.route('/api/notes/postgres')
 # def note_postgres():
 #     notes = db.session.query(pokemon)
@@ -155,9 +162,9 @@ def index():
 #         })
 #     return jsonify(data)
 
-# @app.route("/about")
-# def about():
-#     return render_template("about.html")
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 # @app.route("/generation")
 # def generation():

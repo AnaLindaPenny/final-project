@@ -1,4 +1,7 @@
-﻿-- DROP TABLE "combinedboxoffice";
+﻿-- DROP TABLE "imdb_movie_info";
+-- DROP TABLE "dceu_box_office";
+-- DROP TABLE "mcu_box_office";
+-- DROP TABLE "mcu_dceu_combined";
 
 CREATE TABLE "imdb_movie_info" (
     "title" VARCHAR(200)   NOT NULL,
