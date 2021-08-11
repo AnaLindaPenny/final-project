@@ -3,6 +3,12 @@
     font-family: Times New Roman, sans-serif;
   }
   
+  div.myTableauViz {
+    width: 950px;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  
   html,
   body {
     height: 100%;
