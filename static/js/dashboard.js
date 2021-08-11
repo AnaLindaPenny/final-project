@@ -681,13 +681,16 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'bar',
         data: data9,
         options: {
-          scales: {
-            y: {
-              beginAtZero: true
+            layout: {
+                padding: 100
+            },
+            scales: {
+                y: {
+                beginAtZero: true
+                }
             }
-          }
         },
-      };
+    };
     // render chart
     Chart.defaults.font.size = 20;
     Chart.defaults.font.family = "Tahoma";
