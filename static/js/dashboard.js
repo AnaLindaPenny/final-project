@@ -562,7 +562,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // render chart
     Chart.defaults.font.size = 20;
     Chart.defaults.font.family = "Tahoma";
-    var Chart6 = new Chart(
+    var Chart7 = new Chart(
         document.getElementById('Chart7'),
         config7
     )
@@ -627,8 +627,89 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // render chart
     Chart.defaults.font.size = 20;
     Chart.defaults.font.family = "Tahoma";
-    var Chart6 = new Chart(
+    var Chart8 = new Chart(
         document.getElementById('Chart8'),
         config8
     )
+
+    // CHART 9
+    // structure data
+    var mcu_films = json_data.filter(film => film.universe_code === 1000)
+    console.log(mcu_films)
+
+    var dceu_films = json_data.filter(film => film.universe_code === 2000)
+    console.log(dceu_films)
+
+    var xmen_films = json_data.filter(film => film.universe_code === 3000)
+    console.log(xmen_films)
+
+    var supe_films = json_data.filter(film => film.universe_code === 4000)
+    console.log(supe_films)
+
+    var batman_films = json_data.filter(film => film.universe_code === 5000)
+    console.log(batman_films)
+
+    var total_films = []
+
+    function film_counter(array) {
+        var count = array.length
+        total_films.push(count)
+    }
+
+    film_counter(mcu_films)
+    film_counter(dceu_films)
+    film_counter(xmen_films)
+    film_counter(supe_films)
+    film_counter(batman_films)
+
+    // chart setup
+    const labels = ["MCU Films","DCEU Films","X-Men Films","Superman Films", "Batman Films"];
+    const data9 = {
+      labels: labels,
+      datasets: [{
+        label: 'Films',
+        data: total_films,
+        backgroundColor: ["rgb(255,0,0)","rgb(0,0,255)","rgb(255,255,0)","rgb(105,105,105)","rgb(0,128,0)"],
+        borderColor: ["rgb(0,0,0)"],
+        borderWidth: 7,
+        borderRadius: 100,
+        borderSkipped: false
+      }]
+    };
+    // chart config
+    const config9 = {
+        type: 'bar',
+        data: data9,
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        },
+      };
+    // render chart
+    Chart.defaults.font.size = 20;
+    Chart.defaults.font.family = "Tahoma";
+    var Chart9 = new Chart(
+        document.getElementById('Chart9'),
+        config9
+    )
 })
+// backgroundColor: 'rgb(255,0,0)'
+//             },
+//             {label: 'DCEU',
+//             data: dceu_bubbles,
+//             backgroundColor: 'rgb(0,0,255)'
+//             },
+//             {label: 'X-Men',
+//             data: xmen_bubbles,
+//             backgroundColor: 'rgb(255,255,0)'
+//             },
+//             {label: 'Batman',
+//             data: batman_bubbles,
+//             backgroundColor: 'rgb(105,105,105)'
+//             },
+//             {label: 'Superman',
+//             data: supe_bubbles,
+//             backgroundColor: 'rgb(0,128,0)'
