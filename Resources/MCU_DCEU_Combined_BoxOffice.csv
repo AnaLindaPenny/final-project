@@ -1,71 +1,71 @@
 ﻿universe_code,universe_name,movie_code,movie_name,country_code,country_name,release_date,opening,gross
-1000,MCU,1,Iron Man,1,United States,26-Apr-19,"$98,618,668 ","$318,604,126 "
-1000,MCU,1,Iron Man,44,United Kingdom,25-Apr-19,"$271,106 ","$1,018,284 "
-1000,MCU,1,Iron Man,49,Germany,24-Apr-19,"$774,474 ","$1,970,548 "
-1000,MCU,1,Iron Man,33,France,24-Apr-19,"$65,345 ","$157,124 "
-1000,MCU,1,Iron Man,39,Italy,24-Apr-19,,"$162,294 "
-1000,MCU,1,Iron Man,34,Spain,26-Apr-19,,"$52,499 "
-1000,MCU,1,Iron Man,31,Netherlands,24-Apr-19,"$120,473 ","$400,223 "
-1000,MCU,1,Iron Man,971,United Arab Emirates,25-Apr-19,,"$467,215 "
-1000,MCU,1,Iron Man,46,Sweden,24-Apr-19,"$520,340 ","$2,220,811 "
-1000,MCU,1,Iron Man,48,Poland,25-Apr-19,"$33,119 ","$93,840 "
-1000,MCU,1,Iron Man,45,Denmark,24-Apr-19,,"$265,031 "
-1000,MCU,1,Iron Man,41,Switzerland,24-Apr-19,"$26,837 ","$83,069 "
-1000,MCU,1,Iron Man,32,Belgium,24-Apr-19,"$146,025 ","$673,760 "
-1000,MCU,1,Iron Man,43,Austria,24-Apr-19,"$6,949,053 ","$19,197,690 "
-1000,MCU,1,Iron Man,47,Norway,24-Apr-19,"$3,444,559 ","$8,560,475 "
-1000,MCU,1,Iron Man,90,Turkey,26-Apr-19,"$774,712 ","$1,799,601 "
-1000,MCU,1,Iron Man,27,South Africa,26-Apr-19,"$210,430 ","$682,308 "
-1000,MCU,1,Iron Man,420,Czech Republic,25-Apr-19,"$78,205 ","$278,202 "
-1000,MCU,1,Iron Man,380,Ukraine,25-Apr-19,,"$606,803 "
-1000,MCU,1,Iron Man,358,Finland,24-Apr-19,"$3,209,052 ","$10,809,921 "
-1000,MCU,1,Iron Man,36,Hungary,25-Apr-19,,"$839,076 "
-1000,MCU,1,Iron Man,351,Portugal,25-Apr-19,"$45,503 ","$126,835 "
-1000,MCU,1,Iron Man,30,Greece,25-Apr-19,"$34,294 ","$101,817 "
-1000,MCU,1,Iron Man,40,Romania,26-Apr-19,"$36,583 ","$158,882 "
-1000,MCU,1,Iron Man,421,Slovakia,25-Apr-19,"$691,152 ","$2,103,537 "
-1000,MCU,1,Iron Man,20,Egypt,26-Apr-19,"$15,840 ","$49,724 "
-1000,MCU,1,Iron Man,234,Nigeria,26-Apr-19,"$410,557 ","$1,860,067 "
-1000,MCU,1,Iron Man,385,Croatia,25-Apr-19,"$249,089 ","$995,816 "
-1000,MCU,1,Iron Man,1008,Serbia and Montenegro,25-Apr-19,"$467,270 ","$1,323,382 "
-1000,MCU,1,Iron Man,354,Iceland,26-Apr-19,,"$243,918 "
-1000,MCU,1,Iron Man,370,Lithuania,26-Apr-19,"$11,346 ","$30,130 "
-1000,MCU,1,Iron Man,386,Slovenia,25-Apr-19,"$21,106 ","$69,024 "
-1000,MCU,1,Iron Man,359,Bulgaria,26-Apr-19,"$15,711 ","$88,033 "
-1000,MCU,1,Iron Man,55,Brazil,25-Apr-19,"$463,180 ","$1,464,664 "
-1000,MCU,1,Iron Man,52,Mexico,26-Apr-19,,"$1,488,822 "
-1000,MCU,1,Iron Man,56,Chile,25-Apr-19,"$3,368,430 ","$12,030,026 "
-1000,MCU,1,Iron Man,54,Argentina,25-Apr-19,"$531,264 ","$2,057,727 "
-1000,MCU,1,Iron Man,57,Colombia,25-Apr-19,"$470,771 ","$1,361,378 "
-1000,MCU,1,Iron Man,591,Bolivia,25-Apr-19,"$548,588 ","$1,662,239 "
-1000,MCU,1,Iron Man,595,Paraguay,25-Apr-19,"$450,763 ","$828,937 "
-1000,MCU,1,Iron Man,598,Uruguay,25-Apr-19,"$693,087 ","$1,841,925 "
-1000,MCU,1,Iron Man,58,Venezuela,26-Apr-19,"$10,772,921 ","$34,282,266 "
-1000,MCU,1,Iron Man,82,South Korea,24-Apr-20,"$513,662 ","$1,606,400 "
-1000,MCU,1,Iron Man,91,India,26-Apr-19,"$44,241 ","$151,386 "
-1000,MCU,1,Iron Man,61,Australia,24-Apr-19,"$3,416,837 ","$13,499,792 "
-1000,MCU,1,Iron Man,81,Japan,26-Apr-19,,"$2,187,416 "
-1000,MCU,1,Iron Man,1007,Russia/CIS,29-Apr-19,"$527,314 ","$1,383,728 "
-1000,MCU,1,Iron Man,62,Indonesia,24-Apr-19,"$420,079 ","$1,729,740 "
-1000,MCU,1,Iron Man,63,Philippines,24-Apr-19,,"$926,368 "
-1000,MCU,1,Iron Man,886,Taiwan,24-Apr-19,"$5,272,729 ","$15,945,395 "
-1000,MCU,1,Iron Man,852,Hong Kong,24-Apr-19,"$565,379 ","$1,521,193 "
-1000,MCU,1,Iron Man,66,Thailand,24-Apr-19,"$28,478 ","$73,896 "
-1000,MCU,1,Iron Man,60,Malaysia,24-Apr-19,"$481,702 ","$1,891,944 "
-1000,MCU,1,Iron Man,65,Singapore,24-Apr-19,"$5,788,340 ","$19,087,903 "
-1000,MCU,1,Iron Man,84,Vietnam,26-Apr-19,"$1,180,256 ","$2,844,618 "
-1000,MCU,1,Iron Man,64,New Zealand,24-Apr-19,,"$1,993,885 "
-1000,MCU,1,Iron Man,86,China,24-Apr-19,,"$2,147,484 "
-1000,MCU,2,The Incredible Hulk,1,United States,13-Jun-08,"$1,958,331 ","$8,658,784 "
-1000,MCU,2,The Incredible Hulk,43,Austria,11-Jul-08,"$1,357,704 ","$3,469,079 "
-1000,MCU,2,The Incredible Hulk,32,Belgium,25-Jun-08,"$1,020,627 ","$2,731,097 "
-1000,MCU,2,The Incredible Hulk,359,Bulgaria,13-Jun-08,"$1,745,112 ","$3,994,681 "
-1000,MCU,2,The Incredible Hulk,385,Croatia,10-Jul-08,"$4,379,511 ","$9,490,254 "
-1000,MCU,2,The Incredible Hulk,357,Cyprus,13-Jun-08,"$1,544,008 ","$3,823,968 "
-1000,MCU,2,The Incredible Hulk,420,Czech Republic,17-Jul-08,"$5,943,181 ","$25,169,783 "
-1000,MCU,2,The Incredible Hulk,1002,Czech Republic/Slovakia,17-Jul-08,"$1,025,713 ","$5,367,022 "
-1000,MCU,2,The Incredible Hulk,45,Denmark,27-Jun-08,"$1,046,772 ","$2,446,286 "
-1000,MCU,2,The Incredible Hulk,1003,East Africa,13-Jun-08,,"$15,274,332 "
+1000,MCU,1,Iron Man,1,United States,26-Apr-19,98618668,318604126
+1000,MCU,1,Iron Man,44,United Kingdom,25-Apr-19,271106,1018284
+1000,MCU,1,Iron Man,49,Germany,24-Apr-19,774474,1970548
+1000,MCU,1,Iron Man,33,France,24-Apr-19,65345,157124
+1000,MCU,1,Iron Man,39,Italy,24-Apr-19,,162294
+1000,MCU,1,Iron Man,34,Spain,26-Apr-19,,52499
+1000,MCU,1,Iron Man,31,Netherlands,24-Apr-19,120473,400223
+1000,MCU,1,Iron Man,971,United Arab Emirates,25-Apr-19,,467215
+1000,MCU,1,Iron Man,46,Sweden,24-Apr-19,520340,2220811
+1000,MCU,1,Iron Man,48,Poland,25-Apr-19,33119,93840
+1000,MCU,1,Iron Man,45,Denmark,24-Apr-19,,265031
+1000,MCU,1,Iron Man,41,Switzerland,24-Apr-19,26837,83069
+1000,MCU,1,Iron Man,32,Belgium,24-Apr-19,146025,673760
+1000,MCU,1,Iron Man,43,Austria,24-Apr-19,6949053,19197690
+1000,MCU,1,Iron Man,47,Norway,24-Apr-19,3444559,8560475
+1000,MCU,1,Iron Man,90,Turkey,26-Apr-19,774712,1799601
+1000,MCU,1,Iron Man,27,South Africa,26-Apr-19,210430,682308
+1000,MCU,1,Iron Man,420,Czech Republic,25-Apr-19,78205,278202
+1000,MCU,1,Iron Man,380,Ukraine,25-Apr-19,,606803
+1000,MCU,1,Iron Man,358,Finland,24-Apr-19,3209052,10809921
+1000,MCU,1,Iron Man,36,Hungary,25-Apr-19,,839076
+1000,MCU,1,Iron Man,351,Portugal,25-Apr-19,45503,126835
+1000,MCU,1,Iron Man,30,Greece,25-Apr-19,34294,101817
+1000,MCU,1,Iron Man,40,Romania,26-Apr-19,36583,158882
+1000,MCU,1,Iron Man,421,Slovakia,25-Apr-19,691152,2103537
+1000,MCU,1,Iron Man,20,Egypt,26-Apr-19,15840,49724
+1000,MCU,1,Iron Man,234,Nigeria,26-Apr-19,410557,1860067
+1000,MCU,1,Iron Man,385,Croatia,25-Apr-19,249089,995816
+1000,MCU,1,Iron Man,1008,Serbia and Montenegro,25-Apr-19,467270,1323382
+1000,MCU,1,Iron Man,354,Iceland,26-Apr-19,,243918
+1000,MCU,1,Iron Man,370,Lithuania,26-Apr-19,11346,30130
+1000,MCU,1,Iron Man,386,Slovenia,25-Apr-19,21106,69024
+1000,MCU,1,Iron Man,359,Bulgaria,26-Apr-19,15711,88033
+1000,MCU,1,Iron Man,55,Brazil,25-Apr-19,463180,1464664
+1000,MCU,1,Iron Man,52,Mexico,26-Apr-19,,1488822
+1000,MCU,1,Iron Man,56,Chile,25-Apr-19,3368430,12030026
+1000,MCU,1,Iron Man,54,Argentina,25-Apr-19,531264,2057727
+1000,MCU,1,Iron Man,57,Colombia,25-Apr-19,470771,1361378
+1000,MCU,1,Iron Man,591,Bolivia,25-Apr-19,548588,1662239
+1000,MCU,1,Iron Man,595,Paraguay,25-Apr-19,450763,828937
+1000,MCU,1,Iron Man,598,Uruguay,25-Apr-19,693087,1841925
+1000,MCU,1,Iron Man,58,Venezuela,26-Apr-19,10772921,34282266
+1000,MCU,1,Iron Man,82,South Korea,24-Apr-20,513662,1606400
+1000,MCU,1,Iron Man,91,India,26-Apr-19,44241,151386
+1000,MCU,1,Iron Man,61,Australia,24-Apr-19,3416837,13499792
+1000,MCU,1,Iron Man,81,Japan,26-Apr-19,,2187416
+1000,MCU,1,Iron Man,1007,Russia/CIS,29-Apr-19,527314,1383728
+1000,MCU,1,Iron Man,62,Indonesia,24-Apr-19,420079,1729740
+1000,MCU,1,Iron Man,63,Philippines,24-Apr-19,,926368
+1000,MCU,1,Iron Man,886,Taiwan,24-Apr-19,5272729,15945395
+1000,MCU,1,Iron Man,852,Hong Kong,24-Apr-19,565379,1521193
+1000,MCU,1,Iron Man,66,Thailand,24-Apr-19,28478,73896
+1000,MCU,1,Iron Man,60,Malaysia,24-Apr-19,481702,1891944
+1000,MCU,1,Iron Man,65,Singapore,24-Apr-19,5788340,19087903
+1000,MCU,1,Iron Man,84,Vietnam,26-Apr-19,1180256,2844618
+1000,MCU,1,Iron Man,64,New Zealand,24-Apr-19,,1993885
+1000,MCU,1,Iron Man,86,China,24-Apr-19,,2147484
+1000,MCU,2,The Incredible Hulk,1,United States,13-Jun-08,1958331,8658784
+1000,MCU,2,The Incredible Hulk,43,Austria,11-Jul-08,1357704,3469079
+1000,MCU,2,The Incredible Hulk,32,Belgium,25-Jun-08,1020627,2731097
+1000,MCU,2,The Incredible Hulk,359,Bulgaria,13-Jun-08,1745112,3994681
+1000,MCU,2,The Incredible Hulk,385,Croatia,10-Jul-08,4379511,9490254
+1000,MCU,2,The Incredible Hulk,357,Cyprus,13-Jun-08,1544008,3823968
+1000,MCU,2,The Incredible Hulk,420,Czech Republic,17-Jul-08,5943181,25169783
+1000,MCU,2,The Incredible Hulk,1002,Czech Republic/Slovakia,17-Jul-08,1025713,5367022
+1000,MCU,2,The Incredible Hulk,45,Denmark,27-Jun-08,1046772,2446286
+1000,MCU,2,The Incredible Hulk,1003,East Africa,13-Jun-08,,15274332
 1000,MCU,2,The Incredible Hulk,20,Egypt,18-Jun-08,,275749
 1000,MCU,2,The Incredible Hulk,372,Estonia,13-Jun-08,8280,28037
 1000,MCU,2,The Incredible Hulk,358,Finland,13-Jun-08,56548,222314
@@ -102,7 +102,7 @@
 1000,MCU,2,The Incredible Hulk,54,Argentina,19-Jun-08,422838,935727
 1000,MCU,2,The Incredible Hulk,591,Bolivia,12-Jun-08,22719,67950
 1000,MCU,2,The Incredible Hulk,55,Brazil,13-Jun-08,1743519,4893267
-1000,MCU,2,The Incredible Hulk,N/A,Central America+,13-Jun-08,,1229654
+1000,MCU,2,The Incredible Hulk,,Central America+,13-Jun-08,,1229654
 1000,MCU,2,The Incredible Hulk,56,Chile,12-Jun-08,125119,340611
 1000,MCU,2,The Incredible Hulk,57,Colombia,20-Jun-08,281555,751814
 1000,MCU,2,The Incredible Hulk,593,Ecuador,13-Jun-08,,379250

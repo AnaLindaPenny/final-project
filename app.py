@@ -56,6 +56,50 @@ app = Flask(__name__)
 #     weight_kg = db.Column(db.Float)
 #     generation = db.Column(db.Integer)
 #     is_legendary = db.Column(db.Boolean)
+class imdb_movie_info(db.Model):
+    title = db.Column(db.Float)
+    year = db.Column(db.Date)
+    genre = db.Column(db.Float)
+    runtime = db.Column(db.Integer)
+    mpa_rating = db.Column(db.Float)
+    imdb_rating = db.Column(db.Float)
+    imdb_gross = db.Column(db.Integer)
+    director = db.Column(db.Float)
+    tomato_meter = db.Column(db.Integer)
+    tom_aud_score = db.Column(db.Integer)
+    entity = db.Column(db.Float)
+    universe_code = db.Column(db.Integer)
+    id = db.Column(db.Integer)
+    Star_1 = db.Column(db.Float)
+    Star_2 = db.Column(db.Float)
+    Star_3 = db.Column(db.Float)
+    Star_4 = db.Column(db.Float)
+
+class dceu_box_office(db.Model):
+    movie_code = db.Column(db.Integer)
+    county_code = db.Column(db.Float)
+    date = db.Column(db.Date)
+    opening = db.Column(db.Integer)
+    gross = db.Column(db.Integer)
+
+class mcu_box_office(db.Model):
+    movie_code = db.Column(db.Integer)
+    country_code = db.Column(db.Float)
+    release_date = db.Column(db.Date)
+    opening = db.Column(db.Integer)
+    gross = db.Column(db.Integer)
+
+class mcu_dceu_combined (db.Model):
+    universe_code = db.Column(db.Integer)
+    universe_name = db.Column(db.Float)
+    movie_code = db.Column(db.Integer)
+    movie_name = db.Column(db.Float)
+    country_code = db.Column(db.Integer)
+    country_name = db.Column(db.Float)
+    release_date = db.Column(db.Date)
+    opening = db.Column(db.Integer)
+    gross = db.Column(db.Integer)
+
 
 
 
