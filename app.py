@@ -20,68 +20,68 @@ db = SQLAlchemy(app)
 # Create a Class
 
 class imdb_movie_info(db.Model):
-    title = db.Column(db.Float)
-    year = db.Column(db.Date)
-    genre = db.Column(db.Float)
+    title = db.Column(db.String)
+    year = db.Column(db.Integer)
+    genre = db.Column(db.String)
     runtime = db.Column(db.Integer)
-    mpa_rating = db.Column(db.Float)
+    mpa_rating = db.Column(db.String)
     imdb_rating = db.Column(db.Float)
     imdb_gross = db.Column(db.Integer)
-    director = db.Column(db.Float)
+    director = db.Column(db.String)
     tomato_meter = db.Column(db.Integer)
     tom_aud_score = db.Column(db.Integer)
-    entity = db.Column(db.Float)
+    entity = db.Column(db.String)
     universe_code = db.Column(db.Integer)
     id = db.Column(db.Integer, primary_key=True)
-    star_1 = db.Column(db.Float)
-    star_2 = db.Column(db.Float)
-    star_3 = db.Column(db.Float)
-    star_4 = db.Column(db.Float)
+    star_one = db.Column(db.String)
+    star_two = db.Column(db.String)
+    star_three = db.Column(db.String)
+    star_four = db.Column(db.String)
 
-class dceu_box_office(db.Model):
-    movie_code = db.Column(db.Integer, primary_key=True)
-    county_code = db.Column(db.Float)
-    date = db.Column(db.Date)
-    opening = db.Column(db.Integer)
-    gross = db.Column(db.Integer)
+# class dceu_box_office(db.Model):
+#     movie_code = db.Column(db.Integer, primary_key=True)
+#     county_code = db.Column(db.Float)
+#     date = db.Column(db.Date)
+#     opening = db.Column(db.Integer)
+#     gross = db.Column(db.Integer)
 
-class mcu_box_office(db.Model):
-    movie_code = db.Column(db.Integer, primary_key=True)
-    country_code = db.Column(db.Float)
-    release_date = db.Column(db.Date)
-    opening = db.Column(db.Integer)
-    gross = db.Column(db.Integer)
+# class mcu_box_office(db.Model):
+#     movie_code = db.Column(db.Integer, primary_key=True)
+#     country_code = db.Column(db.Float)
+#     release_date = db.Column(db.Date)
+#     opening = db.Column(db.Integer)
+#     gross = db.Column(db.Integer)
 
-class mcu_dceu_combined(db.Model):
-    universe_code = db.Column(db.Integer)
-    universe_name = db.Column(db.Float)
-    movie_code = db.Column(db.Integer, primary_key=True)
-    movie_name = db.Column(db.Float)
-    country_code = db.Column(db.Integer)
-    country_name = db.Column(db.Float)
-    release_date = db.Column(db.Date)
-    opening = db.Column(db.Integer)
-    gross = db.Column(db.Integer)
+# class mcu_dceu_combined(db.Model):
+#     universe_code = db.Column(db.Integer)
+#     universe_name = db.Column(db.Float)
+#     movie_code = db.Column(db.Integer, primary_key=True)
+#     movie_name = db.Column(db.Float)
+#     country_code = db.Column(db.Integer)
+#     country_name = db.Column(db.Float)
+#     release_date = db.Column(db.Date)
+#     opening = db.Column(db.Integer)
+#     gross = db.Column(db.Integer)
 
-class movie_universe(db.Model):
-    universe_code = db.Column(db.Integer, primary_key=True)
-    universe_name = db.Column(db.Float)
+# class movie_universe(db.Model):
+#     universe_code = db.Column(db.Integer, primary_key=True)
+#     universe_name = db.Column(db.Float)
 
-class movie_codes(db.Model):
-    movie_name = db.Column(db.Float)
-    movie_code = db.Column(db.Integer, primary_key=True)
-    universe_code = db.Column(db.Integer)
+# class movie_codes(db.Model):
+#     movie_name = db.Column(db.Float)
+#     movie_code = db.Column(db.Integer, primary_key=True)
+#     universe_code = db.Column(db.Integer)
 
 
-class country_codes(db.Model):
-    country_name = db.Column(db.Float)
-    country_code = db.Column(db.Float, primary_key=True)
+# class country_codes(db.Model):
+#     country_name = db.Column(db.Float)
+#     country_code = db.Column(db.Float, primary_key=True)
 
-class summation_codes(db.Model):
-    summation_code = db.Column(db.Integer)
-    summation_name = db.Column(db.Float)
-    country_code = db.Column(db.Float, primary_key=True)
-    affiliated_country_islands = db.Column(db.Float)
+# class summation_codes(db.Model):
+#     summation_code = db.Column(db.Integer)
+#     summation_name = db.Column(db.Float)
+#     country_code = db.Column(db.Float, primary_key=True)
+#     affiliated_country_islands = db.Column(db.Float)
 
 
 @app.route("/")
@@ -91,10 +91,10 @@ def index():
 
 @app.route("/api/imdb")
 def imdb_postres():
-    ratings = db.session.query(imdb_movie_info)
-    rating_data=[]
+    notes = db.session.query(imdb_movie_info)
+    data=[]
 
-    for rating in rating_data:
+    for note in notes:
         data.append({
             "title" : note.title,
             "year" : note.year,
@@ -109,12 +109,12 @@ def imdb_postres():
             "entity" : note.entity,
             "universe_code" : note.universe_code,
             "id" : note.id,
-            "star_1" : note.star_1,
-            "star_2" : note.star_2,
-            "star_3 " : note.star_3,
-            "star_4" : note.star_4
+            "star_one" : note.star_one,
+            "star_two" : note.star_two,
+            "star_three" : note.star_three,
+            "star_four" : note.star_four
         })
-    return jsonify(rating_data)
+    return jsonify(data)
 # @app.route('/api/notes/postgres')
 # def note_postgres():
 #     notes = db.session.query(pokemon)
