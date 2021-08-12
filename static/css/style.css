@@ -134,6 +134,14 @@ h3 {
   font-weight: bold;
 }
 
+h5 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+}
+
+
+
   /* This CSS styles the herogirl icon in the navbar */
   .nav-herogirl {
     position: absolute;
