@@ -34,7 +34,7 @@
     min-height: 30px;
     padding: 5px;
     padding-bottom: 10px;
-    background: #041052;
+    background: #991208;
   }
   
   /* The code styles the text at the bottom of the footer */
@@ -45,7 +45,7 @@
     bottom: 0;
     left: 0;
     padding: 5px;
-    background: #041052;
+    background: #991208;
   }
   
   .navbar {
@@ -80,17 +80,17 @@
     overflow: hidden;
     top: 1;
     width: 100%;
-}
+  }
 
   li {
     display: inline;
     float: left;
     border-right: 1px solid #041052;
-}
+  }
 
   li:last-child {
     border-right: none;
-}
+  } 
 
   a {
     display: block;
@@ -98,21 +98,21 @@
     color: #e0641c;
     font-weight:bold;
 
-}
+  }
 
   li a  {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+  }
 
   li a:hover {
     background-color:white;
-}
+  }
 
   .active {
-      background-color:#041052
+      background-color:#e0641c
   }
 
 img {
@@ -120,7 +120,13 @@ img {
     height: auto;
 }
 
+a {
+  color:#041052
+}
 
+h3 {
+  color:#041052
+}
 
   /* This CSS styles the herogirl icon in the navbar */
   .nav-herogirl {
