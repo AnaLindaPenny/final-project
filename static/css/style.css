@@ -129,7 +129,9 @@ a:hover {
 }
 
 h3 {
-  color:#041052
+  color:#041052;
+  font-style: italic;
+  font-weight: bold;
 }
 
   /* This CSS styles the herogirl icon in the navbar */
