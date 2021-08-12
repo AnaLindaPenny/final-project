@@ -174,9 +174,9 @@ p1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 7rem;
     font-weight: bold;
+    animation-duration: 5s;
     animation: title 1.7s forwards linear;
     animation: subtitle 1.7s forwards linear;
-    animation-delay: 1.7s;
 }
 
   .filters .panel-body {
