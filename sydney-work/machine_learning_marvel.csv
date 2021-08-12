@@ -1,4 +1,3 @@
-machinelearning_marvel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 title,year,CA,IM,BW,Thor,Hulk,HE,NF,Vision,SM,SL,Wanda,AM,DS,BP,CM,genre,runtime,mpa_rating,imdb_rating,imdb_gross,director,JF,AR,JossW,JG,JW,PR,tomato_meter,tom_aud_score,entity,universe_code,id,star_1,star_2,star_3,star_4
 Iron Man,2008,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,"Action, Adventure, Sci-Fi",126,PG-13,7.9,318410000,Jon Favreau,1,0,0,0,0,0,94,91,MARVEL,1000,19,Jon Favreau,Robert Downey Jr.,Gwyneth Paltrow,Terrence Howard
 Iron Man 2,2010,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,"Action, Adventure, Sci-Fi",124,PG-13,7,312430000,Jon Favreau,1,0,0,0,0,0,72,71,MARVEL,1000,23,Jon Favreau,Robert Downey Jr.,Mickey Rourke,Gwyneth Paltrow
