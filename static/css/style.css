@@ -51,7 +51,7 @@
   .navbar {
     position: sticky;
     font-size:2rem;
-    padding: 10px;
+    padding: 5px;
     right: 0;
     left: 0;
     margin: 0;
@@ -67,7 +67,7 @@
     left: 0;
     margin: 0;
     display: block;
-    top: 5.5%;
+    top: 6.5%;
     bottom: 5;
     float: left;
     background: #991208;
@@ -145,9 +145,9 @@ h5 {
   /* This CSS styles the herogirl icon in the navbar */
   .nav-herogirl {
     position: absolute;
-    bottom: 15px;
-    left: 295px;
-    width: 35px;
+    bottom: 7px;
+    left: 320px;
+    width: 55px;
     color: white;
   }
   
@@ -161,7 +161,7 @@ h5 {
     position: left;
     bottom: 5px;
     left: 0px;
-    width: 35px;
+    width: 55px;
     color: white;
   }
   
