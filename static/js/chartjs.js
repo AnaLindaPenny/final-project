@@ -3,7 +3,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     var json_data = json
     console.log(json_data)
 
-    // CHART 1
+    // CHART 1 (SCATTER: GROSS REVENUE FOR ALL SUPERHERO FILMS)
     // structure data
     gross_revs = []
 
@@ -49,10 +49,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
+                legend: {
+                    display: false
+                },
                 title: {
                     display: true,
                     text: "Gross Revenue of Superhero Films"
@@ -69,7 +69,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config1
     );
 
-    // CHART 2
+    // CHART 2 (BUBBLE: FILM SERIES RATINGS W/ GROSS REVENUE)
     // structure data
     var mcu_bubbles = []
     var dceu_bubbles = []
@@ -184,9 +184,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
                 title: {
                     display: true,
@@ -204,7 +201,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config2
     )
 
-    // CHART 3
+    // CHART 3 (PIE: FRANCHISE GROSS REVENUE)
     // structure data
     var slices = []
 
@@ -283,9 +280,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'pie',
         data: data3,
         options: {
-            layout: {
-                padding: 100
-            }, 
+            borderWidth: 3,
             responsive: true,
             plugins: {
                 legend: {
@@ -307,7 +302,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config3
     )
 
-    // CHART 4
+    // CHART 4 (SCATTER: MCU GROSS REVENUE)
     // structure data
     mcu_gross_revs = []
 
@@ -353,10 +348,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
+                legend: {
+                    display: false
+                },
                 title: {
                     display: true,
                     text: "Gross Revenue of MCU Films"
@@ -372,7 +367,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config4
     )
 
-    // CHART 5
+    // CHART 5 (SCATTER: DCEU GROSS REVENUE)
     // structure data
     dceu_gross_revs = []
 
@@ -418,10 +413,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
+                legend: {
+                    display: false
+                },
                 title: {
                     display: true,
                     text: "Gross Revenue of DCEU Films"
@@ -437,7 +432,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config5
     )
 
-    // CHART 6
+    // CHART 6 ((SCATTER: X-MEN GROSS REVENUE))
     // structure data
     xmen_gross_revs = []
 
@@ -483,10 +478,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
+                legend: {
+                    display: false
+                },
                 title: {
                     display: true,
                     text: "Gross Revenue of X-Men Films"
@@ -502,7 +497,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config6
     )
 
-    // CHART 7
+    // CHART 7 (SCATTER: SUPERMAN GROSS REVENUE)
     // structure data
     supe_gross_revs = []
 
@@ -548,10 +543,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
+                legend: {
+                    display: false
+                },
                 title: {
                     display: true,
                     text: "Gross Revenue of Superman Films"
@@ -567,7 +562,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config7
     )
 
-    // CHART 8
+    // CHART 8 (SCATTER: BATMAN GROSS REVENUE)
     // structure data
     batman_gross_revs = []
 
@@ -613,10 +608,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     }
                 }
             },
-            layout: {
-                padding: 100
-            },
             plugins: {
+                legend: {
+                    display: false
+                },
                 title: {
                     display: true,
                     text: "Gross Revenue of Batman Films"
@@ -632,7 +627,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config8
     )
 
-    // CHART 9
+    // CHART 9 (BAR: TOTAL FILMS PER FRANCHISE)
     // structure data
     var mcu_films = json_data.filter(film => film.universe_code === 1000)
     console.log(mcu_films)
@@ -669,9 +664,9 @@ d3.json("../Resources/final_MvDC.json").then(json => {
       datasets: [{
         label: 'Films',
         data: total_films,
-        backgroundColor: ["rgb(255,0,0)","rgb(0,0,255)","rgb(255,255,0)","rgb(105,105,105)","rgb(0,128,0)"],
-        borderColor: ["rgb(0,0,0)"],
-        borderWidth: 7,
+        backgroundColor: ["rgb(255,0,0)","rgb(0,0,255)","rgb(255,255,0)","rgb(0,128,0)","rgb(105,105,105)"],
+        borderColor: ["rgb(255,255,255)"],
+        borderWidth: 3,
         borderRadius: 100,
         borderSkipped: false
       }]
@@ -681,13 +676,15 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'bar',
         data: data9,
         options: {
-            layout: {
-                padding: 100
-            },
             scales: {
                 y: {
                 beginAtZero: true
                 }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                },
             }
         },
     };
@@ -699,20 +696,3 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         config9
     )
 })
-// backgroundColor: 'rgb(255,0,0)'
-//             },
-//             {label: 'DCEU',
-//             data: dceu_bubbles,
-//             backgroundColor: 'rgb(0,0,255)'
-//             },
-//             {label: 'X-Men',
-//             data: xmen_bubbles,
-//             backgroundColor: 'rgb(255,255,0)'
-//             },
-//             {label: 'Batman',
-//             data: batman_bubbles,
-//             backgroundColor: 'rgb(105,105,105)'
-//             },
-//             {label: 'Superman',
-//             data: supe_bubbles,
-//             backgroundColor: 'rgb(0,128,0)'
