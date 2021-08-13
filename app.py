@@ -38,50 +38,49 @@ class imdb_movie_info(db.Model):
     star_three = db.Column(db.String)
     star_four = db.Column(db.String)
 
-# class dceu_box_office(db.Model):
-#     movie_code = db.Column(db.Integer, primary_key=True)
-#     county_code = db.Column(db.Float)
-#     date = db.Column(db.Date)
-#     opening = db.Column(db.Integer)
-#     gross = db.Column(db.Integer)
+class dceu_box_office(db.Model):
+    movie_code = db.Column(db.Integer, primary_key=True)
+    county_code = db.Column(db.Integer)
+    date = db.Column(db.Date)
+    opening = db.Column(db.Float)
+    gross = db.Column(db.Float)
 
-# class mcu_box_office(db.Model):
-#     movie_code = db.Column(db.Integer, primary_key=True)
-#     country_code = db.Column(db.Float)
-#     release_date = db.Column(db.Date)
-#     opening = db.Column(db.Integer)
-#     gross = db.Column(db.Integer)
+class mcu_box_office(db.Model):
+    movie_code = db.Column(db.Integer, primary_key=True)
+    county_code = db.Column(db.String)
+    date = db.Column(db.Date)
+    opening = db.Column(db.Float)
+    gross = db.Column(db.Float)
 
-# class mcu_dceu_combined(db.Model):
-#     universe_code = db.Column(db.Integer)
-#     universe_name = db.Column(db.Float)
-#     movie_code = db.Column(db.Integer, primary_key=True)
-#     movie_name = db.Column(db.Float)
-#     country_code = db.Column(db.Integer)
-#     country_name = db.Column(db.Float)
-#     release_date = db.Column(db.Date)
-#     opening = db.Column(db.Integer)
-#     gross = db.Column(db.Integer)
+class mcu_dceu_combined(db.Model):
+    universe_code = db.Column(db.Integer)
+    universe_name = db.Column(db.String)
+    movie_code = db.Column(db.Integer, primary_key=True)
+    movie_name = db.Column(db.String)
+    country_code = db.Column(db.Integer)
+    country_name = db.Column(db.String)
+    release_date = db.Column(db.Date)
+    opening = db.Column(db.Integer)
+    gross = db.Column(db.Integer)
 
 # class movie_universe(db.Model):
 #     universe_code = db.Column(db.Integer, primary_key=True)
-#     universe_name = db.Column(db.Float)
+#     universe_name = db.Column(db.String)
 
 # class movie_codes(db.Model):
-#     movie_name = db.Column(db.Float)
+#     movie_name = db.Column(db.String)
 #     movie_code = db.Column(db.Integer, primary_key=True)
 #     universe_code = db.Column(db.Integer)
 
-
 # class country_codes(db.Model):
-#     country_name = db.Column(db.Float)
+#     country_name = db.Column(db.String)
 #     country_code = db.Column(db.Float, primary_key=True)
 
 # class summation_codes(db.Model):
 #     summation_code = db.Column(db.Integer)
-#     summation_name = db.Column(db.Float)
+#     summation_name = db.Column(db.String)
 #     country_code = db.Column(db.Float, primary_key=True)
-#     affiliated_country_islands = db.Column(db.Float)
+#     affiliated_country_islands = db.Column(db.String)
 
 
 @app.route("/")
@@ -115,52 +114,55 @@ def imdb_postres():
             "star_four" : note.star_four
         })
     return jsonify(data)
-# @app.route('/api/notes/postgres')
-# def note_postgres():
-#     notes = db.session.query(pokemon)
-#     data = []
 
-#     for note in notes:
-#         data.append({
-#             "against_bug" : note.against_bug,
-#             "against_dark" : note.against_dark,
-#             "against_dragon" : note.against_dragon,
-#             "against_electric" : note.against_electric,
-#             "against_fairy" : note.against_fairy,
-#             "against_fight" : note.against_fight,
-#             "against_fire" : note.against_fire,
-#             "against_flying" : note.against_flying,
-#             "against_ghost" : note.against_ghost,
-#             "against_grass" : note.against_grass,
-#             "against_ground" : note.against_ground,
-#             "against_ice" : note.against_ice,
-#             "against_normal" : note.against_normal,
-#             "against_poison" : note.against_poison,
-#             "against_psychic" : note.against_psychic,
-#             "against_rock" : note.against_rock,
-#             "against_steel" : note.against_steel,
-#             "against_water" : note.against_water,
-#             "attack" : note.attack,
-#             "base_egg_steps" : note.base_egg_steps,
-#             "base_happiness" : note.base_happiness,
-#             "base_total" : note.base_total,
-#             "defense" : note.defense,
-#             "experience_growth" : note.experience_growth,
-#             "height_m" : note.height_m,
-#             "hp" : note.hp,
-#             "name" : note.name,
-#             "percentage_male" : note.percentage_male,
-#             "pokedex_number" : note.pokedex_number,
-#             "sp_attack" : note.sp_attack,
-#             "sp_defense" : note.sp_defense,
-#             "speed" : note.speed,
-#             "type1" : note.type1,
-#             "type2" : note.type2,
-#             "weight_kg" : note.weight_kg,
-#             "generation" : note.generation,
-#             "is_legendary" : note.is_legendary
-#         })
-#     return jsonify(data)
+@app.route("/api/dceu")
+def dceu_postres():
+    notes = db.session.query(dceu_box_office)
+    data=[]
+
+    for note in notes:
+        data.append({
+            "movie_code" : note.movie_code,
+            "county_code" : note.county_code,
+            "date" : note.date,
+            "opening" : note.opening,
+            "gross" : note.gross
+        })
+    return jsonify(data)
+
+@app.route("/api/mcu")
+def mcu_postres():
+    notes = db.session.query(mcu_box_office)
+    data=[]
+
+    for note in notes:
+        data.append({
+            "movie_code" : note.movie_code,
+            "county_code" : note.county_code,
+            "date" : note.date,
+            "opening" : note.opening,
+            "gross" : note.gross
+        })
+    return jsonify(data)
+
+@app.route("/api/combined")
+def combined_postres():
+    notes = db.session.query(mcu_dceu_combined)
+    data=[]
+
+    for note in notes:
+        data.append({
+            "universe_code" : note.universe_code,
+            "universe_name" : note.universe_name,
+            "movie_code" : note.movie_code,
+            "movie_name" : note.movie_name,
+            "country_code" : note.country_code,
+            "country_name" : note.country_name,
+            "release_date" : note.release_date,
+            "opening" : note.opening,
+            "gross" : note.gross
+        })
+    return jsonify(data)
 
 @app.route("/chartjs")
 def chartjs():
