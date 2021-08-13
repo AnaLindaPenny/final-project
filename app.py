@@ -9,7 +9,7 @@ load_dotenv()
 
 # Create Flask Instance
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DATABASE_URL')
+app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('DATABASE_URI')
 
 # Add Database
 #app.config["SQLALCHEMY_DATABASE_URI"] = environ.get("DATABASE_URL", "<postgresql+psycopg2://username:password@host:port/database>")
