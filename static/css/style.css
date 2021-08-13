@@ -141,6 +141,22 @@ h5 {
   padding-top: 50px;
 }
 
+h6 {
+  color:#e0641c;
+  font-style: italic;
+  font-size: 175%;
+  font-weight: bold;
+}
+
+p6 {
+  color:#e0641c;
+  font-style: italic;
+  font-size: 150%;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+
 
 
   /* This CSS styles the herogirl icon in the navbar */
