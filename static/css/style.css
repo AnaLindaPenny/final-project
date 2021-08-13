@@ -142,7 +142,7 @@ h5 {
 }
 
 h6 {
-  color:#e0641c;
+  color: white;
   font-style: italic;
   font-size: 175%;
   font-weight: bold;
@@ -151,7 +151,15 @@ h6 {
 p6 {
   color:#e0641c;
   font-style: italic;
-  font-size: 150%;
+  font-size: 105%;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+p7 {
+  color: white;
+  font-style: italic;
+  font-size: 110%;
   line-height: 1.6;
   font-weight: bold;
 }
