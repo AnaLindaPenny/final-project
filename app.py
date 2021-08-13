@@ -162,7 +162,7 @@ def imdb_postres():
 #         })
 #     return jsonify(data)
 
-@ap.route("/chartjs")
+@app.route("/chartjs")
 def chartjs():
     return render_template("chartjs.html")
 
