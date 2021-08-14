@@ -5,7 +5,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
 
     // CHART 1 (SCATTER: GROSS REVENUE FOR ALL SUPERHERO FILMS)
     // structure data
-    gross_revs = []
+    var gross_revs = []
     var titles = []
 
     json_data.forEach(item => {
@@ -21,6 +21,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     
     //  chart setup
     const data1 = {
+        labels:titles,
         datasets: [{
             label: "Films",
             data: gross_revs,
@@ -64,10 +65,15 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 },
                 title: {
                     display: true,
-                    text: "Gross Revenue of Superhero Films"
+                    text: "Gross Revenue of All Superhero Films"
                 },
                 tooltip: {
-                    backgroundColor: 'rgb(0,0,0)'
+                    backgroundColor: 'rgb(0,0,0)',
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            return data1.labels[tooltipItems[0].dataIndex]                           
+                        }
+                    }                    
                 }
             }
         }
@@ -185,7 +191,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             datasets: {
                 bubble: {
                     borderColor: "rgb(0,0,0)",
-                    borderWidth: 1
+                    borderWidth: 3
                 }
             },
             scales: {
@@ -331,11 +337,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // CHART 4 (SCATTER: MCU GROSS REVENUE)
     // structure data
     mcu_gross_revs = []
+    mcu_titles = []
 
 
     var mcu_films = json_data.filter(film => film.universe_code === 1000)
     
     mcu_films.forEach(item => {
+        mcu_titles.push(item.title)
         var point = {
             x: item.year,
             y: item.imdb_gross/1000000
@@ -393,6 +401,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Gross Revenue of MCU Films"
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            return mcu_titles[tooltipItems[0].dataIndex]                           
+                        }
+                    }
                 }
             }
         }
@@ -408,11 +423,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // CHART 5 (SCATTER: DCEU GROSS REVENUE)
     // structure data
     dceu_gross_revs = []
-
+    dceu_titles = []
 
     var dceu_films = json_data.filter(film => film.universe_code === 2000)
     
     dceu_films.forEach(item => {
+        dceu_titles.push(item.title)
         var point = {
             x: item.year,
             y: item.imdb_gross/1000000
@@ -470,6 +486,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Gross Revenue of DCEU Films"
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            return dceu_titles[tooltipItems[0].dataIndex]                           
+                        }
+                    }
                 }
             }
         }
@@ -485,11 +508,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // CHART 6 ((SCATTER: X-MEN GROSS REVENUE))
     // structure data
     xmen_gross_revs = []
-
+    xmen_titles = []
 
     var xmen_films = json_data.filter(film => film.universe_code === 3000)
     
     xmen_films.forEach(item => {
+        xmen_titles.push(item.title)
         var point = {
             x: item.year,
             y: item.imdb_gross/1000000
@@ -547,6 +571,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Gross Revenue of X-Men Films"
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            return xmen_titles[tooltipItems[0].dataIndex]                           
+                        }
+                    }
                 }
             }
         }
@@ -562,11 +593,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // CHART 7 (SCATTER: SUPERMAN GROSS REVENUE)
     // structure data
     supe_gross_revs = []
-
+    supe_titles = []
 
     var supe_films = json_data.filter(film => film.universe_code === 4000)
     
     supe_films.forEach(item => {
+        supe_titles.push(item.title)
         var point = {
             x: item.year,
             y: item.imdb_gross/1000000
@@ -624,6 +656,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Gross Revenue of Superman Films"
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            return supe_titles[tooltipItems[0].dataIndex]                           
+                        }
+                    }
                 }
             }
         }
@@ -639,11 +678,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // CHART 8 (SCATTER: BATMAN GROSS REVENUE)
     // structure data
     batman_gross_revs = []
-
+    batman_titles = []
 
     var batman_films = json_data.filter(film => film.universe_code === 5000)
     
     batman_films.forEach(item => {
+        batman_titles.push(item.title)
         var point = {
             x: item.year,
             y: item.imdb_gross/1000000
@@ -701,6 +741,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Gross Revenue of Batman Films"
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            return batman_titles[tooltipItems[0].dataIndex]                           
+                        }
+                    }
                 }
             }
         }
