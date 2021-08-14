@@ -36,6 +36,31 @@
     padding-bottom: 10px;
     background: #991208;
   }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .blender {
+    color:#041052;
+    font-style: italic;
+  }
+  .jumbotron {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 60px;
+    text-align: center;
+    align-items: center;
+    border: 8px double #991208;
+    background-color:#8e979f;
+  }
   
   /* The code styles the text at the bottom of the footer */
   .footer > .bottom {
