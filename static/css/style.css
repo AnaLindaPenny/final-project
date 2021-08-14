@@ -120,10 +120,11 @@ img {
     height: auto;
 }
 
-.column {
+.column2 {
   position: sticky;
   float: right;
   width: 40%;
+  background-color: #041052;
 }
 
 a {
