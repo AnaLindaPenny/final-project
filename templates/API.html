@@ -39,14 +39,14 @@
 
     <div class="container">
         <br>
-        <h1>This is How We Roll API</h1>
+        <h1>Marvel Versus DC API</h1>
         <br>
         <h2>Routes</h2>
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Coaster Data
+                    IMDb
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -61,9 +61,9 @@
           </thead>
           <tbody>
             <tr>
-              <td>Clean Coasters</td>
-              <td>Route will render a json of the clean roller coaster data, included completed fields for Roller Coaster Names, Amusement Park Name, Type, Design, Status, and Open Date.</td>
-              <td><a href="https://how-we-roll.herokuapp.com/api/coasters/" target="_blank">/api/coasters/</a></td>
+              <td>IMDb</td>
+              <td>Route will render IMDb information.</td>
+              <td><a href="https://leagueofavengers.herokuapp.com/api/imdb" target="_blank">/api/imdb/</a></td>
             </tr>
             </tbody>
             </table>
@@ -75,7 +75,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collasped" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Record Holders
+              Box Office
             </button>
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
@@ -90,24 +90,19 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Drops</td>
-                    <td>Route will render a table-formatted json of the top 10 roller coasters by depth of drop, park name, location, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/drop" target="_blank">/api/records/drop/</a></td>
+                    <td>Marvel</td>
+                    <td>Route will render a table-formatted json of the box office earnings for Marvel movies.</td>
+                    <td><a href="https://leagueofavengers.herokuapp.com/api/mcu" target="_blank">/api/mcu</a></td>
                   </tr>
                   <tr>
-                    <td>Heights</td>
-                    <td>Route will render a table-formatted json of the top 10 roller coasters by maximum height, park name, location, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/height" target="_blank">/api/records/height/</a></td>
+                    <td>DC</td>
+                    <td>Route will render a table-formatted json of the box office earnings for DC movies.</td>
+                    <td><a href="https://leagueofavengers.herokuapp.com/api/dceu" target="_blank">/api/dceu</a></td>
                   </tr>
                   <tr>
-                    <td>Lengths</td>
-                    <td>Route will render a table-formatted json of the top 10 roller coasters by track length, park name, location, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/length" target="_blank">/api/records/length/</a></td>
-                  </tr>
-                  <tr>
-                    <td>Speeds</td>
-                    <td>Route will render a table-formatted json of the top 10 roller coasters by top speed, park name, location, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/speed" target="_blank">/api/records/speed/</a></td>
+                    <td>Universes Combined</td>
+                    <td>Route will render a table-formatted json of the Marvel and DC box office earnings</td>
+                    <td><a href="https://leagueofavengers.herokuapp.com/api/combined" target="_blank">/api/combined</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -115,53 +110,6 @@
           </div>
         </div>
         <br>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collasped" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              GeoJSONs
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Title</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Route</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>IMDb</td>
-                    <td>Route will render JSON of IMDb ratings.</td>
-                    <td><a href="https://leagueofavengers.herokuapp.com/api/imdb" target="_blank">/api/imdb</a></td>
-                  </tr>
-                  <tr>
-                    <td>Heights</td>
-                    <td>Route will render a geojson of the top 10 roller coasters by maximum height, park name, location (latitude and longitude), geometry, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/height_geo" target="_blank">/api/records/height_geo/</a></td>
-                  </tr>
-                  <tr>
-                    <td>Lengths</td>
-                    <td>Route will render a geojson of the top 10 roller coasters by track length, park name, location (latitude and longitude), geometry, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/length_geo" target="_blank">/api/records/length_geo/</a></td>
-                  </tr>
-                  <tr>
-                    <td>Speeds</td>
-                    <td>Route will render a geojson of the top 10 roller coasters by top speed, park name, location (latitude and longitude), geometry, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/speed_geo" target="_blank">/api/records/speed_geo/</a></td>
-                  </tr>
-                  <tr>
-                    <td>Worldview</td>
-                    <td>Route will render a geojson of the count of roller coasters per country, country's geometry, country's population and area (per square mile).</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/worldview" target="_blank">/api/worldview/</a></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
     </div>
 </body>
 
