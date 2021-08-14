@@ -6,11 +6,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     // CHART 1 (SCATTER: GROSS REVENUE FOR ALL SUPERHERO FILMS)
     // structure data
     gross_revs = []
+    var titles = []
 
     json_data.forEach(item => {
+        titles.push(item.title)
         var point = {
             x: item.year,
-            y: item.imdb_gross
+            y: item.imdb_gross/1000000
         }
         gross_revs.push(point)
     })
@@ -38,15 +40,22 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     title: {
                         display: true,
                         text: 'Release Year'
-                    }   
+                    },
+                    ticks: {
+                        minRotation: 50,
+                        callback: function(value, index, values) {
+                            return ' ' + value
+                        }
+                    }
                 },
                 y: {
                     type: 'linear',
                     position: 'left',
+                    min: -20,
                     title: {
                         display: true,
-                        text: 'Gross Revenue ($)'
-                    }
+                        text: 'Millions (USD)'
+                    }                    
                 }
             },
             plugins: {
@@ -56,6 +65,9 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Gross Revenue of Superhero Films"
+                },
+                tooltip: {
+                    backgroundColor: 'rgb(0,0,0)'
                 }
             }
         }
@@ -152,7 +164,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             },
             {label: 'X-Men',
             data: xmen_bubbles,
-            backgroundColor: 'rgb(255,255,0)'
+            backgroundColor: 'rgb(255,215,0)'
             },
             {label: 'Batman',
             data: batman_bubbles,
@@ -170,12 +182,21 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'bubble',
         data: data2,
         options: {
+            datasets: {
+                bubble: {
+                    borderColor: "rgb(0,0,0)",
+                    borderWidth: 1
+                }
+            },
             scales: {
                 x: {
                     title: {
                         display: true,
                         text: 'Tomato Audience Score'
-                    }  
+                    },
+                    ticks: {
+                        minRotation: 50
+                    }
                 },
                 y: {
                     title: {
@@ -191,7 +212,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 }
             }
         }
-      };
+    };
 
     // render chart
     Chart.defaults.font.size = 20;
@@ -270,7 +291,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         {
           label: 'Franchise',
           data: slices,
-          backgroundColor: ['rgb(255,0,0)','rgb(0,0,255)','rgb(255,255,0)','rgb(105,105,105)','rgb(0,128,0)'],
+          backgroundColor: ['rgb(255,0,0)','rgb(0,0,255)','rgb(255,215,0)','rgb(105,105,105)','rgb(0,128,0)'],
         }
       ]
     };
@@ -280,6 +301,11 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'pie',
         data: data3,
         options: {
+            datasets: {
+                pie: {
+                    borderColor: "rgb(0,0,0)"
+                }
+            },
             borderWidth: 3,
             responsive: true,
             plugins: {
@@ -288,7 +314,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             },
             title: {
                 display: true,
-                text: 'Gross Revenue ($) of Superhero Film Franchises'
+                text: 'Gross Revenue (USD) of Superhero Film Franchises'
             }
           }
         },
@@ -312,7 +338,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     mcu_films.forEach(item => {
         var point = {
             x: item.year,
-            y: item.imdb_gross
+            y: item.imdb_gross/1000000
         }
         mcu_gross_revs.push(point)
     })
@@ -330,6 +356,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'scatter',
         data: data4,
         options: {
+            datasets: {
+                scatter: {
+                    borderColor: "rgb(0,0,0)",
+                    borderWidth: 1
+                }
+            },
             scales: {
                 x: {
                     type: 'linear',
@@ -337,14 +369,20 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     title: {
                         display: true,
                         text: 'Release Year'
-                    }   
+                    },
+                    ticks: {
+                        minRotation: 50,
+                        callback: function(value, index, values) {
+                            return ' ' + value
+                        }
+                    }  
                 },
                 y: {
                     type: 'linear',
                     position: 'left',
                     title: {
                         display: true,
-                        text: 'Gross Revenue ($)'
+                        text: 'Millions (USD)'
                     }
                 }
             },
@@ -377,7 +415,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     dceu_films.forEach(item => {
         var point = {
             x: item.year,
-            y: item.imdb_gross
+            y: item.imdb_gross/1000000
         }
         dceu_gross_revs.push(point)
     })
@@ -395,6 +433,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'scatter',
         data: data5,
         options: {
+            datasets: {
+                scatter: {
+                    borderColor: "rgb(0,0,0)",
+                    borderWidth: 1
+                }
+            },
             scales: {
                 x: {
                     type: 'linear',
@@ -402,6 +446,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     title: {
                         display: true,
                         text: 'Release Year'
+                    },
+                    ticks: {
+                        minRotation: 50,
+                        callback: function(value, index, values) {
+                            return ' ' + value
+                        }
                     }   
                 },
                 y: {
@@ -409,7 +459,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     position: 'left',
                     title: {
                         display: true,
-                        text: 'Gross Revenue ($)'
+                        text: 'Millions (USD)'
                     }
                 }
             },
@@ -442,7 +492,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     xmen_films.forEach(item => {
         var point = {
             x: item.year,
-            y: item.imdb_gross
+            y: item.imdb_gross/1000000
         }
         xmen_gross_revs.push(point)
     })
@@ -452,7 +502,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         datasets: [{
             label: "Films",
             data: xmen_gross_revs,
-            backgroundColor: 'rgb(255,255,0)'
+            backgroundColor: 'rgb(255,215,0)'
         }],
     };
     // chart config
@@ -460,6 +510,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'scatter',
         data: data6,
         options: {
+            datasets: {
+                scatter: {
+                    borderColor: "rgb(0,0,0)",
+                    borderWidth: 1
+                }
+            },
             scales: {
                 x: {
                     type: 'linear',
@@ -467,6 +523,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     title: {
                         display: true,
                         text: 'Release Year'
+                    },
+                    ticks: {
+                        minRotation: 50,
+                        callback: function(value, index, values) {
+                            return ' ' + value
+                        }
                     }   
                 },
                 y: {
@@ -474,7 +536,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     position: 'left',
                     title: {
                         display: true,
-                        text: 'Gross Revenue ($)'
+                        text: 'Millions (USD)'
                     }
                 }
             },
@@ -507,7 +569,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     supe_films.forEach(item => {
         var point = {
             x: item.year,
-            y: item.imdb_gross
+            y: item.imdb_gross/1000000
         }
         supe_gross_revs.push(point)
     })
@@ -525,6 +587,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'scatter',
         data: data7,
         options: {
+            datasets: {
+                scatter: {
+                    borderColor: "rgb(0,0,0)",
+                    borderWidth: 1
+                }
+            },
             scales: {
                 x: {
                     type: 'linear',
@@ -532,14 +600,20 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     title: {
                         display: true,
                         text: 'Release Year'
-                    }   
+                    },
+                    ticks: {
+                        minRotation: 50,
+                        callback: function(value, index, values) {
+                            return ' ' + value
+                        }
+                    } 
                 },
                 y: {
                     type: 'linear',
                     position: 'left',
                     title: {
                         display: true,
-                        text: 'Gross Revenue ($)'
+                        text: 'Millions (USD)'
                     }
                 }
             },
@@ -572,7 +646,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     batman_films.forEach(item => {
         var point = {
             x: item.year,
-            y: item.imdb_gross
+            y: item.imdb_gross/1000000
         }
         batman_gross_revs.push(point)
     })
@@ -590,6 +664,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'scatter',
         data: data8,
         options: {
+            datasets: {
+                scatter: {
+                    borderColor: "rgb(0,0,0)",
+                    borderWidth: 1
+                }
+            },
             scales: {
                 x: {
                     type: 'linear',
@@ -597,6 +677,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     title: {
                         display: true,
                         text: 'Release Year'
+                    },
+                    ticks: {
+                        minRotation: 50,
+                        callback: function(value, index, values) {
+                            return ' ' + value
+                        }
                     }   
                 },
                 y: {
@@ -604,7 +690,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     position: 'left',
                     title: {
                         display: true,
-                        text: 'Gross Revenue ($)'
+                        text: 'Millions (USD)'
                     }
                 }
             },
@@ -664,8 +750,8 @@ d3.json("../Resources/final_MvDC.json").then(json => {
       datasets: [{
         label: 'Films',
         data: total_films,
-        backgroundColor: ["rgb(255,0,0)","rgb(0,0,255)","rgb(255,255,0)","rgb(0,128,0)","rgb(105,105,105)"],
-        borderColor: ["rgb(255,255,255)"],
+        backgroundColor: ["rgb(255,0,0)","rgb(0,0,255)","rgb(255,215,0)","rgb(0,128,0)","rgb(105,105,105)"],
+        borderColor: ["rgb(0,0,0)"],
         borderWidth: 3,
         borderRadius: 100,
         borderSkipped: false
@@ -682,6 +768,10 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 }
             },
             plugins: {
+                title: {
+                    display: true,
+                    text: "Film Count by Superhero Film Franchise"
+                },
                 legend: {
                     display: false
                 },

@@ -4,12 +4,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Superhero Films</title>
+        <title>Superhero Films: A Broad Perspective</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/chartjs.css">
     </head>
 
     <body>
@@ -40,14 +41,22 @@
             </sub-navbar-nav>
 
         <div class="container-fluid">
-            <div class="row mt-5 pt-5">
+            <div class="row pt-5 mt-5 w-50 mx-auto">
+                <div class="col bg-white p-5">
+                    <div class="h1 fw-bold text-center text-dark">Superhero Films</div>
+                    <div class="h3 text-center text-dark">A Broad Perspective</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-3 pt-3">
                 <div class="col bg-white m-5 p-5">
                     <div>
                         <canvas id="Chart1"></canvas>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-3 p-3">
                 <div class="col bg-white m-2 p-2">
                     <div>
                         <canvas id="Chart4" width="400" height="400"></canvas>
@@ -74,7 +83,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-3 p-3">
                 <div class="col bg-white m-5 p-5">
                     <div>
                         <canvas id="Chart3"></canvas>
@@ -86,8 +95,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col bg-white m-5 p-5">
+            <div class="row m-3 p-3">
+                <div class="col bg-white">
                     <div>
                         <canvas id="Chart2"></canvas>
                     </div>
@@ -103,8 +112,9 @@
              <span class="bottom">COPYRIGHT / Trilogy Education Services &copy; 2021. All Rights Reserved / ** For Educational Purposes Only **</span>
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="../static/js/chartjs.js"></script>
+        
     </body>
 </html>
