@@ -253,7 +253,7 @@ p1 {
     padding: 20px;
     margin: 5;
     background: #041052;
-    background-image: url("../Images/Marvel_vs_DC.png");
+    background-image: url("/static/Marvel_vs_DC.png");
     background-attachment: local;
     background-position: bottom center;
     background-size: cover;
