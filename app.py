@@ -172,13 +172,13 @@ def chartjs():
 def about():
     return render_template("about.html")
 
-# @app.route("/generation")
-# def generation():
-#     return render_template("gen.html")
+@app.route("/maps")
+def generation():
+    return render_template("maps.html")
 
-# @app.route("/team")
-# def team():
-#     return render_template("team.html")
+@app.route("/mcu")
+def team():
+    return render_template("mcu.html")
 
 # @app.route("/type")
 # def type():
