@@ -1,5 +1,8 @@
+library(tidyverse)
 # upload the csv
-filename <- "DCEU_Profits.csv"
-#load the dataset
-dc_films <- read.csv(filename, header=FALSE)
+dc <- read_csv("DCEU_Profits.csv")
 View(DCEU_Profits)
+dim(dc)
+sapply(dc, class)
+head(dc)
+validation_index <- createDataPartition(dc$'Worldwide Gross', p=0.80, list=FALSE)
