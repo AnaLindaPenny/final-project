@@ -1,48 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>RollerCoasters</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../static/CSS/bootstrap.css">
+  <meta charset="utf-8">
+  <title>League of Avengers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="../static/css/style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id='navBar'>
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">🎢</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Visualizations
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="chartist.html">Animated Pie Plots</a>
-              <a class="dropdown-item" href="multiplots.html">Bar Graphs</a>
-              <a class="dropdown-item" href="international.html">International Data</a>
-              <a class="dropdown-item" href="recordholders.html">Record Holders</a>
-            </div>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">The Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="glossary.html">Glossary</a>
-          </li>
-        </ul>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <img class="nav-heroboy" src="../Images/Superboy.png" 
+            a class="navbar-brand" href="https://leagueofavengers.herokuapp.com">    LEAGUE OF AVENGERS
+            <img class="nav-herogirl" src="../Images/Supergirl.png">    
+            </a>        
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+    <br>
+    <sub-navbar-nav id="sub-navbar" class="sub-navbar sub-navbar default">
+        <div class="container-fluid">
+            <ul>
+                <li><a href="https://leagueofavengers.herokuapp.com/about">ABOUT</a></li>
+                <li><a href="https://leagueofavengers.herokuapp.com/mcu">MARVEL CINEMATIC UNIVERSE</a></li>
+                <li><a href="#dceu">DC EXTD CINEMATIC UNIVERSE</a></li>
+                <li><a href="#visualizations">VISUALIZATIONS</a></li>
+                <li><a href="https://leagueofavengers.herokuapp.com/maps">MAPS</a></li>
+                <li><a href="https://leagueofavengers.herokuapp.com/api/imdb">API</a></li>
+                <li style="float:right"><a class="active" href="https://leagueofavengers.herokuapp.com">HOME</a></li>
+            </ul>
+        </div>
+    </sub-navbar-nav> 
 
     <div class="container">
         <br>
@@ -140,9 +133,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Drops</td>
-                    <td>Route will render a geojson of the top 10 roller coasters by depth of drop, park name, location (latitude and longitude), geometry, and ranking.</td>
-                    <td><a href="https://how-we-roll.herokuapp.com/api/records/drop_geo" target="_blank">/api/records/drop_geo/</a></td>
+                    <td>IMDb</td>
+                    <td>Route will render JSON of IMDb ratings.</td>
+                    <td><a href="https://leagueofavengers.herokuapp.com/api/imdb" target="_blank">/api/imdb</a></td>
                   </tr>
                   <tr>
                     <td>Heights</td>

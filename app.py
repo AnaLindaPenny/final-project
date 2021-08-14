@@ -180,9 +180,9 @@ def generation():
 def team():
     return render_template("mcu.html")
 
-# @app.route("/type")
-# def type():
-#     return render_template("type.html")
+@app.route("/api")
+def type():
+    return render_template("API.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
