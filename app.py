@@ -184,5 +184,14 @@ def team():
 def type():
     return render_template("API.html")
 
+@app.route("/machine/marvel")
+def type():
+    return render_template("mcu_machinelearning.html")
+
+@app.route("/machine/dc")
+def type():
+    # return render_template("mcu_machinelearning.html")
+    return 'This is where DCEU machine learning will be'
+
 if __name__ == "__main__":
     app.run(debug=True)
