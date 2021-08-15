@@ -75,9 +75,7 @@
             <h2 class= "blender"> MCU Heatmap </h2>
             <hr>
             <img src="../static/Images/mcu_heat_map.png" class="responsive" alt="MCU Heatmap">
-            <p> The first step was to create a heatmap to emphasize the correlation between all the variables using seaborn. </p>
-            <p> As you can see, the darker the color, the higher the positivie correlation.  The more yellow the color is, the closer it is to negative correlation. </p>
-            <p> This image is condensed to emphasize the correlation by color, scroll down to see another seaborn correlation format. </p>
+            <br></br>
             <hr>
         </div>
 
@@ -85,11 +83,18 @@
             <h2 class= "blender"> DCEU Heatmap </h2>
             <hr>
             <img src="../static/Images/dceu_heat_map.png" class="responsive" alt="MCU Heatmap">
-            <p> The first step was to create a heatmap to emphasize the correlation between all the variables using seaborn. </p>
-            <p> As you can see, the darker the color, the higher the positivie correlation.  The more yellow the color is, the closer it is to negative correlation. </p>
-            <p> This image is condensed to emphasize the correlation by color, scroll down to see another seaborn correlation format. </p>
+            <br></br>
             <hr>
         </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class = "row">
+      <div class="col-md-12">
+          <p class="blender"> The first step was to create a heatmap to emphasize the correlation between all the variables using seaborn. As you can see, the darker the color, the higher the positivie correlation.  The more yellow the color is, the closer it is to negative correlation.</p>
+          <p class= "blender"> Some interesting things to notice are how on the Marvel heatmap, the lowest correlation is between any variable and number of weeks in the theater. For the DCEU heatmap, the lowest correlation is between any variable and Harley Quinn or Shazam. </p>
+          <p class= "blender"> This image is condensed to emphasize the correlation by color, scroll down to see another seaborn correlation format. </p>
+      </div>
     </div>
   </div>
 
@@ -101,9 +106,7 @@
             <h2 class= "blender">  MCU Pair Plot </h2>
             <hr>
             <img src="../static/Images/mcu_pairplot.png" class="responsive" alt="DCEU Pairplot">
-            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
-            <p> The bar chart graphs it created are comparing the same variables.   </p>
-            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
+            <br></br>
             <hr>
         </div>
 
@@ -111,13 +114,20 @@
             <h2 class="blender"> DCEU Pair Plot </h2>
             <hr>
             <img src="../static/Images/dceu_pairplot.png" class="responsive" alt="DCEU Pairplot">
-            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
-            <p> The bar chart graphs it created are comparing the same variables.   </p>
-            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
+            <br></br>
             <hr>
         </div>
     </div>
   </div>
+  <div class="container">
+    <div class = "row">
+      <div class="col-md-12">
+          <p class= "blender"> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. The bar chart graphs it created are comparing the same variables.</p>
+          <p class= "blender"> This was very helpful in planning which graphs to create to do machine learning on.  </p>
+      </div>
+    </div>
+  </div>
+
 
   <div class="container">
     <div class="row">
@@ -125,21 +135,26 @@
             <h2 class= "blender">  MCU Sample Predictions </h2>
             <hr>
             <img src="../static/Images/mcu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
-            <p> The bar chart graphs it created are comparing the same variables.   </p>
-            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
-            <hr>
+            <br></br>
+           <hr>
         </div>
 
         <div class="column">
             <h2 class="blender"> DCEU Sample Predictions </h2>
             <hr>
             <img src="../static/Images/dceu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
-            <p> The bar chart graphs it created are comparing the same variables.   </p>
-            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
-            <hr>
+            <br></br>
+           <hr>
         </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class = "row">
+      <div class="col-md-12">
+          <p class= "blender"> The first machine learning visualization we created takes a sample of the movie data and calculates its worldwide gross based on it's budget.  </p>
+          <p class= "blender"> Looking at the Marvel graph specifically, because there are more movies in the MCU more appeared in the sample.  The samples were chosen based off of 80% of the data going into the training environment and 20% going into the testing environment.  Red represents the projected worldwide gross and blue represents the actual worldwide gross.  In this graph you can see that out of all of the samples, only Iron Man 3's projected gross surpassed the actual.  </p>
+          <p class= "blender"> Looking at the DC graph specifically, the sample is much smaller.  Black represents predicted gross and purple represents actual gross.  In this graph, Wonder Woman's predicted surpassed the actual gross.</p>
+      </div>
     </div>
   </div>
 
@@ -149,32 +164,28 @@
             <h2 class= "blender">  MCU Gross Predictions </h2>
             <hr>
             <img src="../static/Images/mcu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
-            <p> The bar chart graphs it created are comparing the same variables.   </p>
-            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
-            <hr>
+            <br></br>
+          <hr>
         </div>
 
         <div class="column">
             <h2 class="blender"> DCEU Gross Predictions </h2>
             <hr>
             <img src="../static/Images/dceu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
-            <p> The bar chart graphs it created are comparing the same variables.   </p>
-            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
-            <hr>
+            <br></br>
+           <hr>
         </div>
     </div>
   </div>
- 
- <footer class="footer">
-      <div class="container text-center py-3">
-          <h3>GitHub:
-              <a href="https://github.com/AnaLindaPenny/final-project.git"> Final Project Link</a>
-          </h3>
-        <span class="bottom">COPYRIGHT / Trilogy Education Services &copy; 2021. All Rights Reserved / ** For Educational Purposes Only **</span>
+  <div class="container">
+    <div class = "row">
+      <div class="col-md-12">
+          <p class= "blender"> The second machine learning visualizations we created predict domestic gross based off of international gross and worldwide gross.</p>
+          <p class= "blender"> Based on the Marvel data, our predictor predicts lower than the actual gross for the most part.  Based on this data, Marvel will continue to grow in their total gross domestically, internatonally, and worldwide. </p>
+          <p class= "blender"> Based on the DC data, our predictor was unable to determine an accurate projection for future growth.  More data is needed in order to be able to make an accurate prediction. </p>
       </div>
-  </footer>
+    </div>
+  </div>
   <br></br>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
 </body>
