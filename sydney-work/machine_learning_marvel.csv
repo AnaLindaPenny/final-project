@@ -1,5 +1,5 @@
 movie_name,movie_code,domestic_gross,international_gross,worldwide_gross,Number of Theaters,Number of Weeks,Budget,Captain America,Iron Man,Black Widow,Thor,Hulk,Hawkeye,Nick Fury,Vision,Spider-Man,Star Lord,Wanda,Ant-Man,Doctor Strange,Black Panther,Captain Marvel
-Iron Man,1,318604126,266762121,585366247,4154,139,"140,000,000",0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Iron Man,1,318604126,266762121,585366247,4154,139,140000000,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
 The Incredible Hulk,2,134806913,129964083,264770996,3508,28,150000000,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
 Iron Man 2,3,312433331,311500000,623933331,4390,34,200000000,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0
 Thor,4,181030624,268295994,449326618,3963,34,150000000,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
