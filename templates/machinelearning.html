@@ -42,8 +42,8 @@
 
     <div class="container">
     <div class="jumbotron">
-        <h1 class="display-4">MCU Machine Learning</h1>
-        <p class="lead">Below you'll see the results of machine learning for the Marvel Cinematic Universe. </p>
+        <h1 class="display-4"> Machine Learning</h1>
+        <p class="lead">Below you'll see the results of machine learning for the MCU and the DCEU. </p>
         <hr>
     </div>
   </div>
@@ -55,16 +55,20 @@
         <div class="column" id= 'Description'>
             <h2> MCU Heatmap </h2>
             <hr>
+            <img src="../static/Images/mcu_heat_map.png" class="img-responsive" alt="MCU Heatmap">
             <p> The first step was to create a heatmap to emphasize the correlation between all the variables using seaborn. </p>
             <p> As you can see, the darker the color, the higher the positivie correlation.  The more yellow the color is, the closer it is to negative correlation. </p>
             <p> This image is condensed to emphasize the correlation by color, scroll down to see another seaborn correlation format. </p>
+            <hr>
         </div>
 
         <div class="column" id="image">
-            <h2 class="blender"> Image </h2>
+            <h2> DCEU Heatmap </h2>
             <hr>
-            <img src="../static/Images/mcu_heat_map.png" class="img-responsive" alt="MCU Heatmap">
-            
+            <img src="../static/Images/dceu_heat_map.png" class="img-responsive" alt="MCU Heatmap">
+            <p> The first step was to create a heatmap to emphasize the correlation between all the variables using seaborn. </p>
+            <p> As you can see, the darker the color, the higher the positivie correlation.  The more yellow the color is, the closer it is to negative correlation. </p>
+            <p> This image is condensed to emphasize the correlation by color, scroll down to see another seaborn correlation format. </p>
             <hr>
         </div>
     </div>
@@ -80,13 +84,16 @@
             <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
             <p> The bar chart graphs it created are comparing the same variables.   </p>
             <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
+            <hr>
         </div>
 
         <div class="column" id="image">
-            <h2 class="blender"> Image </h2>
+            <h2 class="blender"> DCEU Pair Plot </h2>
             <hr>
-            <img src="../static/Images/mcu_pairplot.png" class="img-responsive" alt="MCU Pairplot">
-            
+            <img src="../static/Images/dceu_pairplot.png" class="img-responsive" alt="MCU Pairplot">
+            <p> This is another generated image from seaborn called a pairplot.  It does the same type of comparison as the heatmap, but instead of giving a color based on correlation, it shows what the graphs would look like for each comparison. </p>
+            <p> The bar chart graphs it created are comparing the same variables.   </p>
+            <p> This was very helpful in planning which graphs to create to do machine learning on.  </p>
             <hr>
         </div>
     </div>
