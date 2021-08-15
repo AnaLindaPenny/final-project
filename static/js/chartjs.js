@@ -52,7 +52,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 y: {
                     type: 'linear',
                     position: 'left',
-                    min: -20,
                     title: {
                         display: true,
                         text: 'Millions (USD)'
@@ -68,10 +67,23 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Gross Revenue of All Superhero Films"
                 },
                 tooltip: {
+                    displayColors: false,
                     backgroundColor: 'rgb(0,0,0)',
                     callbacks: {
-                        title: function(tooltipItems) {
-                            return data1.labels[tooltipItems[0].dataIndex]                           
+                        title: function(item, object) {
+                            return data1.labels[item[0].dataIndex]                           
+                        },
+                        label: function(item, object) {                            
+                            let year = item.element.parsed.x
+                            
+                            let label = "Release Year: " + year
+                            return label
+                        },
+                        afterLabel: function(item, object) {
+                            let revenue = item.element.parsed.y
+
+                            let afterLabel = "Gross Revenue: $" + revenue + " million"
+                            return afterLabel
                         }
                     }                    
                 }
@@ -110,7 +122,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     var batman_films = json_data.filter(film => film.universe_code === 5000)
     console.log(batman_films)
     
-
+    
 
     mcu_films.forEach(item => {
         var bubble = {
@@ -215,6 +227,19 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 title: {
                     display: true,
                     text: "Audience Rating Vs Critic Rating with Gross Revenue"
+                },
+                tooltip: {
+                    backgroundColor: 'rgb(0,0,0)',
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            if (tooltipItems[0].datasetIndex = "0") {
+                                return mcu_films[tooltipItems[0].dataIndex].title
+                            }
+                            else if (tooltipItems[0].datasetIndex = "1") {
+                                return dceu_films[tooltipItems[0].dataIndex].title
+                            }                                                       
+                        }
+                    }                    
                 }
             }
         }
@@ -315,8 +340,11 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             borderWidth: 3,
             responsive: true,
             plugins: {
+                tooltip: {
+                    displayColors: false,
+                },
                 legend: {
-                position: 'top',
+                    position: 'top',
             },
             title: {
                 display: true,
@@ -403,9 +431,22 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Gross Revenue of MCU Films"
                 },
                 tooltip: {
+                    displayColors: false,
                     callbacks: {
                         title: function(tooltipItems) {
                             return mcu_titles[tooltipItems[0].dataIndex]                           
+                        },
+                        label: function(item, object) {                            
+                            let year = item.element.parsed.x
+                            
+                            let label = "Release Year: " + year
+                            return label
+                        },
+                        afterLabel: function(item, object) {
+                            let revenue = item.element.parsed.y
+
+                            let afterLabel = "Gross Revenue: $" + revenue + " million"
+                            return afterLabel
                         }
                     }
                 }
@@ -488,9 +529,22 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Gross Revenue of DCEU Films"
                 },
                 tooltip: {
+                    displayColors: false,
                     callbacks: {
                         title: function(tooltipItems) {
                             return dceu_titles[tooltipItems[0].dataIndex]                           
+                        },
+                        label: function(item, object) {                            
+                            let year = item.element.parsed.x
+                            
+                            let label = "Release Year: " + year
+                            return label
+                        },
+                        afterLabel: function(item, object) {
+                            let revenue = item.element.parsed.y
+
+                            let afterLabel = "Gross Revenue: $" + revenue + " million"
+                            return afterLabel
                         }
                     }
                 }
@@ -573,9 +627,22 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Gross Revenue of X-Men Films"
                 },
                 tooltip: {
+                    displayColors: false,
                     callbacks: {
                         title: function(tooltipItems) {
                             return xmen_titles[tooltipItems[0].dataIndex]                           
+                        },
+                        label: function(item, object) {                            
+                            let year = item.element.parsed.x
+                            
+                            let label = "Release Year: " + year
+                            return label
+                        },
+                        afterLabel: function(item, object) {
+                            let revenue = item.element.parsed.y
+
+                            let afterLabel = "Gross Revenue: $" + revenue + " million"
+                            return afterLabel
                         }
                     }
                 }
@@ -658,9 +725,22 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Gross Revenue of Superman Films"
                 },
                 tooltip: {
+                    displayColors: false,
                     callbacks: {
                         title: function(tooltipItems) {
                             return supe_titles[tooltipItems[0].dataIndex]                           
+                        },
+                        label: function(item, object) {                            
+                            let year = item.element.parsed.x
+                            
+                            let label = "Release Year: " + year
+                            return label
+                        },
+                        afterLabel: function(item, object) {
+                            let revenue = item.element.parsed.y
+
+                            let afterLabel = "Gross Revenue: $" + revenue + " million"
+                            return afterLabel
                         }
                     }
                 }
@@ -743,9 +823,22 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Gross Revenue of Batman Films"
                 },
                 tooltip: {
+                    displayColors: false,
                     callbacks: {
                         title: function(tooltipItems) {
                             return batman_titles[tooltipItems[0].dataIndex]                           
+                        },
+                        label: function(item, object) {                            
+                            let year = item.element.parsed.x
+                            
+                            let label = "Release Year: " + year
+                            return label
+                        },
+                        afterLabel: function(item, object) {
+                            let revenue = item.element.parsed.y
+
+                            let afterLabel = "Gross Revenue: $" + revenue + " million"
+                            return afterLabel
                         }
                     }
                 }
@@ -815,6 +908,9 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                 }
             },
             plugins: {
+                tooltip: {
+                    displayColors: false
+                },
                 title: {
                     display: true,
                     text: "Film Count by Superhero Film Franchise"
