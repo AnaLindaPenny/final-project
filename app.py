@@ -176,13 +176,13 @@ def team():
 def maps():
     return render_template("maps.html")
 
-# @app.route("/mcu")
-# def team():
-#     return render_template("mcu.html")
+@app.route("/mcu")
+def team():
+    return render_template("mcu.html")
 
-# @app.route("/dc")
-# def team():
-#     return render_template("dc.html")
+@app.route("/dc")
+def team():
+    return render_template("dc.html")
 
 @app.route("/api")
 def api():
