@@ -169,11 +169,11 @@ def chartjs():
     return render_template("chartjs.html")
 
 @app.route("/team")
-def about():
+def team():
     return render_template("team.html")
 
 @app.route("/maps")
-def generation():
+def maps():
     return render_template("maps.html")
 
 # @app.route("/mcu")
@@ -185,15 +185,15 @@ def generation():
 #     return render_template("dc.html")
 
 @app.route("/api")
-def type():
+def api():
     return render_template("API.html")
 
 @app.route("/machinelearning")
-def type():
+def machinelearning():
     return render_template("machinelearning.html")
 
 @app.route("/methodology")
-def type():
+def methodology():
     # return render_template("mcu_machinelearning.html")
     return render_template("methodology.html")
 
