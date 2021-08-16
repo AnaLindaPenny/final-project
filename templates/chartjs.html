@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Superhero Films: A Broad Perspective</title>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/css/chartjs.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bs-danger">
+            <div class="container-fluid"> 
+              <a class="navbar-brand bs-danger">
+                <div class="logo-image">
+                      <img src="/static/Images/captain_marvel.png" class="img-fluid">
+                </div>
+              <a class="nav-brand" src="/static/Images/superman.png"></a>
+              <a class="navbar-brand"> League of Avengers
+                <a class="navbar-brand">
+                  <div class="logo-image">
+                        <img src="/static/Images/superman.png" class="img-fluid">
+                  </div>
+            </a>
+            </a>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="methodology.html">Methodology</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item active" href="chartjs.html#">A Broad Perspective</a>
+                        <span class="visually-hidden">(current)</span>
+                      <a class="dropdown-item" href="maps.html">International Maps</a>
+                      <a class="dropdown-item" href="machinelearning.html">Box Office Predictions</a>
+                      <a class="dropdown-item" href="mcu.html">MCU Sequel-verse</a>
+                      <a class="dropdown-item" href="machinelearning.html">DC Sequel-Verse</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="team.html">Meet the Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="API.html">API</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Superhero Films</h1>
+                <hr>
+                <p class="lead">A Broad Perspective</p>
+            </div>
+          </div>
+        <div class="container-fluid">
+            <div class="row mt-3 pt-3">
+                <div class="col bg-white m-5 p-5">
+                    <div>
+                        <canvas id="Chart1"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3 p-3">
+                <div class="col bg-white m-2 p-2">
+                    <div>
+                        <canvas id="Chart4" width="400" height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col bg-white m-2 p-2">
+                    <div>
+                        <canvas id="Chart5" width="400" height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col bg-white m-2 p-2">
+                    <div>
+                        <canvas id="Chart6" width="400" height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col bg-white m-2 p-2">
+                    <div>
+                        <canvas id="Chart7" width="400" height="400"></canvas>
+                    </div>
+                </div>
+                <div class="col bg-white m-2 p-2">
+                    <div>
+                        <canvas id="Chart8" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3 p-3">
+                <div class="col bg-white m-5 p-5">
+                    <div>
+                        <canvas id="Chart3"></canvas>
+                    </div>
+                </div>
+                <div class="col bg-white m-5 p-5">
+                    <div>
+                        <canvas id="Chart9" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3 p-3">
+                <div class="col bg-white">
+                    <div>
+                        <canvas id="Chart2"></canvas>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="../static/js/chartjs.js"></script>
+        
+    </body>
+    <footer class="footer">
+        <div class="container text-center py-3">
+        </div>
+    </footer>
+</html>

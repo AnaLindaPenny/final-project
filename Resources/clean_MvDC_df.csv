@@ -1,91 +1,91 @@
-title,year,genre,runtime,mpa_rating,imdb_rating,imdb_gross,director,tomato_meter,tom_aud_score,entity,universe_code,id,Star 1,Star 2,Star 3,Star 4
-Ant-Man,2015,"Action, Adventure, Comedy",117,PG-13,7.3,180200000,Peyton Reed,83,86,MARVEL,1000,38,Peyton Reed,Paul Rudd,Michael Douglas,Corey Stoll
-Ant-Man and the Wasp,2018,"Action, Adventure, Comedy",118,PG-13,7,216650000,Peyton Reed,87,75,MARVEL,1000,51,Peyton Reed,Paul Rudd,Evangeline Lilly,Michael Peña
-Aquaman,2018,"Action, Adventure, Fantasy",143,PG-13,6.9,335060000,James Wan,65,74,DC,2000,86,Jason Momoa,Amber Heard,Willem Dafoe,Patrick Wilson
-Avengers: Age of Ultron,2015,"Action, Adventure, Sci-Fi",141,PG-13,7.3,459010000,Joss Whedon,76,83,MARVEL,1000,37,Joss Whedon,Robert Downey Jr.,Chris Evans,Mark Ruffalo
-Avengers: Endgame,2019,"Action, Adventure, Drama",181,PG-13,8.4,858370000,Anthony Russo,94,90,MARVEL,1000,54,Joe Russo,Robert Downey Jr.,Chris Evans,Mark Ruffalo
-Avengers: Infinity War,2018,"Action, Adventure, Sci-Fi",149,PG-13,8.4,678820000,Anthony Russo,85,91,MARVEL,1000,49,Joe Russo,Robert Downey Jr.,Chris Hemsworth,Mark Ruffalo
-Batman,1989,"Action, Adventure",126,PG-13,7.5,251190000,Tim Burton,71,84,DC,,67,Michael Keaton,Jack Nicholson,Kim Basinger,Robert Wuhl
-Batman & Robin,1997,"Action, Sci-Fi",125,PG-13,3.8,107330000,Joel Schumacher,12,16,DC,,70,Arnold Schwarzenegger,George Clooney,Chris O'Donnell,Uma Thurman
-Batman Begins,2005,"Action, Adventure",140,PG-13,8.2,206850000,Christopher Nolan,84,94,DC,2000,74,Christian Bale,Michael Caine,Ken Watanabe,Liam Neeson
-Batman Forever,1995,"Action, Adventure",121,PG-13,5.4,184030000,Joel Schumacher,38,32,DC,,69,Val Kilmer,Tommy Lee Jones,Jim Carrey,Nicole Kidman
-Batman Returns,1992,"Action, Crime, Fantasy",126,PG-13,7,162830000,Tim Burton,80,73,DC,,68,Michael Keaton,Danny DeVito,Michelle Pfeiffer,Christopher Walken
-Batman v Superman: Dawn of Justice,2016,"Action, Adventure, Sci-Fi",152,PG-13,6.4,330360000,Zack Snyder,28,63,DC,2000,82,Ben Affleck,Henry Cavill,Amy Adams,Jesse Eisenberg
-Batman: The Movie,1966,"Adventure, Comedy, Crime",105,PG,6.5,0,Leslie H. Martinson,79,62,DC,,59,Adam West,Burt Ward,Lee Meriwether,Cesar Romero
-Birds of Prey,2020,"Action, Adventure, Comedy",109,R,6.1,84160000,Cathy Yan,79,78,DC,2000,89,Margot Robbie,Rosie Perez,Mary Elizabeth Winstead,Jurnee Smollett
-Black Panther,2018,"Action, Adventure, Sci-Fi",134,PG-13,7.3,700060000,Ryan Coogler,96,79,MARVEL,1000,48,Ryan Coogler,Chadwick Boseman,Michael B. Jordan,Lupita Nyong'o
-Blade,1998,"Action, Horror, Sci-Fi",120,R,7.1,70090000,Stephen Norrington,55,78,MARVEL,,3,Stephen Norrington,Wesley Snipes,Stephen Dorff,Kris Kristofferson
-Blade II,2002,"Action, Fantasy, Horror",117,R,6.7,82350000,Guillermo del Toro,57,68,MARVEL,,5,Guillermo del Toro,Wesley Snipes,Kris Kristofferson,Ron Perlman
-Blade: Trinity,2004,"Action, Adventure, Fantasy",113,R,5.8,52410000,David S. Goyer,25,58,MARVEL,,12,David S. Goyer,Wesley Snipes,Kris Kristofferson,Parker Posey
+title,year,genre,runtime,mpa_rating,imdb_rating,imdb_gross,director,tomato_meter,tom_aud_score,entity,universe_code,id,star_1,star_2,star_3,star_4
 Captain America,1944,"Action, Adventure, Sci-Fi",244,Approved,5.5,0,Elmer Clifton,0,82,MARVEL,,1,Elmer Clifton,Dick Purcell,Lorna Gray,Lionel Atwill
-Captain America: Civil War,2016,"Action, Adventure, Sci-Fi",147,PG-13,7.8,408080000,Anthony Russo,90,89,MARVEL,1000,41,Joe Russo,Chris Evans,Robert Downey Jr.,Scarlett Johansson
-Captain America: The First Avenger,2011,"Action, Adventure, Sci-Fi",124,PG-13,6.9,176650000,Joe Johnston,80,74,MARVEL,1000,26,Joe Johnston,Chris Evans,Hugo Weaving,Samuel L. Jackson
-Captain America: The Winter Soldier,2014,"Action, Adventure, Sci-Fi",136,PG-13,7.7,259770000,Anthony Russo,90,92,MARVEL,1000,33,Joe Russo,Chris Evans,Samuel L. Jackson,Scarlett Johansson
-Captain Marvel,2019,"Action, Adventure, Sci-Fi",123,PG-13,6.8,426830000,Anna Boden,79,45,MARVEL,1000,53,Anna Boden,Brie Larson,Samuel L. Jackson,Ben Mendelsohn
-Catwoman,2004,"Action, Crime, Fantasy",104,PG-13,3.4,40200000,Pitof,9,18,DC,,72,Halle Berry,Sharon Stone,Benjamin Bratt,Lambert Wilson
-Constantine,2005,"Action, Fantasy, Horror",121,R,7,75980000,Francis Lawrence,46,72,DC,,73,Keanu Reeves,Rachel Weisz,Djimon Hounsou,Shia LaBeouf
+Superman and the Mole-Men,1951,"Action, Adventure, Drama",58,Passed,5.7,0,Lee Sholem,0,83,DC,,58,George Reeves,Phyllis Coates,Jeff Corey,Walter Reed
+Batman: The Movie,1966,"Adventure, Comedy, Crime",105,PG,6.5,0,Leslie H. Martinson,79,62,DC,,59,Adam West,Burt Ward,Lee Meriwether,Cesar Romero
+Superman,1978,"Action, Adventure, Drama",143,PG,7.3,134220000,Richard Donner,94,86,DC,4000,60,Christopher Reeve,Margot Kidder,Gene Hackman,Marlon Brando
+Superman II,1980,"Action, Adventure, Sci-Fi",127,PG,6.8,108190000,Richard Lester,86,76,DC,4000,61,Gene Hackman,Christopher Reeve,Margot Kidder,Ned Beatty
+Swamp Thing,1982,"Horror, Sci-Fi",91,PG,5.4,0,Wes Craven,63,40,DC,,62,Louis Jourdan,Adrienne Barbeau,Ray Wise,David Hess
+Superman III,1983,"Action, Adventure, Comedy",125,PG,5,59950000,Richard Lester,30,23,DC,4000,63,Christopher Reeve,Richard Pryor,Margot Kidder,Jackie Cooper
+Supergirl,1984,"Action, Adventure, Fantasy",124,PG,4.4,13600000,Jeannot Szwarc,9,26,DC,4000,64,Helen Slater,Faye Dunaway,Peter O'Toole,Mia Farrow
+Howard the Duck,1986,"Action, Adventure, Comedy",110,PG,4.7,16300000,Willard Huyck,13,38,MARVEL,,2,Willard Huyck,Lea Thompson,Jeffrey Jones,Tim Robbins
+Superman IV: The Quest for Peace,1987,"Action, Adventure, Sci-Fi",90,PG,3.7,15680000,Sidney J. Furie,11,16,DC,4000,65,Christopher Reeve,Gene Hackman,Margot Kidder,Jackie Cooper
+Batman,1989,"Action, Adventure",126,PG-13,7.5,251190000,Tim Burton,71,84,DC,5000,67,Michael Keaton,Jack Nicholson,Kim Basinger,Robert Wuhl
+The Return of Swamp Thing,1989,"Action, Adventure, Comedy",88,PG-13,4.6,190000,Jim Wynorski,44,55,DC,,66,Dick Durock,Heather Locklear,Louis Jourdan,Sarah Douglas
+Batman Returns,1992,"Action, Crime, Fantasy",126,PG-13,7,162830000,Tim Burton,80,73,DC,5000,68,Michael Keaton,Danny DeVito,Michelle Pfeiffer,Christopher Walken
+Batman Forever,1995,"Action, Adventure",121,PG-13,5.4,184030000,Joel Schumacher,38,32,DC,5000,69,Val Kilmer,Tommy Lee Jones,Jim Carrey,Nicole Kidman
+Batman & Robin,1997,"Action, Sci-Fi",125,PG-13,3.8,107330000,Joel Schumacher,12,16,DC,5000,70,Arnold Schwarzenegger,George Clooney,Chris O'Donnell,Uma Thurman
+Steel,1997,"Action, Adventure, Crime",97,PG-13,2.9,1710000,Kenneth Johnson,12,15,DC,,71,Shaquille O'Neal,Annabeth Gish,Judd Nelson,Richard Roundtree
+Blade,1998,"Action, Horror, Sci-Fi",120,R,7.1,70090000,Stephen Norrington,55,78,MARVEL,,3,Stephen Norrington,Wesley Snipes,Stephen Dorff,Kris Kristofferson
+X-Men,2000,"Action, Adventure, Sci-Fi",104,PG-13,7.4,157300000,Bryan Singer,82,83,MARVEL,3000,4,Bryan Singer,Patrick Stewart,Hugh Jackman,Ian McKellen
+Blade II,2002,"Action, Fantasy, Horror",117,R,6.7,82350000,Guillermo del Toro,57,68,MARVEL,,5,Guillermo del Toro,Wesley Snipes,Kris Kristofferson,Ron Perlman
+Spider-Man,2002,"Action, Adventure, Sci-Fi",121,PG-13,7.3,403710000,Sam Raimi,90,67,MARVEL,,6,Sam Raimi,Tobey Maguire,Kirsten Dunst,Willem Dafoe
 Daredevil,2003,"Action, Crime",103,PG-13,5.3,102540000,Mark Steven Johnson,44,35,MARVEL,,7,Mark Steven Johnson,Ben Affleck,Jennifer Garner,Colin Farrell
-Deadpool,2016,"Action, Adventure, Comedy",108,R,8,363070000,Tim Miller,85,90,MARVEL,,40,Tim Miller,Ryan Reynolds,Morena Baccarin,T.J. Miller
-Deadpool 2,2018,"Action, Adventure, Comedy",119,R,7.7,324590000,David Leitch,84,85,MARVEL,,50,David Leitch,Ryan Reynolds,Josh Brolin,Morena Baccarin
-Doctor Strange,2016,"Action, Adventure, Fantasy",115,PG-13,7.5,232640000,Scott Derrickson,89,85,MARVEL,1000,43,Scott Derrickson,Benedict Cumberbatch,Chiwetel Ejiofor,Rachel McAdams
+Hulk,2003,"Action, Sci-Fi",138,PG-13,5.6,132180000,Ang Lee,62,29,MARVEL,,9,Ang Lee,Eric Bana,Jennifer Connelly,Sam Elliott
+X2: X-Men United,2003,"Action, Sci-Fi, Thriller",134,PG-13,7.4,214950000,Bryan Singer,85,85,MARVEL,3000,8,Bryan Singer,Patrick Stewart,Hugh Jackman,Halle Berry
+Blade: Trinity,2004,"Action, Adventure, Fantasy",113,R,5.8,52410000,David S. Goyer,25,58,MARVEL,,12,David S. Goyer,Wesley Snipes,Kris Kristofferson,Parker Posey
+Catwoman,2004,"Action, Crime, Fantasy",104,PG-13,3.4,40200000,Pitof,9,18,DC,,72,Halle Berry,Sharon Stone,Benjamin Bratt,Lambert Wilson
+Spider-Man 2,2004,"Action, Adventure, Sci-Fi",127,PG-13,7.3,373590000,Sam Raimi,93,82,MARVEL,,11,Sam Raimi,Tobey Maguire,Kirsten Dunst,Alfred Molina
+The Punisher,2004,"Action, Crime, Drama",124,R,6.4,33680000,Jonathan Hensleigh,28,63,MARVEL,,10,Jonathan Hensleigh,Thomas Jane,John Travolta,Samantha Mathis
+Batman Begins,2005,"Action, Adventure",140,PG-13,8.2,206850000,Christopher Nolan,84,94,DC,,74,Christian Bale,Michael Caine,Ken Watanabe,Liam Neeson
+Constantine,2005,"Action, Fantasy, Horror",121,R,7,75980000,Francis Lawrence,46,72,DC,,73,Keanu Reeves,Rachel Weisz,Djimon Hounsou,Shia LaBeouf
 Elektra,2005,"Action, Adventure, Crime",97,PG-13,4.7,24410000,Rob Bowman,11,29,MARVEL,,13,Rob Bowman,Jennifer Garner,Goran Visnjic,Will Yun Lee
 Fantastic Four,2005,"Action, Adventure, Fantasy",106,PG-13,5.7,154700000,Tim Story,27,45,MARVEL,,14,Tim Story,Ioan Gruffudd,Michael Chiklis,Chris Evans
-Fantastic Four,2015,"Action, Adventure, Sci-Fi",100,PG-13,4.2,56120000,Josh Trank,9,18,MARVEL,,39,Josh Trank,Miles Teller,Kate Mara,Michael B. Jordan
+Superman Returns,2006,"Action, Sci-Fi",154,PG-13,6,200080000,Bryan Singer,75,61,DC,4000,75,Brandon Routh,Kevin Spacey,Kate Bosworth,James Marsden
+X-Men: The Last Stand,2006,"Action, Adventure, Sci-Fi",104,PG-13,6.7,234360000,Brett Ratner,57,61,MARVEL,3000,15,Brett Ratner,Patrick Stewart,Hugh Jackman,Halle Berry
 Fantastic Four: Rise of the Silver Surfer,2007,"Action, Adventure, Fantasy",92,PG,5.6,131920000,Tim Story,37,51,MARVEL,,18,Tim Story,Ioan Gruffudd,Jessica Alba,Chris Evans
 Ghost Rider,2007,"Action, Fantasy, Thriller",110,PG-13,5.3,115800000,Mark Steven Johnson,26,48,MARVEL,,16,Mark Steven Johnson,Nicolas Cage,Eva Mendes,Sam Elliott
+Spider-Man 3,2007,"Action, Adventure, Sci-Fi",139,PG-13,6.2,336530000,Sam Raimi,63,51,MARVEL,,17,Sam Raimi,Tobey Maguire,Kirsten Dunst,Topher Grace
+Iron Man,2008,"Action, Adventure, Sci-Fi",126,PG-13,7.9,318410000,Jon Favreau,94,91,MARVEL,1000,19,Jon Favreau,Robert Downey Jr.,Gwyneth Paltrow,Terrence Howard
+Punisher: War Zone,2008,"Action, Crime, Drama",103,R,5.9,7950000,Lexi Alexander,29,42,MARVEL,,21,Lexi Alexander,Ray Stevenson,Dominic West,Julie Benz
+The Dark Knight,2008,"Action, Crime, Drama",152,PG-13,9,534860000,Christopher Nolan,94,94,DC,,76,Christian Bale,Heath Ledger,Aaron Eckhart,Michael Caine
+The Incredible Hulk,2008,"Action, Adventure, Sci-Fi",112,PG-13,6.7,134520000,Louis Leterrier,67,70,MARVEL,1000,20,Louis Leterrier,Edward Norton,Liv Tyler,Tim Roth
+Watchmen,2009,"Action, Drama, Mystery",162,R,7.6,107510000,Zack Snyder,65,71,DC,,77,Jackie Earle Haley,Patrick Wilson,Carla Gugino,Malin Akerman
+X-Men Origins: Wolverine,2009,"Action, Sci-Fi",107,PG-13,6.6,179880000,Gavin Hood,37,58,MARVEL,3000,22,Gavin Hood,Hugh Jackman,Liev Schreiber,Ryan Reynolds
+Iron Man 2,2010,"Action, Adventure, Sci-Fi",124,PG-13,7,312430000,Jon Favreau,72,71,MARVEL,1000,23,Jon Favreau,Robert Downey Jr.,Mickey Rourke,Gwyneth Paltrow
+Jonah Hex,2010,"Action, Drama, Fantasy",81,PG-13,4.7,10540000,Jimmy Hayward,12,20,DC,,78,Josh Brolin,Megan Fox,John Malkovich,Michael Fassbender
+Captain America: The First Avenger,2011,"Action, Adventure, Sci-Fi",124,PG-13,6.9,176650000,Joe Johnston,80,74,MARVEL,1000,26,Joe Johnston,Chris Evans,Hugo Weaving,Samuel L. Jackson
 Ghost Rider: Spirit of Vengeance,2011,"Action, Fantasy, Thriller",96,PG-13,4.3,51770000,Mark Neveldine,18,31,MARVEL,,27,Brian Taylor,Nicolas Cage,Ciarán Hinds,Idris Elba
 Green Lantern,2011,"Action, Adventure, Sci-Fi",114,PG-13,5.5,116600000,Martin Campbell,26,45,DC,,79,Ryan Reynolds,Blake Lively,Peter Sarsgaard,Mark Strong
-Guardians of the Galaxy,2014,"Action, Adventure, Comedy",121,PG-13,8,333180000,James Gunn,92,92,MARVEL,1000,36,James Gunn,Chris Pratt,Vin Diesel,Bradley Cooper
-Guardians of the Galaxy Vol. 2,2017,"Action, Adventure, Comedy",136,PG-13,7.6,389810000,James Gunn,85,87,MARVEL,1000,45,James Gunn,Chris Pratt,Zoe Saldana,Dave Bautista
-Howard the Duck,1986,"Action, Adventure, Comedy",110,PG,4.7,16300000,Willard Huyck,13,38,MARVEL,,2,Willard Huyck,Lea Thompson,Jeffrey Jones,Tim Robbins
-Hulk,2003,"Action, Sci-Fi",138,PG-13,5.6,132180000,Ang Lee,62,29,MARVEL,,9,Ang Lee,Eric Bana,Jennifer Connelly,Sam Elliott
-Iron Man,2008,"Action, Adventure, Sci-Fi",126,PG-13,7.9,318410000,Jon Favreau,94,91,MARVEL,1000,19,Jon Favreau,Robert Downey Jr.,Gwyneth Paltrow,Terrence Howard
-Iron Man 2,2010,"Action, Adventure, Sci-Fi",124,PG-13,7,312430000,Jon Favreau,72,71,MARVEL,1000,23,Jon Favreau,Robert Downey Jr.,Mickey Rourke,Gwyneth Paltrow
-Iron Man Three,2013,"Action, Adventure, Sci-Fi",130,PG-13,7.1,409010000,Shane Black,79,78,MARVEL,1000,30,Shane Black,Robert Downey Jr.,Guy Pearce,Gwyneth Paltrow
-Joker,2019,"Crime, Drama, Thriller",122,R,8.4,335450000,Todd Phillips,68,88,DC,2000,88,Joaquin Phoenix,Robert De Niro,Zazie Beetz,Frances Conroy
-Jonah Hex,2010,"Action, Drama, Fantasy",81,PG-13,4.7,10540000,Jimmy Hayward,12,20,DC,,78,Josh Brolin,Megan Fox,John Malkovich,Michael Fassbender
-Justice League,2017,"Action, Adventure, Fantasy",120,PG-13,6.1,229020000,Zack Snyder,40,69,DC,2000,85,Ben Affleck,Gal Gadot,Jason Momoa,Ezra Miller
-Logan,2017,"Action, Drama, Sci-Fi",137,R,8.1,226280000,James Mangold,93,90,MARVEL,,44,James Mangold,Hugh Jackman,Patrick Stewart,Dafne Keen
-Man of Steel,2013,"Action, Adventure, Sci-Fi",143,PG-13,7,291050000,Zack Snyder,56,75,DC,2000,81,Henry Cavill,Amy Adams,Michael Shannon,Diane Lane
-Punisher: War Zone,2008,"Action, Crime, Drama",103,R,5.9,7950000,Lexi Alexander,29,42,MARVEL,,21,Lexi Alexander,Ray Stevenson,Dominic West,Julie Benz
-Shazam!,2019,"Action, Adventure, Comedy",132,PG-13,7,140370000,David F. Sandberg,90,82,DC,2000,87,Zachary Levi,Mark Strong,Asher Angel,Jack Dylan Grazer
-Spider-Man,2002,"Action, Adventure, Sci-Fi",121,PG-13,7.3,403710000,Sam Raimi,90,67,MARVEL,,6,Sam Raimi,Tobey Maguire,Kirsten Dunst,Willem Dafoe
-Spider-Man 2,2004,"Action, Adventure, Sci-Fi",127,PG-13,7.3,373590000,Sam Raimi,93,82,MARVEL,,11,Sam Raimi,Tobey Maguire,Kirsten Dunst,Alfred Molina
-Spider-Man 3,2007,"Action, Adventure, Sci-Fi",139,PG-13,6.2,336530000,Sam Raimi,63,51,MARVEL,,17,Sam Raimi,Tobey Maguire,Kirsten Dunst,Topher Grace
-Spider-Man: Far from Home,2019,"Action, Adventure, Sci-Fi",129,PG-13,7.5,390530000,Jon Watts,90,95,MARVEL,1000,56,Jon Watts,Tom Holland,Samuel L. Jackson,Jake Gyllenhaal
-Spider-Man: Homecoming,2017,"Action, Adventure, Sci-Fi",133,PG-13,7.4,334200000,Jon Watts,92,87,MARVEL,1000,46,Jon Watts,Tom Holland,Michael Keaton,Robert Downey Jr.
-Steel,1997,"Action, Adventure, Crime",97,PG-13,2.9,1710000,Kenneth Johnson,12,15,DC,,71,Shaquille O'Neal,Annabeth Gish,Judd Nelson,Richard Roundtree
-Suicide Squad,2016,"Action, Adventure, Fantasy",123,PG-13,5.9,325100000,David Ayer,26,59,DC,2000,83,Will Smith,Jared Leto,Margot Robbie,Viola Davis
-Supergirl,1984,"Action, Adventure, Fantasy",124,PG,4.4,13600000,Jeannot Szwarc,9,26,DC,,64,Helen Slater,Faye Dunaway,Peter O'Toole,Mia Farrow
-Superman,1978,"Action, Adventure, Drama",143,PG,7.3,134220000,Richard Donner,94,86,DC,,60,Christopher Reeve,Margot Kidder,Gene Hackman,Marlon Brando
-Superman and the Mole-Men,1951,"Action, Adventure, Drama",58,Passed,5.7,0,Lee Sholem,0,83,DC,,58,George Reeves,Phyllis Coates,Jeff Corey,Walter Reed
-Superman II,1980,"Action, Adventure, Sci-Fi",127,PG,6.8,108190000,Richard Lester,86,76,DC,,61,Gene Hackman,Christopher Reeve,Margot Kidder,Ned Beatty
-Superman III,1983,"Action, Adventure, Comedy",125,PG,5,59950000,Richard Lester,30,23,DC,,63,Christopher Reeve,Richard Pryor,Margot Kidder,Jackie Cooper
-Superman IV: The Quest for Peace,1987,"Action, Adventure, Sci-Fi",90,PG,3.7,15680000,Sidney J. Furie,11,16,DC,,65,Christopher Reeve,Gene Hackman,Margot Kidder,Jackie Cooper
-Superman Returns,2006,"Action, Sci-Fi",154,PG-13,6,200080000,Bryan Singer,75,61,DC,,75,Brandon Routh,Kevin Spacey,Kate Bosworth,James Marsden
-Swamp Thing,1982,"Horror, Sci-Fi",91,PG,5.4,0,Wes Craven,63,40,DC,,62,Louis Jourdan,Adrienne Barbeau,Ray Wise,David Hess
-The Amazing Spider-Man,2012,"Action, Adventure, Fantasy",136,PG-13,6.9,262030000,Marc Webb,72,77,MARVEL,,29,Marc Webb,Andrew Garfield,Emma Stone,Rhys Ifans
-The Amazing Spider-Man 2,2014,"Action, Adventure, Fantasy",142,PG-13,6.6,202850000,Marc Webb,51,64,MARVEL,,34,Marc Webb,Andrew Garfield,Emma Stone,Jamie Foxx
-The Avengers,2012,"Action, Adventure, Sci-Fi",143,PG-13,8,623280000,Joss Whedon,91,91,MARVEL,1000,28,Joss Whedon,Robert Downey Jr.,Chris Evans,Scarlett Johansson
-The Dark Knight,2008,"Action, Crime, Drama",152,PG-13,9,534860000,Christopher Nolan,94,94,DC,,76,Christian Bale,Heath Ledger,Aaron Eckhart,Michael Caine
-The Dark Knight Rises,2012,"Action, Adventure",164,PG-13,8.4,448140000,Christopher Nolan,87,90,DC,,80,Christian Bale,Tom Hardy,Anne Hathaway,Gary Oldman
-The Incredible Hulk,2008,"Action, Adventure, Sci-Fi",112,PG-13,6.7,134520000,Louis Leterrier,67,70,MARVEL,1000,20,Louis Leterrier,Edward Norton,Liv Tyler,Tim Roth
-The New Mutants,2020,"Action, Horror, Mystery",94,PG-13,5.3,0,Josh Boone,35,56,MARVEL,,57,Josh Boone,Maisie Williams,Anya Taylor-Joy,Charlie Heaton
-The Punisher,2004,"Action, Crime, Drama",124,R,6.4,33680000,Jonathan Hensleigh,28,63,MARVEL,,10,Jonathan Hensleigh,Thomas Jane,John Travolta,Samantha Mathis
-The Return of Swamp Thing,1989,"Action, Adventure, Comedy",88,PG-13,4.6,190000,Jim Wynorski,44,55,DC,,66,Dick Durock,Heather Locklear,Louis Jourdan,Sarah Douglas
-The Wolverine,2013,"Action, Sci-Fi",126,PG-13,6.7,132560000,James Mangold,71,69,MARVEL,,31,James Mangold,Hugh Jackman,Will Yun Lee,Tao Okamoto
 Thor,2011,"Action, Adventure, Fantasy",115,PG-13,7,181030000,Kenneth Branagh,77,76,MARVEL,1000,24,Kenneth Branagh,Chris Hemsworth,Anthony Hopkins,Natalie Portman
-Thor: Ragnarok,2017,"Action, Adventure, Comedy",130,PG-13,7.9,315060000,Taika Waititi,93,87,MARVEL,1000,47,Taika Waititi,Chris Hemsworth,Tom Hiddleston,Cate Blanchett
+X: First Class,2011,"Action, Adventure, Sci-Fi",131,PG-13,7.7,146410000,Matthew Vaughn,86,87,MARVEL,3000,25,Matthew Vaughn,James McAvoy,Michael Fassbender,Jennifer Lawrence
+The Amazing Spider-Man,2012,"Action, Adventure, Fantasy",136,PG-13,6.9,262030000,Marc Webb,72,77,MARVEL,,29,Marc Webb,Andrew Garfield,Emma Stone,Rhys Ifans
+The Avengers,2012,"Action, Adventure, Sci-Fi",143,PG-13,8,623280000,Joss Whedon,91,91,MARVEL,1000,28,Joss Whedon,Robert Downey Jr.,Chris Evans,Scarlett Johansson
+The Dark Knight Rises,2012,"Action, Adventure",164,PG-13,8.4,448140000,Christopher Nolan,87,90,DC,,80,Christian Bale,Tom Hardy,Anne Hathaway,Gary Oldman
+Iron Man Three,2013,"Action, Adventure, Sci-Fi",130,PG-13,7.1,409010000,Shane Black,79,78,MARVEL,1000,30,Shane Black,Robert Downey Jr.,Guy Pearce,Gwyneth Paltrow
+Man of Steel,2013,"Action, Adventure, Sci-Fi",143,PG-13,7,291050000,Zack Snyder,56,75,DC,2000,81,Henry Cavill,Amy Adams,Michael Shannon,Diane Lane
+The Wolverine,2013,"Action, Sci-Fi",126,PG-13,6.7,132560000,James Mangold,71,69,MARVEL,3000,31,James Mangold,Hugh Jackman,Will Yun Lee,Tao Okamoto
 Thor: The Dark World,2013,"Action, Adventure, Fantasy",112,PG-13,6.9,206360000,Alan Taylor,66,75,MARVEL,1000,32,Alan Taylor,Chris Hemsworth,Natalie Portman,Tom Hiddleston
-Venom,2018,"Action, Adventure, Sci-Fi",112,PG-13,6.7,213520000,Ruben Fleischer,29,81,MARVEL,,52,Ruben Fleischer,Tom Hardy,Michelle Williams,Riz Ahmed
-Watchmen,2009,"Action, Drama, Mystery",162,R,7.6,107510000,Zack Snyder,65,71,DC,,77,Jackie Earle Haley,Patrick Wilson,Carla Gugino,Malin Akerman
+Captain America: The Winter Soldier,2014,"Action, Adventure, Sci-Fi",136,PG-13,7.7,259770000,Anthony Russo,90,92,MARVEL,1000,33,Joe Russo,Chris Evans,Samuel L. Jackson,Scarlett Johansson
+Guardians of the Galaxy,2014,"Action, Adventure, Comedy",121,PG-13,8,333180000,James Gunn,92,92,MARVEL,1000,36,James Gunn,Chris Pratt,Vin Diesel,Bradley Cooper
+The Amazing Spider-Man 2,2014,"Action, Adventure, Fantasy",142,PG-13,6.6,202850000,Marc Webb,51,64,MARVEL,,34,Marc Webb,Andrew Garfield,Emma Stone,Jamie Foxx
+X-Men: Days of Future Past,2014,"Action, Adventure, Sci-Fi",132,PG-13,7.9,233920000,Bryan Singer,90,91,MARVEL,3000,35,Bryan Singer,Patrick Stewart,Ian McKellen,Hugh Jackman
+Ant-Man,2015,"Action, Adventure, Comedy",117,PG-13,7.3,180200000,Peyton Reed,83,86,MARVEL,1000,38,Peyton Reed,Paul Rudd,Michael Douglas,Corey Stoll
+Avengers: Age of Ultron,2015,"Action, Adventure, Sci-Fi",141,PG-13,7.3,459010000,Joss Whedon,76,83,MARVEL,1000,37,Joss Whedon,Robert Downey Jr.,Chris Evans,Mark Ruffalo
+Fantastic Four,2015,"Action, Adventure, Sci-Fi",100,PG-13,4.2,56120000,Josh Trank,9,18,MARVEL,,39,Josh Trank,Miles Teller,Kate Mara,Michael B. Jordan
+Batman v Superman: Dawn of Justice,2016,"Action, Adventure, Sci-Fi",152,PG-13,6.4,330360000,Zack Snyder,28,63,DC,2000,82,Ben Affleck,Henry Cavill,Amy Adams,Jesse Eisenberg
+Captain America: Civil War,2016,"Action, Adventure, Sci-Fi",147,PG-13,7.8,408080000,Anthony Russo,90,89,MARVEL,1000,41,Joe Russo,Chris Evans,Robert Downey Jr.,Scarlett Johansson
+Deadpool,2016,"Action, Adventure, Comedy",108,R,8,363070000,Tim Miller,85,90,MARVEL,3000,40,Tim Miller,Ryan Reynolds,Morena Baccarin,T.J. Miller
+Doctor Strange,2016,"Action, Adventure, Fantasy",115,PG-13,7.5,232640000,Scott Derrickson,89,85,MARVEL,1000,43,Scott Derrickson,Benedict Cumberbatch,Chiwetel Ejiofor,Rachel McAdams
+Suicide Squad,2016,"Action, Adventure, Fantasy",123,PG-13,5.9,325100000,David Ayer,26,59,DC,2000,83,Will Smith,Jared Leto,Margot Robbie,Viola Davis
+X-Men: Apocalypse,2016,"Action, Adventure, Sci-Fi",144,PG-13,6.9,155440000,Bryan Singer,47,65,MARVEL,3000,42,Bryan Singer,James McAvoy,Michael Fassbender,Jennifer Lawrence
+Guardians of the Galaxy Vol. 2,2017,"Action, Adventure, Comedy",136,PG-13,7.6,389810000,James Gunn,85,87,MARVEL,1000,45,James Gunn,Chris Pratt,Zoe Saldana,Dave Bautista
+Justice League,2017,"Action, Adventure, Fantasy",120,PG-13,6.1,229020000,Zack Snyder,40,69,DC,2000,85,Ben Affleck,Gal Gadot,Jason Momoa,Ezra Miller
+Logan,2017,"Action, Drama, Sci-Fi",137,R,8.1,226280000,James Mangold,93,90,MARVEL,3000,44,James Mangold,Hugh Jackman,Patrick Stewart,Dafne Keen
+Spider-Man: Homecoming,2017,"Action, Adventure, Sci-Fi",133,PG-13,7.4,334200000,Jon Watts,92,87,MARVEL,1000,46,Jon Watts,Tom Holland,Michael Keaton,Robert Downey Jr.
+Thor: Ragnarok,2017,"Action, Adventure, Comedy",130,PG-13,7.9,315060000,Taika Waititi,93,87,MARVEL,1000,47,Taika Waititi,Chris Hemsworth,Tom Hiddleston,Cate Blanchett
 Wonder Woman,2017,"Action, Adventure, Fantasy",141,PG-13,7.4,412560000,Patty Jenkins,93,83,DC,2000,84,Gal Gadot,Chris Pine,Robin Wright,Lucy Davis
+Ant-Man and the Wasp,2018,"Action, Adventure, Comedy",118,PG-13,7,216650000,Peyton Reed,87,75,MARVEL,1000,51,Peyton Reed,Paul Rudd,Evangeline Lilly,Michael Peña
+Aquaman,2018,"Action, Adventure, Fantasy",143,PG-13,6.9,335060000,James Wan,65,74,DC,2000,86,Jason Momoa,Amber Heard,Willem Dafoe,Patrick Wilson
+Avengers: Infinity War,2018,"Action, Adventure, Sci-Fi",149,PG-13,8.4,678820000,Anthony Russo,85,91,MARVEL,1000,49,Joe Russo,Robert Downey Jr.,Chris Hemsworth,Mark Ruffalo
+Black Panther,2018,"Action, Adventure, Sci-Fi",134,PG-13,7.3,700060000,Ryan Coogler,96,79,MARVEL,1000,48,Ryan Coogler,Chadwick Boseman,Michael B. Jordan,Lupita Nyong'o
+Deadpool 2,2018,"Action, Adventure, Comedy",119,R,7.7,324590000,David Leitch,84,85,MARVEL,3000,50,David Leitch,Ryan Reynolds,Josh Brolin,Morena Baccarin
+Venom,2018,"Action, Adventure, Sci-Fi",112,PG-13,6.7,213520000,Ruben Fleischer,29,81,MARVEL,,52,Ruben Fleischer,Tom Hardy,Michelle Williams,Riz Ahmed
+Avengers: Endgame,2019,"Action, Adventure, Drama",181,PG-13,8.4,858370000,Anthony Russo,94,90,MARVEL,1000,54,Joe Russo,Robert Downey Jr.,Chris Evans,Mark Ruffalo
+Captain Marvel,2019,"Action, Adventure, Sci-Fi",123,PG-13,6.8,426830000,Anna Boden,79,45,MARVEL,1000,53,Anna Boden,Brie Larson,Samuel L. Jackson,Ben Mendelsohn
+Joker,2019,"Crime, Drama, Thriller",122,R,8.4,335450000,Todd Phillips,68,88,DC,2000,88,Joaquin Phoenix,Robert De Niro,Zazie Beetz,Frances Conroy
+Shazam!,2019,"Action, Adventure, Comedy",132,PG-13,7,140370000,David F. Sandberg,90,82,DC,2000,87,Zachary Levi,Mark Strong,Asher Angel,Jack Dylan Grazer
+Spider-Man: Far from Home,2019,"Action, Adventure, Sci-Fi",129,PG-13,7.5,390530000,Jon Watts,90,95,MARVEL,1000,56,Jon Watts,Tom Holland,Samuel L. Jackson,Jake Gyllenhaal
+X-Men: Dark Phoenix,2019,"Action, Adventure, Sci-Fi",113,PG-13,5.7,65850000,Simon Kinberg,22,64,MARVEL,3000,55,Simon Kinberg,James McAvoy,Michael Fassbender,Jennifer Lawrence
+Birds of Prey,2020,"Action, Adventure, Comedy",109,R,6.1,84160000,Cathy Yan,79,78,DC,2000,89,Margot Robbie,Rosie Perez,Mary Elizabeth Winstead,Jurnee Smollett
+The New Mutants,2020,"Action, Horror, Mystery",94,PG-13,5.3,0,Josh Boone,35,56,MARVEL,3000,57,Josh Boone,Maisie Williams,Anya Taylor-Joy,Charlie Heaton
 Wonder Woman 1984,2020,"Action, Adventure, Fantasy",151,PG-13,5.4,46370000,Patty Jenkins,59,73,DC,2000,90,Gal Gadot,Chris Pine,Kristen Wiig,Pedro Pascal
-X-Men,2000,"Action, Adventure, Sci-Fi",104,PG-13,7.4,157300000,Bryan Singer,82,83,MARVEL,,4,Bryan Singer,Patrick Stewart,Hugh Jackman,Ian McKellen
-X-Men Origins: Wolverine,2009,"Action, Sci-Fi",107,PG-13,6.6,179880000,Gavin Hood,37,58,MARVEL,,22,Gavin Hood,Hugh Jackman,Liev Schreiber,Ryan Reynolds
-X-Men: Apocalypse,2016,"Action, Adventure, Sci-Fi",144,PG-13,6.9,155440000,Bryan Singer,47,65,MARVEL,,42,Bryan Singer,James McAvoy,Michael Fassbender,Jennifer Lawrence
-X-Men: Dark Phoenix,2019,"Action, Adventure, Sci-Fi",113,PG-13,5.7,65850000,Simon Kinberg,22,64,MARVEL,,55,Simon Kinberg,James McAvoy,Michael Fassbender,Jennifer Lawrence
-X-Men: Days of Future Past,2014,"Action, Adventure, Sci-Fi",132,PG-13,7.9,233920000,Bryan Singer,90,91,MARVEL,,35,Bryan Singer,Patrick Stewart,Ian McKellen,Hugh Jackman
-X-Men: The Last Stand,2006,"Action, Adventure, Sci-Fi",104,PG-13,6.7,234360000,Brett Ratner,57,61,MARVEL,,15,Brett Ratner,Patrick Stewart,Hugh Jackman,Halle Berry
-X: First Class,2011,"Action, Adventure, Sci-Fi",131,PG-13,7.7,146410000,Matthew Vaughn,86,87,MARVEL,,25,Matthew Vaughn,James McAvoy,Michael Fassbender,Jennifer Lawrence
-X2: X-Men United,2003,"Action, Sci-Fi, Thriller",134,PG-13,7.4,214950000,Bryan Singer,85,85,MARVEL,,8,Bryan Singer,Patrick Stewart,Hugh Jackman,Halle Berry
