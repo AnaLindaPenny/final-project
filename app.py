@@ -194,7 +194,6 @@ def machinelearning():
 
 @app.route("/methodology")
 def methodology():
-    # return render_template("mcu_machinelearning.html")
     return render_template("methodology.html")
 
 if __name__ == "__main__":
