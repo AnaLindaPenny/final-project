@@ -168,9 +168,9 @@ def combined_postres():
 def chartjs():
     return render_template("chartjs.html")
 
-@app.route("/about")
+@app.route("/team")
 def about():
-    return render_template("about.html")
+    return render_template("team.html")
 
 @app.route("/maps")
 def generation():
@@ -180,18 +180,22 @@ def generation():
 def team():
     return render_template("mcu.html")
 
+@app.route("/dc")
+def team():
+    return render_template("dc.html")
+
 @app.route("/api")
 def type():
     return render_template("API.html")
 
-@app.route("/machine/marvel")
+@app.route("/machinelearning")
 def type():
-    return render_template("mcu_machinelearning.html")
+    return render_template("machinelearning.html")
 
-@app.route("/machine/dc")
+@app.route("/methodology")
 def type():
     # return render_template("mcu_machinelearning.html")
-    return 'This is where DCEU machine learning will be'
+    return render_template("methodology.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
