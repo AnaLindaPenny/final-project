@@ -93,7 +93,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
 
     //  render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart1 = new Chart(
         document.getElementById('Chart1'),
         config1
@@ -122,9 +121,15 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     var batman_films = json_data.filter(film => film.universe_code === 5000)
     console.log(batman_films)
     
+    var mcu_title_list = []
+    var dceu_title_list = []
+    var xmen_title_list = []
+    var supe_title_list = []
+    var batman_title_list = []
     
 
     mcu_films.forEach(item => {
+        mcu_title_list.push(item.title)
         var bubble = {
             x: item.tom_aud_score,
             y: item.tomato_meter,
@@ -134,6 +139,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     })
 
     dceu_films.forEach(item => {
+        dceu_title_list.push(item.title)
         var bubble = {
             x: item.tom_aud_score,
             y: item.tomato_meter,
@@ -143,6 +149,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     })
 
     xmen_films.forEach(item => {
+        xmen_title_list.push(item.title)
         var bubble = {
             x: item.tom_aud_score,
             y: item.tomato_meter,
@@ -152,6 +159,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     })
 
     supe_films.forEach(item => {
+        supe_title_list.push(item.title)
         var bubble = {
             x: item.tom_aud_score,
             y: item.tomato_meter,
@@ -161,6 +169,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     })
 
     batman_films.forEach(item => {
+        batman_title_list.push(item.title)
         var bubble = {
             x: item.tom_aud_score,
             y: item.tomato_meter,
@@ -184,13 +193,13 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             data: xmen_bubbles,
             backgroundColor: 'rgb(255,215,0)'
             },
-            {label: 'Batman',
-            data: batman_bubbles,
-            backgroundColor: 'rgb(105,105,105)'
-            },
             {label: 'Superman',
-            data: supe_bubbles,
+            data: batman_bubbles,
             backgroundColor: 'rgb(0,128,0)'
+            },
+            {label: 'Batman',
+            data: supe_bubbles,
+            backgroundColor: 'rgb(105,105,105)'
             }
         ]
       };
@@ -208,6 +217,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             },
             scales: {
                 x: {
+                    min: 0,
                     title: {
                         display: true,
                         text: 'Tomato Audience Score'
@@ -229,16 +239,38 @@ d3.json("../Resources/final_MvDC.json").then(json => {
                     text: "Audience Rating Vs Critic Rating with Gross Revenue"
                 },
                 tooltip: {
+                    displayColors: false,
                     backgroundColor: 'rgb(0,0,0)',
                     callbacks: {
-                        title: function(tooltipItems) {
-                            if (tooltipItems[0].datasetIndex = "0") {
-                                return mcu_films[tooltipItems[0].dataIndex].title
+                        label: function(item,object) {
+
+                            let index = item.dataIndex
+                            let revenue = item.raw.r*50
+                            
+                            if (item.datasetIndex === 0) {
+                                let label = mcu_title_list[index] + ": $" + revenue.toFixed(2) + " million"
+                                return label
                             }
-                            else if (tooltipItems[0].datasetIndex = "1") {
-                                return dceu_films[tooltipItems[0].dataIndex].title
-                            }                                                       
-                        }
+                            else if (item.datasetIndex === 1) {
+                                let label = dceu_title_list[index] + ": $" + revenue.toFixed(2) + " million"
+                                return label
+                            }
+                            else if (item.datasetIndex === 2) {
+                                let label = xmen_title_list[index] + ": $" + revenue.toFixed(2) + " million"
+                                return label
+                            }
+                            else if (item.datasetIndex === 3) {
+                                let label = supe_title_list[index] + ": $" + revenue.toFixed(2) + " million"
+                                return label
+                            }
+                            else if (item.datasetIndex === 4) {
+                                let label = batman_title_list[index] + ": $" + revenue.toFixed(2) + " million"
+                                return label
+                            }
+
+                            
+                            
+                        }                                                 
                     }                    
                 }
             }
@@ -247,7 +279,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
 
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart2 = new Chart(
         document.getElementById('Chart2'),
         config2
@@ -342,9 +373,19 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             plugins: {
                 tooltip: {
                     displayColors: false,
+                    callbacks: {
+                        label: function(item,object) {
+
+                            let title = item.label
+                            let revenue = item.formattedValue
+
+                            let label = title + ": $" + revenue
+                            return label
+                        }
+                    }
                 },
                 legend: {
-                    position: 'top',
+                    display: false
             },
             title: {
                 display: true,
@@ -356,7 +397,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
 
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart3 = new Chart(
         document.getElementById('Chart3'),
         config3
@@ -455,7 +495,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     };
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart4 = new Chart(
         document.getElementById('Chart4'),
         config4
@@ -553,7 +592,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     };
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart5 = new Chart(
         document.getElementById('Chart5'),
         config5
@@ -651,7 +689,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     };
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart6 = new Chart(
         document.getElementById('Chart6'),
         config6
@@ -749,7 +786,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     };
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart7 = new Chart(
         document.getElementById('Chart7'),
         config7
@@ -847,7 +883,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     };
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart8 = new Chart(
         document.getElementById('Chart8'),
         config8
@@ -884,7 +919,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     film_counter(batman_films)
 
     // chart setup
-    const labels = ["MCU Films","DCEU Films","X-Men Films","Superman Films", "Batman Films"];
+    const labels = ["MCU","DCEU","X-Men","Superman", "Batman"];
     const data9 = {
       labels: labels,
       datasets: [{
@@ -902,6 +937,7 @@ d3.json("../Resources/final_MvDC.json").then(json => {
         type: 'bar',
         data: data9,
         options: {
+            indexAxis: "y",
             scales: {
                 y: {
                 beginAtZero: true
@@ -909,7 +945,12 @@ d3.json("../Resources/final_MvDC.json").then(json => {
             },
             plugins: {
                 tooltip: {
-                    displayColors: false
+                    displayColors: false,
+                    callbacks: {
+                        title: function(item,object) {
+                            return ""
+                        }
+                    }
                 },
                 title: {
                     display: true,
@@ -923,7 +964,6 @@ d3.json("../Resources/final_MvDC.json").then(json => {
     };
     // render chart
     Chart.defaults.font.size = 20;
-    Chart.defaults.font.family = "Tahoma";
     var Chart9 = new Chart(
         document.getElementById('Chart9'),
         config9
