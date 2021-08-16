@@ -13,19 +13,20 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bs-danger">
     <div class="container-fluid"> 
-      <a class="navbar-brand bs-danger">
+      <a class="navbar-brand bs-danger" href="/">
         <div class="logo-image">
-              <img src="/static/Images/captain_marvel.png" class="img-fluid">
+              <img src="/static/Images/Superboy.png" class="img-fluid">
         </div>
-      <a class="nav-brand" src="/static/Images/superman.png"></a>
-      <a class="navbar-brand"> League of Avengers
-        <a class="navbar-brand">
-          <div class="logo-image">
-                <img src="/static/Images/superman.png" class="img-fluid">
-          </div>
-    </a>
-    </a>
       </a>
+      <a class="nav-brand" src="/static/Images/Superboy.png"></a>
+      <a class="navbar-brand"> League of Avengers
+        <a class="navbar-brand" href="/">
+          <div class="logo-image">
+                <img src="/static/Images/Supergirl.png" class="img-fluid">
+          </div>
+        </a>
+      </a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,25 +34,22 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home
-            </a>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="methodology.html">Methodology</a>
+            <a class="nav-link" href="about.html">Methodology</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="chartjs.html">A Broad Perspective</a>
               <a class="dropdown-item" href="maps.html">International Maps</a>
-              <a class="dropdown-item active" href="machinelearning.html#">Box Office Predictions</a>
-                <span class="visually-hidden">(current)</span>
-              <a class="dropdown-item" href="mcu.html">Marvel Sequel-Verse</a>
-              <a class="dropdown-item" href="dc.html">DC Sequel-Verse</a>
+              <a class="dropdown-item" href="machinelearning.html">Machine Learning</a>
+              <a class="dropdown-item" href="mcu.html">Tableau</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="team.html">Meet the Team</a>
+            <a class="nav-link" href="about.html">Meet the Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="API.html">API</a>
@@ -59,8 +57,7 @@
         </ul>
       </div>
     </div>
-</nav>
-  <br>
+  </nav>
 
   <div class="container">
     <div class="jumbotron">
@@ -70,7 +67,7 @@
     </div>
   </div>
 
-  <br>
+  <br></br>
 
   <div class="container">
     <div class="row">
@@ -78,7 +75,7 @@
             <h2 class= "blender"> MCU Heatmap </h2>
             <hr>
             <img src="../static/Images/mcu_heat_map.png" class="responsive" alt="MCU Heatmap">
-            <br>
+            <br></br>
             <hr>
         </div>
 
@@ -86,7 +83,7 @@
             <h2 class= "blender"> DCEU Heatmap </h2>
             <hr>
             <img src="../static/Images/dceu_heat_map.png" class="responsive" alt="MCU Heatmap">
-            <br>
+            <br></br>
             <hr>
         </div>
     </div>
@@ -101,15 +98,15 @@
     </div>
   </div>
 
-  <br>
+  <br> </br>
 
   <div class="container">
     <div class="row">
         <div class="column">
             <h2 class= "blender">  MCU Pair Plot </h2>
             <hr>
-            <img src="../static/Images/mcu_pairplot.png" class="responsive" alt="MCU Pairplot">
-            <br>
+            <img src="../static/Images/mcu_pairplot.png" class="responsive" alt="DCEU Pairplot">
+            <br></br>
             <hr>
         </div>
 
@@ -117,7 +114,7 @@
             <h2 class="blender"> DCEU Pair Plot </h2>
             <hr>
             <img src="../static/Images/dceu_pairplot.png" class="responsive" alt="DCEU Pairplot">
-            <br>
+            <br></br>
             <hr>
         </div>
     </div>
@@ -138,7 +135,7 @@
             <h2 class= "blender">  MCU Sample Predictions </h2>
             <hr>
             <img src="../static/Images/mcu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br>
+            <br></br>
            <hr>
         </div>
 
@@ -146,7 +143,7 @@
             <h2 class="blender"> DCEU Sample Predictions </h2>
             <hr>
             <img src="../static/Images/dceu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br>
+            <br></br>
            <hr>
         </div>
     </div>
@@ -167,7 +164,7 @@
             <h2 class= "blender">  MCU Gross Predictions </h2>
             <hr>
             <img src="../static/Images/mcu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br>
+            <br></br>
           <hr>
         </div>
 
@@ -175,7 +172,7 @@
             <h2 class="blender"> DCEU Gross Predictions </h2>
             <hr>
             <img src="../static/Images/dceu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br>
+            <br></br>
            <hr>
         </div>
     </div>
@@ -189,7 +186,7 @@
       </div>
     </div>
   </div>
-  <br>
+  <br></br>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
 </body>
 
