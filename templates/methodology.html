@@ -31,9 +31,9 @@
       </button>
   
       <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="https://leagueofavengers.herokuapp.com">Home
+            <a class="nav-link" href="https://leagueofavengers.herokuapp.com">Home
             </a>
           </li>
           <li class="nav-item">
@@ -74,23 +74,25 @@
               Our POW-er stricken project had some BANG!-type experiences but overall the challenges that we encountered, have continued to strenghten our capabilities so that we could get to the ENDGAME a.k.a the Heroku Cloud Application Platform deployment.</p>
             </a> 
             <br>
-            <h4 style="font-size:170%; font-weight: bold;">Data Resources Review & Analysis:</h4>
+            <h3 style="font-size:170%; font-weight: bold;">Data Resources Review & Analysis:</h3>
             <a style="font-size:130%; line-height: 1.6;">
                 <p>We reviewed a variety of data content from the MARVEL vs. DC IMDB dataset. 
               The data content was overall quite extensive so we wrote various scripts to web scrape the data.</p>
             </a>
             <br>
-            <h4 style="font-size:170%; font-weight: bold;">Extract, Load & Transform:</h4>
+            <h3 style="font-size:170%; font-weight: bold;">Extract, Load & Transform:</h3>
             <a style="font-size:130%; line-height: 1.6;">
-                <p>We collectively developed various scripts to web scrape only the relevant data from the diffent sections of the websites.</p>
+                <p>We constructed our datasets by using a combination of Kaggle IMDb datasets whcih contained rotten tomato scores, actor data, critic scores, and audience scores for all superhero movies ever created.  Additionally, we created additional CSV files using IMDbPro to gather domestic, international, and worldwide profit data for each movie in the MCU and document.
+                  After extracting the data, we used PostgreSQL 13 to store the datasets and connected them to the Heroku PostgreSQL cloud.
+                </p>
             </a>
             <br>
-            <h3>Languages & Libraries Utilized:</h3>
+            <h3 style="font-size:170%; font-weight: bold;">Languages & Libraries Utilized:</h3>
             <a style="font-size:130%; line-height: 1.6;">
-                <p>Jupyter Notebook; Python (Pandas, GeoPandas, Web-Scrapping, BeautifulSoup); Tableau; Machine Learning (Scikit-Learn); MongoDB; JavaScript (D3.js, Plotly.js, Chartist.js); HTML, CSS (Bootstrap); JSON (GeoJSON); Heroku.</p>
+                <p>Jupyter Notebook; Python (Pandas); Tableau; Machine Learning (Scikit-Learn); PostgreSQL; JavaScript (D3.js, Chartist.js); HTML, CSS (Bootstrap); JSON; Heroku.</p>
             </a> 
             <br>              
-            <h4 style="font-size:170%; font-weight: bold;">Website Deployment:</h4>
+            <h3 style="font-size:170%; font-weight: bold;">Website Deployment:</h3>
             <a style="font-size:130%; line-height: 1.6;">
                 <p>We deployed via Heroku Cloud Application Platform.</p>
             </a>
@@ -98,6 +100,10 @@
           </div>
         </div>
     </div>
+    <br>
     </body>
-
+    <footer class="footer">
+      <div class="container text-center py-3">
+      </div>
+  </footer>
 </html>

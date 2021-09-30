@@ -32,9 +32,9 @@
       </button>
   
       <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="https://leagueofavengers.herokuapp.com">Home
+            <a class="nav-link" href="https://leagueofavengers.herokuapp.com">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://leagueofavengers.herokuapp.com/methodology">Methodology</a>
@@ -63,29 +63,29 @@
 
   <div class="container">
     <div class="jumbotron">
-        <h1 class="display-4"> Machine Learning</h1>
+        <h1 class="display-4">Box Office Predictions</h1>
         <p class="lead">Below you'll see the results of machine learning for the MCU and the DCEU. </p>
         <hr>
     </div>
   </div>
 
-  <br></br>
+  <br>
 
   <div class="container">
     <div class="row">
         <div class="column">
             <h2 class= "blender"> MCU Heatmap </h2>
             <hr>
-            <img src="../static/Images/mcu_heat_map.png" class="responsive" alt="MCU Heatmap">
-            <br></br>
+            <img src="/static/Images/mcu_heat_map.png" class="responsive" alt="MCU Heatmap">
+            <br>
             <hr>
         </div>
 
         <div class="column">
             <h2 class= "blender"> DCEU Heatmap </h2>
             <hr>
-            <img src="../static/Images/dceu_heat_map.png" class="responsive" alt="MCU Heatmap">
-            <br></br>
+            <img src="/static/Images/dceu_heat_map.png" class="responsive" alt="MCU Heatmap">
+            <br>
             <hr>
         </div>
     </div>
@@ -99,24 +99,23 @@
       </div>
     </div>
   </div>
-
-  <br> </br>
-
+  <br>
+  <hr>
   <div class="container">
     <div class="row">
         <div class="column">
             <h2 class= "blender">  MCU Pair Plot </h2>
             <hr>
-            <img src="../static/Images/mcu_pairplot.png" class="responsive" alt="DCEU Pairplot">
-            <br></br>
+            <a href="/static/Images/mcu_pairplot.png"><img src="/static/Images/mcu_pairplot.png" class="responsive" alt="DCEU Pairplot"></a>
+            <br>
             <hr>
         </div>
 
         <div class="column">
             <h2 class="blender"> DCEU Pair Plot </h2>
             <hr>
-            <img src="../static/Images/dceu_pairplot.png" class="responsive" alt="DCEU Pairplot">
-            <br></br>
+            <a href="/static/Images/dceu_pairplot.png"><img src="/static/Images/dceu_pairplot.png" class="responsive" alt="DCEU Pairplot"></a>
+            <br>
             <hr>
         </div>
     </div>
@@ -129,23 +128,22 @@
       </div>
     </div>
   </div>
-
-
+  <hr>
   <div class="container">
     <div class="row">
         <div class="column">
             <h2 class= "blender">  MCU Sample Predictions </h2>
             <hr>
-            <img src="../static/Images/mcu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br></br>
+            <img src="/static/Images/mcu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
+            <br>
            <hr>
         </div>
 
         <div class="column">
             <h2 class="blender"> DCEU Sample Predictions </h2>
             <hr>
-            <img src="../static/Images/dceu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br></br>
+            <img src="/static/Images/dceu_sample_predictions.png" class="responsive" alt="DCEU Pairplot">
+            <br>
            <hr>
         </div>
     </div>
@@ -155,28 +153,29 @@
       <div class="col-md-12">
           <p class= "blender"> The first machine learning visualization we created takes a sample of the movie data and calculates its worldwide gross based on it's budget.  </p>
           <p class= "blender"> Looking at the Marvel graph specifically, because there are more movies in the MCU more appeared in the sample.  The samples were chosen based off of 80% of the data going into the training environment and 20% going into the testing environment.  Red represents the projected worldwide gross and blue represents the actual worldwide gross.  In this graph you can see that out of all of the samples, only Iron Man 3's projected gross surpassed the actual.  </p>
-          <p class= "blender"> Looking at the DC graph specifically, the sample is much smaller.  Black represents predicted gross and purple represents actual gross.  In this graph, Wonder Woman's predicted surpassed the actual gross.</p>
+          <p class= "blender"> Looking at the DC graph specifically, the sample is much smaller.  Black represents actual worldwide gross and purple represents predicted worldwide gross.  In this graph, Wonder Woman's predicted surpassed the actual gross.</p>
       </div>
     </div>
   </div>
-
+  <hr>
   <div class="container">
     <div class="row">
         <div class="column">
             <h2 class= "blender">  MCU Gross Predictions </h2>
             <hr>
-            <img src="../static/Images/mcu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br></br>
+            <img src="/static/Images/mcu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
+            <br>
           <hr>
         </div>
 
         <div class="column">
             <h2 class="blender"> DCEU Gross Predictions </h2>
             <hr>
-            <img src="../static/Images/dceu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
-            <br></br>
+            <img src="/static/Images/dceu_gross_predictions.png" class="responsive" alt="DCEU Pairplot">
+            <br>
            <hr>
         </div>
+
     </div>
   </div>
   <div class="container">
@@ -188,7 +187,7 @@
       </div>
     </div>
   </div>
-  <br></br>
+  <br>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
 </body>
 

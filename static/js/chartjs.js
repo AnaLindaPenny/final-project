@@ -1,5 +1,5 @@
 // grab data
-d3.json("../Resources/final_MvDC.json").then(json => {
+d3.json("https://leagueofavengers.herokuapp.com/api/imdb").then(json => {
     var json_data = json
     console.log(json_data)
 
